@@ -1,0 +1,386 @@
+/* Default paragraphs */
+p
+{
+	font-family:verdana,sans-serif; 
+	font-size:12px; 
+	font-weight:normal;
+}
+
+/* Global link style */
+A{text-decoration: none; }
+A:hover {text-decoration: underline }
+
+/* Div between header and footer */
+.contentBox 
+{
+	padding:20px; 
+	font-family:verdana,sans-serif;
+	font-size: 12px;
+}
+
+/* main question table */
+.contentBox table{width:100%;}
+.contentBox .ResponseGridTable{width:auto;}
+.contentBox .ResponseGridTableHorizontal{width:auto;}
+.contentBox .ResponseAllocGridTable{width:auto;}
+
+/*
+This ensures that Pages are an appropriate width
+*/
+#PagePanel 
+{
+	width: 100%;
+	margin-top:0px;
+}
+
+		
+/* Stuff at the bottom of the page */
+.footer
+{
+	height:22px;
+	padding:6px 0px 2px 18px;
+}
+.footerLink
+{
+	font-family:verdana,sans-serif; 
+	font-size:10px; 
+	font-weight:normal;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+
+
+/* Panelist Welcome stuff */
+.welcomeTitle
+{
+	padding-bottom:1px; 
+	font-family:verdana; 
+	font-size:12px; 
+	font-weight:bolder;
+	padding-left: 10px;
+	text-transform: uppercase;
+}
+.welcomeName
+{
+	padding-bottom:1px; 
+	font-family:verdana; 
+	font-size:12px;
+	font-weight:normal;
+}
+
+.welcomeText
+{
+	width:300px; 
+	padding-left: 10px;
+	font-family:verdana; 
+	font-size:10px; 
+	font-weight:normal;
+}
+
+/* Panelist list of studies */
+
+#NoOpenStudiesLabel{
+	display:block;
+	width:320px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left: 10px;
+}
+
+.studyListOpen
+{	
+	font-family:verdana; 
+	font-size:10px; 
+	color:#193631; 
+	height:20px; 
+	padding:5px;
+}
+.studyListOpenTitle
+{
+	font-family:verdana; 
+	font-size:10px;
+}
+.studyListOpenTitle span{padding-left: 10px;}
+.studyListStarted
+{	
+	font-family:verdana; 
+	font-size:10px; 
+	color:#3767B5; 
+	height:20px; 
+	padding:5px;
+}
+.studyListCompleted
+{	
+	font-family:verdana; 
+	font-size:10px; 
+	color:#000000; 
+	height:20px; 
+	padding:5px;
+}
+
+
+/* */
+
+.userInfoTitle
+{
+	font-family:Verdana, Sans-Serif;
+	font-weight:normal;
+	font-size:10px;	
+	width:320px;
+	padding:5px;
+}
+.newsletterTitle
+{
+	font-family:Verdana, Sans-Serif;
+	font-weight:normal;
+	font-size:10px;	
+	width:320px;
+	padding:5px;
+}
+.newsletterLink
+{
+	font-family:Verdana, Sans-Serif;
+	font-weight:normal;
+	font-size:12px;
+	text-decoration:underline;		
+}
+.quickpollTitle
+{
+	font-family:Verdana, Sans-Serif;
+	font-weight:normal;
+	font-size:10px;	
+	width:350px;
+	padding:5px;
+}
+.studylinkTitle
+{
+	font-family:Verdana, Sans-Serif;
+	font-weight:normal;
+	font-size:10px;	
+	width:320px;
+	padding:5px;
+}
+.studylinkLink
+{
+	font-family:Verdana, Sans-Serif;
+	font-weight:normal;
+	font-size:12px;
+	text-decoration:underline;	
+}
+.userInfoText
+{
+	font-family:Verdana, Sans-Serif;
+	font-weight:normal;
+	font-size:10px;
+	padding:5px;
+	padding-left: 10px;
+	text-transform:uppercase;
+}
+
+/* These are the change password, change email, confirm password, confirm email etc textboxes */
+.Default_TextField{width: 216px;}
+
+
+
+/* Login Page form labels */
+.loginLabel
+{
+	font-weight: bold; 
+	font-size: 10px; 
+	font-family: verdana, sans-serif;
+}
+.loginTitle
+{
+	font-weight: bold; 
+	font-size: 10px; 
+	font-family: verdana, sans-serif; 
+	padding-bottom:14px;
+}
+
+/*
+Help, technical assistance, email
+*/
+.helpTitle
+{
+	font-weight: bold;
+	font-size: 10px;
+	font-family: verdana, sans-serif;
+	padding:0;
+	text-transform:uppercase;
+}
+.helpText
+{
+	font-weight: normal;
+	font-size: 10px;
+	font-family: verdana, sans-serif;
+	line-height:7px;
+}
+.helpText A
+{
+	font-weight: bold;	
+}
+
+.homeButtons
+{
+	width: 180px;
+}
+
+
+/* Buttons!*/ 
+.buttons
+{
+	padding-right: 4px; 
+	padding-left: 4px; 
+	padding-top: 6px;
+}
+.changeButtons
+{
+	padding-right: 4px; 
+	padding-left: 3px;  
+	padding-bottom: 4px; 
+	padding-top: 3px; 
+}
+
+.smallText{font-size:9px;}
+
+/*
+Error Messages (Login page and SEMs)
+*/
+#MessageLabel, .errorMsg, 
+{
+	display:block;
+	padding: 2px;	
+	font-weight:normal;
+	font-family: verdana, sans-serif;
+	font-size: 10px;
+}
+
+
+/* Force "Email Address" on Login page to be on one line */
+#EmailAddressLabel{white-space:nowrap;}
+
+
+/*
+This fixes the problem with the text boxes being way
+smaller in Mozilla than in IE. Not perfect but it'll
+make the login page look less stupid in FireFox.
+*/
+.mainLoginUI input[type=text],input[type=password]{width:100%;}
+
+
+/*
+Hidden forms on the Panelist page
+*/
+#changePassword, #changeEmail, #changeUserName
+{
+	display: none; 
+	padding-top: 24px; 
+	position: relative;
+	font-family: verdana, sans-serif;
+	font-size: 10px;	
+}
+
+/* */
+#resultMessageDiv
+{
+	padding-top: 8px; 
+	position: relative;
+}
+
+
+/* 
+Remember Me cookie control
+*/
+.remember 
+{
+	font-weight: bold; 
+	font-size: 10px; 
+	font-family: verdana, sans-serif;
+	margin-left:-4px;
+}
+
+/* This centers the "Remember me" text with the checkbox */
+.remember label{
+}
+
+.errorMessage
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-left: 50px;
+	color: red;
+	font-weight: normal;
+	font-family: verdana, sans-serif;
+	font-size: 12px;
+}
+
+.outerProgressBar
+{           
+	background: url(../images/prog.gif) top right repeat; 
+	background-color: #FFF;
+    height : 10px;
+    width : 68%;
+    margin-bottom: 20px;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;        
+}
+
+.innerProgressBar
+{
+	background: url(../images/bar.gif) top right repeat;
+	background-color: #8DB2E3;
+    border-right: 1px solid #666;
+    border-left: 1px solid #999;
+}
+
+.progresstype
+{
+    color: #ddd;
+    font-family: verdana, sans-serif;
+    font-size: 9px;
+    line-height: 15px;
+}
+
+
+#studylinkArea
+{
+	height:270px;
+	word-wrap:break-word;
+	width:320px;
+	overflow:auto;
+	
+}
+
+#newsletterArea
+{	
+	height:270px;
+	word-wrap:break-word;
+	overflow:auto;
+	width:320px;
+	
+}
+
+#quickpollArea
+{
+	/*height:280px;*/	
+	word-wrap:break-word;
+	overflow:hidden;
+	width:350px;
+}
+
+/* style used by quick poll chart */
+.quickPollChart
+{
+	overflow:hidden;
+}
+
+.quickPollChart SPAN
+{
+	font-weight: bold;
+	font-size:10px;
+	font-family:Verdana;
+	color:#20201d;
+	text-align:center;
+	background-color:#ffffee;
+	display:block;
+}

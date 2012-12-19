@@ -1,0 +1,103 @@
+
+/* left side */
+
+.MagGrid_images_1x450 .RadDockableObjectFixed, 
+.MagGrid_images_1x450 .RadDockableObjectDisabled
+{
+ border:0px;
+ margin: 0px;
+}
+
+.MagGrid_images_1x450 .RadDockableObjectTitleBarRight
+{
+padding:0px;
+}
+
+.MagGrid_images_1x450 .RadDockableObjectTitleBarLeft
+{
+padding:0px;
+}
+
+.MagGrid_images_1x450 .RadDockingZone
+{
+border:0px;
+padding:0px;
+}
+
+.MagGrid_images_1x450 .RadDockableObjectTitleBar
+{
+border:0px;
+filter:alpha(opacity=70);
+moz-opacity:0.7;
+opacity:0.7;
+border:0px;
+background-color:#ccc;
+padding:0px !important;
+margin-bottom:5px;
+margin-left:5px;
+}
+
+
+.MagGrid_images_1x450 .RadDockableObjectTitle
+{
+width:95px;
+padding:0px !important;
+border:0px;
+margin:0px;
+text-align:center;
+color:black;
+font-weight:bold;
+font-size:10px;
+font-family: verdana, arial, sans-serif;
+text-align:center;
+white-space:normal;
+display:block;
+}
+
+
+.MagGrid_images_1x450 .MagneticGrid_Dockables
+{
+width:200px;
+height:400px;
+float:left;
+margin:0px;
+border:0px;
+clear:both;
+}
+
+/* right side */
+
+.MagGrid_images_1x450 .MagneticGrid_Zones
+{
+float: right;
+background:transparent;
+padding:0px;
+margin:0px 0px 4px 2px;
+}
+
+.MagGrid_images_1x450 .MagneticGrid_Zone0
+
+{
+width:450px;
+height:450px;
+background:#ccc;
+background-repeat:no-repeat;
+background-position:center;
+overflow: auto;
+margin:2px;
+white-space:normal;
+display:block;
+scrollbar-face-color: #eee;
+scrollbar-track-color: #cdc;
+scrollbar-highlight-color: #ddd;
+scrollbar-3dlight-color: #F7F7E4;
+scrollbar-shadow-color: #C3C3B7;
+scrollbar-darkshadow-color: #D1D1BE;
+scrollbar-arrow-color: #545441;
+}
+
+.MagGrid_images_1x450 .RadDockableObjectVerticalGrip
+{
+	width: auto ;
+	background-color: #fff;	
+}

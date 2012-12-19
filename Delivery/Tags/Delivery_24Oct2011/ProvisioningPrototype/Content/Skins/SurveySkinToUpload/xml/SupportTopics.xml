@@ -1,0 +1,22 @@
+<root>
+	<SupportRequestSettings>
+			
+		<SupportTopics>
+			<TopicList Culture="en-CA">
+				<topic Text="Can not login to the Portal/ Forgot my password..." Email="support_email_here@visioncritical.com" IncludePanelistInfo="True" IncludeReferrerInfo="True" />
+				<topic Text="I don't know how to answer this question" Email="support_email_here@visioncritical.com" IncludePanelistInfo="True" IncludeReferrerInfo="True"  />		 
+				<topic Text="I'm concerned about my privacy..." Email="support_email_here@visioncritical.com" IncludePanelistInfo="True" IncludeReferrerInfo="True"  />
+				<topic Text="A question about my airmiles..." Email="support_email_here@visioncritical.com" IncludePanelistInfo="True" IncludeReferrerInfo="True"  />
+				<topic Text="my new topic" Email="support_email_here@visioncritical.com" IncludePanelistInfo="False" IncludeReferrerInfo="False"  />
+			</TopicList>
+			<TopicList Culture="fr-CA">
+				<topic Text="Can not login to the Portal/ Forgot my password..." Email="support_email_here@visioncritical.com" IncludePanelistInfo="True" IncludeReferrerInfo="True"  />
+				<topic Text="I don't know how to answer this question" Email="support_email_here@visioncritical.com" IncludePanelistInfo="True" IncludeReferrerInfo="True"  />
+				<topic Text="I'm concerned about my privacy..." Email="support_email_here@visioncritical.com" IncludePanelistInfo="True" IncludeReferrerInfo="True"  />
+				<topic Text="A question about my airmiles..." Email="support_email_here@visioncritical.com" IncludePanelistInfo="True" IncludeReferrerInfo="True"  />
+			</TopicList>
+		</SupportTopics>
+		
+	</SupportRequestSettings>
+
+</root>

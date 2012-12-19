@@ -1,0 +1,9 @@
+@echo off
+echo Creating login.css ....
+cscript //nologo lessc.wsf login.less login.css
+echo Creating common.css ....
+cscript //nologo lessc.wsf common.less common.css
+echo Creating member.css ....
+cscript //nologo lessc.wsf member.less member.css
+echo DONE!
+pause

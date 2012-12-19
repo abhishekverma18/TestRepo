@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" ?>
+<EmailTemplate>
+	<EmailTemplateName>Test2</EmailTemplateName>
+	<EmailFormat></EmailFormat>
+	<EmailSubject></EmailSubject>
+	<EmailLanguage></EmailLanguage>
+	<EmailPlainText></EmailPlainText>
+	<EmailRichText></EmailRichText>
+</EmailTemplate>
+

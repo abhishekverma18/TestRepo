@@ -1,0 +1,102 @@
+.MagGrid_sort_text .RadDockableObjectFixed, 
+.MagGrid_sort_text .RadDockableObjectDisabled
+{
+ border:0px;
+ margin:0px; 
+}
+
+.MagGrid_sort_text .RadDockableObjectTitleBarRight
+{
+padding:0px;
+}
+
+.MagGrid_sort_text .RadDockableObjectTitleBarLeft
+{
+padding:0px;
+}
+
+.MagGrid_sort_text .RadDockingZone
+{
+border:0px;
+padding:0px;
+}
+
+.MagGrid_sort_text .RadDockableObjectTitleBar
+{
+border:1px solid #fefefe;
+background-color:#D7D7D5;
+padding:2px !important;
+margin-bottom:8px;
+
+}
+
+.MagGrid_sort_text .RadDockableObjectTitle
+{
+width:275px;
+padding:2px !important;
+border:0px;
+margin:0px;
+color:black;
+font-weight:normal;
+font-size:12px;
+font-family: verdana, arial, sans-serif;
+text-align:left;
+white-space:normal;
+display:block;
+}
+
+/* div containing the items to be dropped */
+.MagGrid_sort_text .MagneticGrid_Dockables
+{
+margin-top:7px;
+width:275px;
+float:left;
+margin-left:40px;
+border:0px;
+clear:both;
+}
+
+.MagGrid_sort_text .MagneticGrid_Zones
+{
+float: right;
+background:transparent;
+padding:0px;
+margin:0px 0px 4px 10px;
+}
+
+.MagGrid_sort_text .MagneticGrid_Zone1, 
+.MagGrid_sort_text .MagneticGrid_Zone2,
+.MagGrid_sort_text .MagneticGrid_Zone3, 
+.MagGrid_sort_text .MagneticGrid_Zone4, 
+.MagGrid_sort_text .MagneticGrid_Zone5, 
+.MagGrid_sort_text .MagneticGrid_Zone6, 
+.MagGrid_sort_text .MagneticGrid_Zone0,
+.MagGrid_sort_text .MagneticGrid_Zone7,
+.MagGrid_sort_text .MagneticGrid_Zone8
+{
+width:310px;
+height:100px;
+background:#eee;
+overflow: auto;
+margin:5px;
+border:2px solid #fff;
+font-weight:bold;
+font-size:12px;
+font-family:verdana, arial, sans-serif;
+text-align:center;
+ scrollbar-face-color: #eee;
+ scrollbar-track-color: #cdc;
+ scrollbar-highlight-color: #ddd;
+ scrollbar-3dlight-color: #F7F7E4;
+ scrollbar-shadow-color: #C3C3B7;
+ scrollbar-darkshadow-color: #D1D1BE;
+ scrollbar-arrow-color: #545441;
+
+
+}
+
+.MagGrid_sort_text .RadDockableObjectVerticalGrip
+{
+	width: auto ;
+	background-color: #fff;	
+}

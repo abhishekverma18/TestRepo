@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Substitutions>
+  <Groupings>
+    <Grouping Name="TemplateColors" GroupLabel="Select Substitute Colors:"/>
+    <Grouping Name="List" GroupLabel="Select Substitute Fonts:"/>
+    <Grouping Name="Images" GroupLabel="Select Substitute Images:"/>
+    <Grouping Name="Choices" GroupLabel="Select Substitute Choices:"/>
+    <Grouping Name="Text" GroupLabel="Select Substitute Text:"/>
+  </Groupings>
+
+  <Variables>
+    <Variable Substitution="%%bgcolor%%" PropertyName="background-color" UIName="Page Background 3" AltText="This color is used for the page background" ComponentName="PageBackground1" UIComponent="ColorPicker()" Grouping="TemplateColors" Default="FFFFFF" ReplacementDirectory="survey" />
+    <Variable Substitution="%%primary_font%%" PropertyName="font" UIName ="Primary Text 3" AltText ="This font is used for all primary text on the page" ComponentName="PrimaryText1" UIComponent="ListPicker()" Grouping="List" ComponentValueList="Font1,Font2,Font3,Font4" Default="Tahoma" ReplacementDirectory="portal" />
+    <Variable Substitution="%%Header_Image%%" PropertyName="header" UIName ="Header Image 3" AltText ="Image used in the header of all portal and survey pages" ComponentName="HeaderImage1" UIComponent="ImageUpload()" Grouping="Images" Default="defaultHeader.jpg" ReplacementDirectory="both" />
+    <Variable Substitution="%%bool_value%%" PropertyName="visible" UIName ="Choice 3" AltText ="This is a checkbox to select choice" ComponentName="Choice1" UIComponent="ChoiceSelector()" Grouping="Choices" Default="true" ReplacementDirectory="portal"/>
+    <Variable Substitution="%%text_value%%" PropertyName="background-position" UIName ="Value 3" AltText ="This is a textbox to enter value" ComponentName="TextValue1" UIComponent="TextEntry()" Grouping="Text" Default="default text" ReplacementDirectory="survey" />
+  </Variables>
+</Substitutions>

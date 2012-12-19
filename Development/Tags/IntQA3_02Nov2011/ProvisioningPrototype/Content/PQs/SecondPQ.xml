@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PXML Version="1.30" xmlns="http://visioncritical.com/PXml.xsd">
+  <PanelUrl>http://Jason.bostaff.test.com/Admin/</PanelUrl>
+  <PanelName>Jason</PanelName>
+  <PanelVersion>1.0.0.0</PanelVersion>
+  <ExportDate>2011-08-26T15:06:36.6266516-07:00</ExportDate>
+  <Study Name="SecondPQ">
+    <Properties>
+      <Version>1.0</Version>
+      <Title Culture="en-CA">SecondPQ</Title>
+      <OpenDate />
+      <CloseDate />
+      <ShowBackButton>false</ShowBackButton>
+      <AutoNextButton>false</AutoNextButton>
+      <ShowProgressBar>false</ShowProgressBar>
+      <ShowInPortal>true</ShowInPortal>
+      <ShowInPanelReports>true</ShowInPanelReports>
+      <ShowInAdHocReport>true</ShowInAdHocReport>
+      <RenderingType>Html</RenderingType>
+      <Note />
+      <StudyPoints>
+        <Incompleted>0</Incompleted>
+        <Completed>0</Completed>
+        <Disqualified>0</Disqualified>
+        <OverQuota>0</OverQuota>
+      </StudyPoints>
+    </Properties>
+    <Cultures>
+      <Culture Default="true" Status="Completed">en-CA</Culture>
+    </Cultures>
+    <Workflow Name="Questionnaire" AllowBack="false">
+      <Question Type="SingleChoice" Name="FirstQuestion">
+        <Properties>
+          <FixPosition>false</FixPosition>
+          <WorkflowStepHidden>false</WorkflowStepHidden>
+          <AllowBackButton>true</AllowBackButton>
+          <RandomizeRotate>None</RandomizeRotate>
+          <RenderingType>Default</RenderingType>
+          <DoNotTranslate>false</DoNotTranslate>
+          <Required>true</Required>
+          <Hidden>false</Hidden>
+          <IsCalculated>false</IsCalculated>
+          <Height>1</Height>
+          <Width>45</Width>
+          <ShowInParticipation>false</ShowInParticipation>
+          <UrlVariable>false</UrlVariable>
+          <DecryptUrlData>false</DecryptUrlData>
+          <IsScalar>false</IsScalar>
+          <ShowType>RadioButton</ShowType>
+          <AnswerContainerCount>1</AnswerContainerCount>
+          <AnswerOrientation>Columns</AnswerOrientation>
+        </Properties>
+        <InstructionText Culture="en-CA">Please select one response only.</InstructionText>
+        <Text Culture="en-CA">Select Two</Text>
+        <Answers Count="3">
+          <Answer Code="1">
+            <Properties>
+              <FixPosition>false</FixPosition>
+              <ScaleValue>-32768</ScaleValue>
+              <AnswerBoxLocation>None</AnswerBoxLocation>
+              <Exclusive>true</Exclusive>
+              <ExcludeFromCalculation>false</ExcludeFromCalculation>
+              <IsHeader>false</IsHeader>
+            </Properties>
+            <Text Culture="en-CA">One</Text>
+          </Answer>
+          <Answer Code="2">
+            <Properties>
+              <FixPosition>false</FixPosition>
+              <ScaleValue>-32768</ScaleValue>
+              <AnswerBoxLocation>None</AnswerBoxLocation>
+              <Exclusive>true</Exclusive>
+              <ExcludeFromCalculation>false</ExcludeFromCalculation>
+              <IsHeader>false</IsHeader>
+            </Properties>
+            <Text Culture="en-CA">Two</Text>
+          </Answer>
+          <Answer Code="3">
+            <Properties>
+              <FixPosition>false</FixPosition>
+              <ScaleValue>-32768</ScaleValue>
+              <AnswerBoxLocation>None</AnswerBoxLocation>
+              <Exclusive>true</Exclusive>
+              <ExcludeFromCalculation>false</ExcludeFromCalculation>
+              <IsHeader>false</IsHeader>
+            </Properties>
+            <Text Culture="en-CA">Three</Text>
+          </Answer>
+        </Answers>
+      </Question>
+    </Workflow>
+    <EntryQuotas />
+    <Quotas />
+  </Study>
+</PXML>

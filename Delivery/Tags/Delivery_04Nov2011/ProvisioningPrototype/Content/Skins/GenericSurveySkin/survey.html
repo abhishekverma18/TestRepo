@@ -1,0 +1,265 @@
+<!-- // 
+
+ -> PortalHeader.ascx | Starts
+
+// -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en-CA"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Panel Title</title>
+    <link href="css/surveyLayout.css" type="text/css" rel="stylesheet"/>
+	<script language="javascript">
+	function ShowElement(divName)
+	{
+	   // hide them all 
+	   document.getElementById('changeEmail').style.display='none';
+	   document.getElementById('changePassword').style.display='none';
+	   document.getElementById('changeUserName').style.display='none';
+	   document.getElementById('resultMessageDiv').style.display='none';
+	   
+	   // show the one given
+	   var divStyle = eval("document.getElementById('"+divName+"').style");
+	   divStyle.display = 'block';
+	}
+	</script>
+	
+</head>
+<body>
+<table cellpadding="0" cellspacing="0" id="container" align="center">
+    <tr>
+		<td id="header-repeater">
+		    <div id="header">
+		        <span id="logo"><%=AppSettings.Context.Culture%> : <%=AppSettings.Context.Environment%></span>
+		    </div>
+	    </td>
+    </tr>
+    <tr>
+		<td class="contentBox">
+	<!-- // 
+  
+  PortaHeader.ascx | Ends
+  UNABLE to edit directly the code below here 
+  
+  // --> 	
+
+
+
+		<table width="100%" cellspacing="0" cellpadding="0" border="0" class="progresstype">
+			<tbody><tr>
+				<td>
+					<span id="ProgressBarLabel">Your progress</span>
+					<div align="left" class="outerProgressBar" id="VCProgressBar"><div style="width: 25%; height: 100%;" class="innerProgressBar"></div>
+				</div></td>
+			</tr>
+		</tbody>
+		</table>
+	
+
+	
+	
+	
+	<script>
+	
+		backButtonOverride();
+		
+		function backButtonOverride()
+		{
+			// Work around a Safari bug, that sometimes produces a blank page
+			setTimeout("backButtonOverrideBody()", 1);
+		}
+
+		function backButtonOverrideBody()
+		{
+			// Works if we backed up to get here
+			try 
+			{
+				history.forward();
+			}
+			catch (e) 
+			{
+				// OK to ignore
+			}
+			// Every half-second, try again. The only
+			// guaranteed method for Firefox,
+			// and Safari, which don't always call
+			// onLoad but *do* resume any timers when
+			// returning to a page
+			var isOpera = /Opera/i.test(navigator.userAgent);  
+			if (!isOpera) //bug 11114 (this line hangs with Opera 9.5 and removing it does not break back button override)
+			{			    			    
+			    setTimeout("backButtonOverrideBody()", 500);
+			}
+		}
+		
+	</script>
+	
+	<form name="Form1" method="post" action="S.aspx?s=10&amp;r=xTiobMK_90SJ4utzM9XAJg&amp;t=1&amp;a=7&amp;fromdetect=1" id="Form1">
+<div>
+<input name="__EVENTTARGET" id="__EVENTTARGET" value="" type="hidden">
+<input name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" type="hidden">
+<input name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE0ODYwODc5NTBkZCvGqB6l60IQVAEbr/agoxYt3X1c" type="hidden">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script language="javascript" src="js/SurveyCommon.js"></script><script language="javascript" type="text/javascript">window.AttachE(document, "onkeydown", GlobalOnKeyDown);</script><script language="javascript">function postBack(performValidation,goToNextStep) {__doPostBack('ClientSidePostBack',performValidation + '|' + goToNextStep);}</script>
+		<input name="HiddenWorkflowStepId" id="HiddenWorkflowStepId" value="100000008" type="hidden">
+		<div id="TestBannerDiv" onClick="this.style.display = 'none';" class="TestBanner">TEST MODE (Click to hide)</div>
+		<table id="ContentTable" cellpadding="0" cellspacing="0">
+			<tbody><tr id="ResponseRow">
+		<td id="ResponseCell">
+					<p id="ResponseAreaP">
+					    </p><div id="hiddenAssets" style="visibility: hidden;"></div>
+					    <input name="HiddenCacheAssets" id="HiddenCacheAssets" value="[]" type="hidden">
+						<link href="skin/surveySkins/default.css" type="text/css" rel="stylesheet"><div class="QuestionText"><span>How do you rate the following companies?</span></div><div class="InstructionText">Please select one response for each item.</div><table ipe="true" class="ResponseGridTable" id="900000074" bgcolor="white" border="0" cellspacing="1"><tbody><tr><td class="ResponseGridHeaderTd EmptyColumnTd" width="50%">&nbsp;</td><td class="ResponseGridHeaderTd" align="center" width="12%">Very Satisfied</td><td class="ResponseGridHeaderTd" align="center" width="12%">Satisfied</td><td class="ResponseGridHeaderTd" align="center" width="12%">Dissatisfied</td><td class="ResponseGridHeaderTd" align="center" width="12%">Very Dissatisfied</td></tr><tr class="ResponseGridTr"><td class="ResponseGridTdLabelCol" style="">Company 1</td><td class="ResponseGridTd" align="center"><input ipe="true" name="1410" id="25427" cqid="1410" ex="Yes" value="25427" type="radio"></td><td class="ResponseGridTd" align="center"><input ipe="true" name="1410" id="25428" cqid="1410" ex="Yes" value="25428" type="radio"></td><td class="ResponseGridTd" align="center"><input ipe="true" name="1410" id="25429" cqid="1410" ex="Yes" value="25429" type="radio"></td><td class="ResponseGridTd" align="center"><input ipe="true" name="1410" id="25430" cqid="1410" ex="Yes" value="25430" type="radio"></td></tr><tr class="ResponseGridTrAlternate"><td class="ResponseGridTdLabelColAlternate" style="">Company 2</td><td class="ResponseGridTdAlternate" align="center"><input ipe="true" name="1411" id="25431" cqid="1411" ex="Yes" value="25431" type="radio"></td><td class="ResponseGridTdAlternate" align="center"><input ipe="true" name="1411" id="25432" cqid="1411" ex="Yes" value="25432" type="radio"></td><td class="ResponseGridTdAlternate" align="center"><input ipe="true" name="1411" id="25433" cqid="1411" ex="Yes" value="25433" type="radio"></td><td class="ResponseGridTdAlternate" align="center"><input ipe="true" name="1411" id="25434" cqid="1411" ex="Yes" value="25434" type="radio"></td></tr><tr class="ResponseGridTr"><td class="ResponseGridTdLabelCol" style="">Company 3</td><td class="ResponseGridTd" align="center"><input ipe="true" name="1412" id="25435" cqid="1412" ex="Yes" value="25435" type="radio"></td><td class="ResponseGridTd" align="center"><input ipe="true" name="1412" id="25436" cqid="1412" ex="Yes" value="25436" type="radio"></td><td class="ResponseGridTd" align="center"><input ipe="true" name="1412" id="25437" cqid="1412" ex="Yes" value="25437" type="radio"></td><td class="ResponseGridTd" align="center"><input ipe="true" name="1412" id="25438" cqid="1412" ex="Yes" value="25438" type="radio"></td></tr></tbody></table>
+
+					<p></p>
+				</td>
+	</tr>
+	<tr id="ButtonsRow">
+		<td id="ButtonsCell">
+					<center>
+						<table style="width: auto;">
+							<tbody><tr>
+								<td><input name="PreviousButton" value="Previous" onclick="if (typeof(Page_ClientValidate) == 'function') { if (Page_ClientValidate() == false) { return false; }} this.disabled = true;if(window.DoCancelFurtherActions){ return false;} window.DoCancelFurtherActions = true;__doPostBack('PreviousButton',''); return false;" id="PreviousButton" title="Click here to go back to the last question." style="display: none;" type="submit"></td>
+
+								<td><input name="NextButton" value="Next" onclick="if (typeof(Page_ClientValidate) == 'function') { if (Page_ClientValidate() == false) { return false; }} this.disabled = true;if(window.DoCancelFurtherActions){ return false;} window.DoCancelFurtherActions = true;__doPostBack('NextButton',''); return false;" id="NextButton" title="Click here to advance to the next question." type="submit"></td>
+								<td><input name="FinishButton" value="Finish" id="FinishButton" title="Click here to finish the survey." style="display: none;" type="submit"></td>
+							</tr>
+						</tbody></table>				
+					</center>
+				</td>
+	</tr>
+</tbody></table>
+		<input name="NavigateState" id="NavigateState" type="hidden">
+	
+
+<script>			
+			var detect = navigator.userAgent.toLowerCase();
+            var browser,version,total;
+
+			if (!checkIt('compatible')) {
+                browser = "Netscape Navigator"
+                version = detect.charAt(8);
+            }
+
+            function checkIt(string)
+            {
+                place = detect.indexOf(string) + 1;
+                return place;
+            }
+
+            if( browser == "Netscape Navigator" && version == "4" )
+            {
+				window.location = "BrowserUnsupported.aspx";
+            }
+</script>
+
+<script language="javascript">
+<!--
+function fnTrapKD(btnID, event){
+btn = findObj(btnID);
+ if (document.all){
+  if (event.keyCode == 13){
+   event.returnValue=false;
+   event.cancel = true;
+   invokeClick(btn);
+   btn.disabled = true;
+  }
+ }
+ else if (document.getElementById){
+  if (event.which == 13){
+   event.returnValue=false;
+   event.cancel = true;
+   btn.focus();
+   invokeClick(btn);
+   btn.disabled = true;
+  }
+ }
+ else if(document.layers){
+  if(event.which == 13){
+   event.returnValue=false;
+   event.cancel = true;
+   btn.focus();
+   invokeClick(btn);
+   btn.disabled = true;
+  }
+ }
+}
+
+// Handles hyperlink element click() bug on Safari
+function invokeClick(elem)
+{
+  if (elem && elem.tagName == 'A')
+    eval(unescape(elem.href));
+  else
+    elem.click();
+}
+
+function findObj(n, d) { 
+	var p,i,x;  
+	if(!d) 
+		d=document; 
+	if((p=n.indexOf("?"))>0 && parent.frames.length) {
+		d=parent.frames[n.substring(p+1)].document; 
+		n=n.substring(0,p);
+	}
+	if(!(x=d[n])&&d.all) 
+		x=d.all[n]; 
+	for (i=0;!x&&i<d.forms.length;i++) 
+		x=d.forms[i][n];
+	for(i=0;!x&&d.layers&&i<d.layers.length;i++) 
+		x=findObj(n,d.layers[i].document);
+	if(!x && d.getElementById) 
+		x=d.getElementById(n); 
+	return x;
+}
+// -->
+</script>
+</form>
+	
+
+
+<!-- // 
+
+STOP Output, You are now able to edit the next section
+ -> PortalFooter.ascx | Starts
+
+// -->
+	</td><!-- end contentBox cell -->
+	</tr>
+	<tr>
+    <td id="footer">      
+        <div id="VC-logo"><a href="http://www.visioncritical.com" target="_blank">vision critical</a></div> 
+        	<ul>  
+            <li><a href="<%=AppSettings.Context.BaseUrl%>Portal/privacy-policy.aspx" title="Privacy Policy" target="_blank">Privacy Policy</a></li>
+            <li>|</li>
+            <li><a href="<%=AppSettings.Context.BaseUrl%>Portal/web-terms.aspx" title="Web Terms" target="_blank">Web Terms</a></li>
+            <li>|</li>
+            <li><a href="mailto:<%= AppSettings.Context.TechSupportEmail%>" title="Technical Support">Technical Support</a></li>
+            </ul> 
+		
+		</td><!-- end footer-->
+		</tr>
+    </table><!-- end container-->
+
+<!-- // 
+
+ -> PortalFooter.ascx | Ends
+
+// -->

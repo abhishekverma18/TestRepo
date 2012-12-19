@@ -1,0 +1,21 @@
+﻿
+/*------Styling for Grid-------*/
+ .selected-row
+    {
+        background: none repeat scroll 0 0 #006BAD;
+        color: #222222;
+    }
+    .not-selected-row
+    {
+        background: none repeat scroll 0 0 #FFFFFF;
+        color: #000000;
+    }
+    .grid
+    {
+        border-collapse: collapse;
+    }
+    .grid th, td
+    {
+        padding: 10px;
+        border: 1px solid #000;
+    }

@@ -1,0 +1,32 @@
+﻿@model IEnumerable<ProvisioningPrototype.Models.ManagePanelModel>
+@using ProvisioningPrototype.Helpers
+@{
+    ViewBag.Title = "ManagePanel";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var grid = new WebGrid(source: Model);
+}
+
+<h2>
+    Make Contexts Available</h2>
+@using (Html.BeginForm())
+{
+    <div class="Message">*You can not make DEFAULT Context Available</div>
+    <fieldset>
+           <legend>Contexts</legend>
+        @grid.GetHtmlWithSelectAllCheckBox(
+            tableStyle: "grid", checkBoxValue: "ContextIndex",
+            columns: grid.Columns(
+                    grid.Column("Available", "?", @<text>@(item.Available ? @Html.Raw("&#10004;") : @Html.Raw("&#10008;"))</text>),
+                    grid.Column("Name"),
+                    grid.Column("link", "link", @<text><a href="@item.PortalUrl">@item.PortalUrl</a></text>, null),
+                    grid.Column("Environment"),
+                    grid.Column("Culture")
+
+
+        ))
+        <p>
+            <input type="submit" value="Save" name="Save" />
+            <input type="submit" value="Back" name="Back" />
+        </p>
+    </fieldset>
+}

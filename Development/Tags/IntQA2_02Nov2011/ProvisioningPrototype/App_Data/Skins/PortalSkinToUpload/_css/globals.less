@@ -1,0 +1,135 @@
+@image-rel-link: "../_img/shared/";
+@button-rel-link: "../_img/buttons/";
+@font-family: Arial, Helvetica, sans-serif;
+@default-font-size: 12px;
+@default-line-height: 1.25em;
+@main-container-width: 980px;
+@header-image: "header.jpg";
+@header-height: 170px;
+
+@general-linknormal-style: underline;
+@general-linkhover-style: none;
+@general-linkactive-style: @general-linknormal-style;
+@general-link-color: #0000ff;
+
+@general-h1-color: #000000;
+@general-h1-size: 16px;
+@general-h1-weight: normal;
+@general-h1-margin: 0px 0px 5px 0px;
+@general-h1-padding: 0px 0px 0px 0px;
+
+@general-h2-color: #000000;
+@general-h2-size: 16px;
+@general-h2-weight: normal;
+@general-h2-margin: 0px 0px 5px 0px;
+@general-h2-padding: 0px 0px 0px 0px;
+
+#autominheightfix
+{
+	.default(@minheight)
+	{
+		min-height: @minheight;
+		*height: auto !important;
+		*height: @minheight;
+	}
+}
+#linkstyle
+{
+	.underlineNormal()
+	{
+		text-decoration: underline;
+		&:hover
+		{
+			text-decoration: none;
+		}
+	}
+	.underlineHover()
+	{
+		text-decoration: none;
+		&:hover
+		{
+			text-decoration: underline;
+		}
+	}
+	.neverUnderline(){
+		text-decoration: none;
+		&:hover
+		{
+			text-decoration: none;
+		}
+	}
+	.alwaysUnderline(){
+		text-decoration: underline;
+		&:hover
+		{
+			text-decoration: underline;
+		}
+	}
+}
+#container
+{
+	.default(@width, @height, @float, @margin, @padding, @display, @font-size, @background-color)
+	{
+		float: @float;
+		width: @width;
+		height: @height;
+		margin: @margin;
+		padding: @padding;
+		display: @display;
+		font-size: @font-size;
+		background-color: @background-color;
+	}
+	.withminheight(@width, @height, @float, @margin, @padding, @display, @font-size, @minheight, @background-color)
+	{
+		#container > .default(@width, @height, @float, @margin, @padding, @display, @font-size, @background-color);
+		#autominheightfix > .default(@minheight);
+	}
+}
+#buttons
+{
+	.textbutton(@width, @height, @color, @hovercolor)
+	{
+		display: block;
+		width: @width;
+		height: @height;
+		line-height: @height;
+		background-color: @color;
+			&:hover{background-color: @hovercolor;}
+	}
+	.imgbutton(@width, @height, @bgimage)
+	{
+		text-indent: -5000px;
+		display: block;
+		width: @width;
+		height: @height;
+		background: url("@{button-rel-link}@{bgimage}") no-repeat 0 0;
+			&:hover{background-position: 0 -@height;}
+	}
+}
+#bgHeader
+{
+	text-indent: -5000px;
+	display: block;
+	margin: 0 0 5px 0;
+}
+// #banner{
+	// @width: @main-container-width;
+	// @height: 150px;
+	// @image-name: "header.jpg";
+	// .topheader()
+	// {
+		// background: url("@{image-rel-link}@{image-name}") no-repeat 0 0;
+	// }
+	// .header1{
+		// position: relative;
+	// }
+	// .header2{
+		// position: relative;
+	// }
+	// #logo
+	// {
+		// width: 100%;
+		// height: 100%;
+		// text-indent: -5000px;
+	// }
+// }

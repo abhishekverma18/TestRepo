@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<stringOverrides>		
+  <stringOverride key="StudyListControl_DateTimeFormat" culture="en-CA">MMMM dd, yyyy hh:mm tt</stringOverride>
+    <stringOverride key="CommunityListControl_CommunityListForumsAllButton_Text" culture="en-CA">All Forums</stringOverride>
+
+    <stringOverride key="CommunityListControl_DateTimeFormat" culture="en-CA">MMMM dd, yyyy hh:mm tt</stringOverride>
+
+    <stringOverride key="LoginControl_LoginTitle_Text" culture="en-CA">Member Login</stringOverride>
+  <stringOverride key="LoginControl_LoginInstructionsLabel_Text" culture="en-CA">Please enter your login information below:</stringOverride>
+
+  
+  
+  <stringOverride key="NewslettersControl_NewslettersHeaderLabel_Text" culture="en-CA">Newsletters</stringOverride>
+  <stringOverride key="NewsletterContol_AllButton_Text" culture="en-CA">All Newsletters</stringOverride>
+    <stringOverride key="StudyListControl_AllButton_Text" culture="en-CA">All Surveys</stringOverride>
+    <stringOverride key="StudyListControl_StudyListHeaderLabel_Text" culture="en-CA">Take a Survey</stringOverride>
+    <stringOverride key="QuickPollControl_QuickPollVoteButton_Text" culture="en-CA">Submit</stringOverride>
+
+    <stringOverride key="QuickPollControl_QuickPollHeaderLabel_Text" culture="en-CA">Quick Poll</stringOverride>
+
+</stringOverrides>

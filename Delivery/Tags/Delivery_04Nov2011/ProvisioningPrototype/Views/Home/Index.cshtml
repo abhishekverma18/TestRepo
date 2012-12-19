@@ -1,0 +1,304 @@
+﻿@model ProvisioningPrototype.Models.PreferencesModel
+@{
+    ViewBag.Title = "Sparq Provisioning Tool";
+}
+<link href="@Url.Content("~/StyleSheets/Main.css")" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="../../StyleSheets/standalone.css" />
+<link rel="stylesheet" type="text/css" href="../../StyleSheets/scrollable-horizontal.css" />
+<link rel="stylesheet" type="text/css" href="../../StyleSheets/Error.css" />
+<script type="text/javascript" src="../../Scripts/jscolor/jscolor.js"></script>
+<script type="text/javascript" src="../../Scripts/jquery.js"></script>
+<script type="text/javascript" src="../../Scripts/Validation.js"></script>
+<script type="text/javascript" src="../../Scripts/jquery.tools.min.js"></script>
+<script type="text/javascript" src="../../Scripts/BuildLayout.js"></script>
+<script type="text/javascript" src="../../Scripts/jquery.tmpl.min.js"></script>
+<script type="text/html" id="ImageTemplate">
+    <img src="${Image1}" />
+    <img src="${Image2}" />
+    <img src="${Image3}" />
+</script>
+<script type="text/html" id="GroupNameTemplate">
+    <div class="GroupControlWrapper">    
+    <label>${GroupLabel}</label>
+    <div class="ControlSelection">
+    <table id ="${GroupName}" class="GroupControlTable"></table>
+    </div>
+    </div>
+</script>
+<script type="text/html" id="ColorPickerTemplate">
+    <td><label>${GuiName}:</label></td> 
+    <td>  <input  class="Color" id ="${ComponentName}" name="${ComponentName}" value="${Default}" /></td> 
+</script>
+<script type="text/html" id="ChoiceSelectorTemplate">
+    <td><label>${GuiName}:</label></td> 
+    <td>  <input type="checkbox" id ="${ComponentName}" name="${ComponentName}" value="${Default}"/></td> 
+</script>
+<script type="text/html" id="TextEntryTemplate">
+    <td><label>${GuiName}:</label></td> 
+    <td>  <input class="TextEntry" type="textBox" id ="${ComponentName}" name="${ComponentName}" value="${Default}" /></td> 
+</script>
+<script type="text/html" id="ImageUploadTemplate">
+    <td><label>${GuiName}:</label></td> 
+    <td>  <input type="file" class="ImageCtrl" id ="${ComponentName}" name="postedImages" value="${Default}" onchange="UpdateHdnImageField($(this).get(0).id, $(this).val())" />
+    <input type="hidden" id ="Hdn${ComponentName}" name="Hdn${ComponentName}" value="${Default}" />
+    </td> 
+</script>
+<!-- site specific scripts -->
+<script type="text/javascript">
+    $(function () {
+        // initialize scrollable
+        counter = 0;
+        getTemplate(counter);
+        $("#Counter").val(counter);
+        $(".scrollable").scrollable();
+
+    });
+</script>
+<meta http-equiv="cache-control" content="no-cache">
+@using (Html.BeginForm("SaveAndContinue", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    
+    <div id="PreferencesFormWrapper">
+        <div id="ErrorMessages">
+        </div>
+        <div id="PreferencesTitle">
+            Select Preferences</div>
+        <div id="PreferencesBorder">
+            <div class="SectionTitle">
+                1. Profiling Questionnaire: <span class="SectionTitleInstruction">choose one of the
+                    following templates which will serve as your new baseline profiling study. </span>
+            </div>
+            <div id="PQSection">
+                @Html.DropDownListFor(m => m.QuestionnaireId, Model.QuestionnaireSelectList, "Select Questionnaire")
+            </div>
+            <div class="InnerSectionTitle">
+                2. General Information: <span class="SectionTitleInstruction">Enter the company and
+                    contact details for this panel </span>
+            </div>
+            <div id="GeneralInfoSection">
+                <table>
+                    <tr>
+                        <td>
+                            Company Name:
+                        </td>
+                        <td>@Html.TextBoxFor(m => m.CompanyName)<br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Contact E-Mail:
+                        </td>
+                        <td>@Html.TextBoxFor(m => m.ContactEmail)<br />
+                        </td>
+                    </tr>
+                    @* Added for available context management *@
+                    <tr>
+                        <td>
+                            Available context:
+                        </td>
+                        <td>
+                            @Html.DropDownListFor(m => m.ContextValue, Model.AvailableContextSelectList, "Select")
+                            @*@Html.DropDownListFor(x => x.ArtistId, new SelectList(Model.Artists, "ArtistId", "Name"))*@
+                        </td>
+                    </tr>
+                    @* Added for Language selection *@
+                    <tr>
+                        <td>
+                            Language:
+                        </td>
+                        <td>
+                            @Html.DropDownListFor(m => m.Language, Model.LanguageSelectList, "Select a Language")
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="InnerSectionTitle">
+                2. Appearance: <span class="SectionTitleInstruction">Select the layout you would like
+                    applied to the login, portal and survey screens, then customize parameters of that
+                    layout</span></div>
+            <div id="AppearanceSection">
+                <label>
+                    Select a Layout:</label>
+                <div id="LayoutSelectionWrapper">
+                    <div id="LayoutSelectionSection">
+                        <div class="scrollable">
+                            <!-- root element for the items -->
+                            <div class="items" id="LayoutSectionContainer">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="NavBar">
+                        <div id="Prev" class="prev left">
+                            &lt; Previous</div>
+                        <div id="Next" class="next  right">
+                            Next &gt;</div>
+                    </div>
+                </div>
+                <div id="DynamicGUI">
+                </div>
+                @Html.HiddenFor(m => m.HdnLayoutCount)
+                @Html.HiddenFor(m => m.HdnSelectedLayout)
+                @* Added for offline mode and Advanced Mode *@
+                @Html.HiddenFor(m => m.PanelAdminEmail)
+                @Html.HiddenFor(m => m.PanelPassword)
+                @Html.HiddenFor(m => m.PanelAdminUrl)
+                @Html.HiddenFor(m => m.OfflineMode)
+                @Html.HiddenFor(m => m.Counter)
+                @* ---- Code commented by Optimus : Code was used for the static controls on the web page--- *@
+                @* <div id="ColorSelectionWrapper">
+                    <label>
+                        Select Substitute Colors:</label>
+                    <div class="ColorSelection">
+                        <table class="ColorTable">
+                            <tr>
+                                <td>@Html.LabelFor(m => m.PageBackgroundHexCode):
+                                </td>
+                                <td>@Html.TextBoxFor(m => m.PageBackgroundHexCode, new { @class = "Color" })
+                                </td>
+                                <td>@Html.LabelFor(m => m.ContentBackgroundHexCode):
+                                </td>
+                                <td>@Html.TextBoxFor(m => m.ContentBackgroundHexCode, new { @class = "Color" })
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>@Html.LabelFor(m => m.PrimaryTextHexCode):
+                                </td>
+                                <td>@Html.TextBoxFor(m => m.PrimaryTextHexCode, new { @class = "Color" })
+                                </td>
+                                <td>@Html.LabelFor(m => m.SecondaryTextHexCode):
+                                </td>
+                                <td>@Html.TextBoxFor(m => m.SecondaryTextHexCode, new { @class = "Color" })
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>*@
+                @*<div id="SelectImagesWrapper">
+                    <label>
+                        Select Substitute Images:</label>
+                    <div id="UploadWrapper">
+                        <div id="UploadHeaderWrapper">
+                            <label>
+                                Upload Header Image:
+                            </label>
+                            <input style="width: 290px;" type="file" name="headerFile" id="headerFile" />
+                        </div>
+                        <div id="UploadLogoWrapper">
+                            <label>
+                                Upload Logo Image:
+                            </label>
+                            <input style="width: 290px;" type="file" name="logoFile" id="logoFile" />
+                        </div>
+                    </div>
+                </div>*@
+            </div>
+            <div class="InnerSectionTitle">
+                3. Features: <span class="SectionTitleInstruction">Check off the features you need for
+                    your portal</span></div>
+            <div id="FeaturesSection">
+                <div id="FeatureSelectionWrapper">
+                    <label>
+                        Select Portal Component Visibility:</label>
+                    <div class="ColorSelection">
+                        <table class="ColorTable">
+                            <tr>
+                                <td>
+                                    QuickPolls
+                                </td>
+                                <td>@Html.CheckBoxFor(m => m.QuickPollVisible, new { @checked = "true" })<br />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Newsletters
+                                </td>
+                                <td>@Html.CheckBoxFor(m => m.NewsletterVisible)<br />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <input style="margin-left: 820px; margin-top: 10px;" type="image" name="SaveAndContinue"
+            src="../../Content/img/CreatePanelButton.png" onclick="return validate();" />
+    </div>
+    <script type="text/javascript">
+        function getTemplate(index) {
+            $.ajax({
+                dataType: "json",
+                url: "/Home/Template/" + index,
+                json: "$callback",
+                success: function (guiData) {
+                    $("#DynamicGUI").empty();
+
+                    BuildLayout(guiData.Image1, guiData.Image2, guiData.Image3);
+                    var layoutCount = $("#HdnLayoutCount").val();
+                    if (counter == 0) {
+                        $("#Prev").css("display", "none");
+                    }
+                    else if (counter == layoutCount - 1) {
+                        $("#Next").css("display", "none");
+                    }
+                    else {
+                        $("#Prev").css("display", "block");
+                        $("#Next").css("display", "block");
+                    }
+
+                    $(guiData.VariableGroups).each(function (index, Element) {
+                        var gName = this.GroupName;
+                        $("#GroupNameTemplate").tmpl(this).appendTo("#DynamicGUI");
+
+                        $(this.Variables).each(function (index, Element) {
+                            var variableCounter = index;
+                            var compName = this.ComponentName;
+
+                            if (index % 2 == 0) {
+                                $("<tr id ='" + gName + '_' + variableCounter + "'></tr>").appendTo("#" + gName);
+                            }
+                            else {
+                                variableCounter--;
+                            }
+                            if (this.UiComponent == "ListPicker()") {
+
+                                $("<td> <label>" + this.GuiName + ": </label></td><td><select id='" + compName + "' name='" + compName + "'> </select></td>").appendTo("#" + gName + '_' + variableCounter);
+                                $(this.ComponentValueList).each(function () {
+                                    $("<option value='" + this + "'>" + this + "</option>").appendTo("#" + compName); ;
+                                });
+                            }
+                            else if (this.UiComponent == "ColorPicker()") {
+                                $("#ColorPickerTemplate").tmpl(this).appendTo("#" + gName + '_' + variableCounter);
+                                var myPicker = new jscolor.color(document.getElementById(compName), {});
+                            }
+                            else if (this.UiComponent == "ChoiceSelector()") {
+                                $("#ChoiceSelectorTemplate").tmpl(this).appendTo("#" + gName + '_' + variableCounter);
+                            }
+                            else if (this.UiComponent == "TextEntry()") {
+                                $("#TextEntryTemplate").tmpl(this).appendTo("#" + gName + '_' + variableCounter);
+                            }
+                            else if (this.UiComponent == "ImageUpload()") {
+                                $("#ImageUploadTemplate").tmpl(this).appendTo("#" + gName + '_' + variableCounter);
+                            }
+                        });
+                    });
+                }
+            });
+        }
+
+        var counter;
+        $("#Prev").click(function () {
+            getTemplate(--counter);
+            $("#Counter").val(counter);
+        });
+
+        $("#Next").click(function () {
+            getTemplate(++counter);
+            $("#Counter").val(counter);
+        });
+
+        function UpdateHdnImageField(id, value) {
+            $("#Hdn" + id).val(value);
+        }
+    </script>
+    
+}

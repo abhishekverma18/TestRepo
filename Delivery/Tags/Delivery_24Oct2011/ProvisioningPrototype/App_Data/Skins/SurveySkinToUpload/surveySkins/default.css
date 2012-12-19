@@ -1,0 +1,355 @@
+﻿.AllocRange
+{
+	position:absolute;
+	display:block;
+	z-index:10;
+	width:200px;
+}
+
+.ResponseAllocGridTable
+{
+	width:0;
+}
+
+.ResponseAllocGridTotalLabel 
+{
+	font-family: verdana,sans-serif;
+	font-size: 12px;
+	font-weight:normal;
+	text-decoration:none;
+	line-height: 18px;
+	text-decoration: none;	
+	padding:3px;
+	width:300px !important;
+}
+.ResponseAllocGridTotalInput
+{
+	font-family: verdana,sans-serif;
+	font-size: 12px;
+}
+
+.EmptyColumnTd
+{
+}
+
+.ResponseGridHeaderTd
+{
+	font-family: verdana,sans-serif;
+	font-size: 14px;
+	font-weight:bold;
+	text-decoration:none;
+	line-height: 18px;
+	text-decoration: none;
+	padding:3px;
+}
+
+
+.ResponseGridTr
+{
+}
+
+
+.ResponseGridTrAlternate
+{
+}
+
+
+.ResponseGridTrError
+{
+	border: solid thin red;
+}
+
+
+.ResponseGridTd
+{
+	font-family: verdana,sans-serif;
+	font-size: 12px;
+}
+
+
+.ResponseGridTdAlternate
+{
+	font-family: verdana,sans-serif;
+	font-size: 12px;
+}
+
+
+.ResponseGridTdLabelCol
+{
+	font-family: verdana,sans-serif;
+	font-size: 12px;
+	font-weight:normal;
+	text-decoration:none;
+	line-height: 18px;
+	text-decoration: none;	
+	padding:3px;
+}
+
+.ResponseGridTdLabelColAlternate
+{
+	font-family: verdana,sans-serif;
+	font-size: 12px;
+	font-weight:normal;
+	text-decoration:none;
+	line-height: 18px;
+	text-decoration: none;	
+	padding:3px;
+}
+
+
+.QuestionText 
+{ 
+    font-family: verdana,sans-serif; 
+    font-size: 12px; 
+    font-weight:normal;
+    margin-top: 20px; 
+    clear:both;
+} 
+
+
+.OptionText
+{
+	font-family: verdana,sans-serif;
+	font-size: 12px;
+	font-weight:normal;
+	line-height: 18px;
+	
+}
+
+.OptionTextHorizontal
+{
+	font-family: verdana,sans-serif;
+	font-size: 12px;
+	font-weight:normal;
+	line-height: 18px;
+	padding: 5px 5px 5px 5px;
+}
+
+.OptionHeaderText
+{
+	font-family: verdana,sans-serif;
+	font-size: 12px;
+	font-weight:normal;
+	line-height: 18px;
+	padding: 5px 5px 5px 5px;
+}
+
+.errorMsg
+{		
+	line-height: 18px;
+	padding: 2px;
+	margin-top:10px;
+	font-size: 10px;
+}
+
+.BackButtonWarningMessage
+{
+	color: Red;
+	font-size:10pt;
+	font-family:verdana,sans-serif;
+	font-weight:normal;
+	padding-bottom:30px;
+}
+
+.FinishText
+{
+	font-family: verdana,sans-serif; 
+    font-size: 12px; 
+    font-weight:normal; 
+    line-height: 18px; 
+    margin-top: 20px; 
+}
+
+.InstructionText
+{
+	font-family: verdana,sans-serif;
+	font-size: 10px;
+	margin-top:4px;
+	margin-bottom:4px;
+	margin-left:8px;
+	clear:both;
+}
+
+
+.ResponseMagneticGridTable
+{
+	width:100%;
+	height:auto;
+}
+
+.ResponseMagneticGridTableTr
+{
+	width:100%;
+	height:100%;
+
+}
+
+.ResponseMagneticGridTableAttributesTd
+{
+	width:48%;
+	height:100%;	
+	vertical-align :top;
+	border:solid 1px black;
+}
+
+.ResponseMagneticGridTableCenterTd
+{
+	width:4%;
+	height:100%;
+}
+
+.ResponseMagneticGridTableIdentifiersTd
+{
+	width:48%;
+	height:100%;	
+	vertical-align :top;	 
+	
+}
+
+.ResponseMangeticGridIdentifiersTable
+{
+	width:100%;
+	height:100%;	
+		
+}
+
+.ResponseMangeticGridIdentifiersTableIdentifierTr
+{
+	width:100%;
+	padding-bottom:10px;
+}
+
+.ResponseMangeticGridIdentifiersTableDescriptionTr
+{
+	width:100%;
+}
+
+.ResponseMagneticGridIdentifiersTableDescriptionTd
+{	 
+	width:10%;	
+	vertical-align :middle;
+	text-align : center;		
+	border-style:solid;
+	border-color:Black;
+	border-width:1px;	
+}
+
+.ResponseMagneticGridIdentifiersTableIdentiferTd
+{
+	border:solid 1px black;
+	height:100px;
+}
+
+
+/* NEW MAGNETIC GRID CLASSES */
+
+/* outer div containing both the dockables and zones */
+.MagneticGrid
+{
+}
+
+/* div containing the items to be dropped */
+.MagneticGrid_Dockables
+{
+}
+
+/* div containing the divs to have items dropped onto them */
+.MagneticGrid_Zones
+{
+}
+
+/*
+in most cases these zones also have styles applied based on their id, the 
+style set here should be minimal and not conflict with styles on individual 
+zones
+*/
+.MagneticGrid_Zone
+{
+}
+
+.MagneticGrid_ZoneSpacer
+{
+}
+
+
+.CustomizedLayout
+{
+	float: right;
+	left: 410px;
+	top: 44px;
+	width: 210px;
+	position: absolute;
+}
+
+.CustomizedLayout .toggleFlatButtonDiv
+{
+	float: right;
+}
+
+.CustomizedLayout .RestoreButtonDiv
+{
+	float: left;
+}
+
+.OptionItemDiv { padding: 0px 5px 5px 5px; }
+
+.scg_response_rowHeaderText
+{
+	width: 180px;
+	clear: both;
+	word-wrap: break-word;
+}
+
+.scg_response_headerText
+{
+	width: 100px;
+}
+
+
+
+
+.scg_response_rowHeaderImage
+{
+	float: left;
+}
+
+.scg_response_table
+{
+	float: left;
+}
+
+
+.scg_response_rowHeaderText
+{
+	width: 180px;
+	clear: both;
+	word-wrap: break-word;
+}
+
+.scg_response_headerText
+{
+	width: 100px;
+}
+
+.scg_response_rowHeaderImage
+{
+	float: left;
+}
+
+.scg_response_table
+{
+	float: left;
+}
+
+
+
+            
+
+
+
+
+            
+.choiceslider_response_headerText
+{
+	width: 100%;
+}

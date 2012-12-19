@@ -1,0 +1,69 @@
+/*
+HOWTO : 
+
+Replace all instances of #PanelPlusDarkNav with the name of this tab style 
+	(should match the Name of the .css and the folder)
+Adjust the padding of StudyNav a to match the width of the "left" images   
+	(ie padding:0 0 0 5px; for a left image 5px wide [default])
+Adjust the offset in the :hover classes to match the size of the tabs
+	(by default each tab image is 300px high, two tabs therefor 150px offset
+	 background-position:0% -150px; )
+*/
+
+
+.PanelPlusDarkNav
+{
+	letter-spacing: -0.5px;
+	font-family: verdana,sans-serif;
+	font-size: 9px;
+	vertical-align:middle;	
+	text-decoration: none;
+	text-transform: uppercase;
+	border-top: 1px solid #7C7C7C;
+	border-left: 1px solid #7C7C7C;
+	border-bottom: 1px solid #262626;
+	border-right: 1px solid #262626;
+	background: #434343;
+	color: #fff;
+	padding: 1px 8px 1px 8px;
+	margin: 0px 0px 0px 2px;
+	height:12px;
+	width:100px;
+	text-align:center;
+}
+
+A.PanelPlusDarkNav:hover
+{
+	border-top: 1px solid #F04D4D;
+	border-left: 1px solid #F04D4D;
+	border-bottom: 1px solid #840000;
+	border-right: 1px solid #840000;
+	background: #E90000;
+	color:#fff;
+}  
+
+.PanelPlusDarkNavDisabled
+{
+	letter-spacing: -0.5px;
+	font-family: verdana,sans-serif;
+	font-size: 9px;
+	vertical-align:middle;	
+	text-decoration:none;
+	text-transform:uppercase;
+	border-top: 1px solid #7C7C7C;
+	border-left: 1px solid #7C7C7C;
+	border-bottom: 1px solid #262626;
+	border-right: 1px solid #262626;
+	background: #434343;
+	color: #ccc;
+	padding: 1px 8px 1px 8px;
+	margin: 0px 0px 0px 2px;
+	height:12px;
+	width:100px;
+	text-align:center;
+}
+
+A.PanelPlusDarkNavDisabled:Hover
+{
+	
+}

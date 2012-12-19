@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<Substitutions TemplateName="Template1">
+
+	<Groupings>
+		<Grouping Name="TemplateColors" GroupLabel="Select Substitute Colors:"/>
+		<Grouping Name="Fonts" GroupLabel="Select Substitute Fonts:"/>
+		<Grouping Name="Files" GroupLabel="Select Substitute Files:"/>
+		<Grouping Name="PortalComponents" GroupLabel="Select Portal Components:"/>
+		<Grouping Name="MiscOptions" GroupLabel="Misc Options:"/>
+	</Groupings>
+
+	<Variables>
+		<Variable Substitution="%%page_bgcolor%%"
+				  PropertyName="background-color"
+				  UIName="Page Background"
+				  AltText="This color is used for the page background"
+				  ComponentName="PageBackground1"
+				  UIComponent="ColorPicker()"
+				  Grouping="TemplateColors"
+				  Default="FFFFFF"
+				  ReplacementDirectory="both" />
+
+		<Variable Substitution="%%content_bgcolor%%"
+              PropertyName="doesnt matter"
+              UIName="Content Background"
+              AltText="This color is used for backing content"
+              ComponentName="ContentBgColor1"
+              UIComponent="ColorPicker()"
+              Grouping="TemplateColors"
+              Default="FFFFFF"
+              ReplacementDirectory="both" />
+
+
+		<Variable Substitution="%%primary_text_color%%"
+              PropertyName="doesnt matter"
+              UIName="Primary Text"
+              AltText="This color is for most text on the page"
+              ComponentName="PrimaryText1"
+              UIComponent="ColorPicker()"
+              Grouping="TemplateColors"
+              Default="000000"
+              ReplacementDirectory="both" />
+
+		<Variable Substitution="%%secondary_text_color%%"
+              PropertyName="doesnt matter"
+              UIName="Secondary Text"
+              AltText="This color is used for all sub-text on the page"
+              ComponentName="SecondaryText1"
+              UIComponent="ColorPicker()"
+              Grouping="TemplateColors"
+              Default="333333"
+              ReplacementDirectory="both" />
+
+
+		<Variable Substitution="%%Header_Image%%"
+              PropertyName="header"
+              UIName="Header Image"
+              AltText="Image used in the header of all portal and survey pages"
+              ComponentName="HeaderImage1"
+              UIComponent="FileUpload()"
+              Grouping="Files"
+              Default="header.jpg"
+			  PathToUpload="images\"
+              ReplacementDirectory="survey" />
+
+		<Variable Substitution="%%Logo_Image%%"
+              PropertyName="login-image"
+              UIName="Logo Image"
+              AltText="Image used on the login screen of the portal"
+              ComponentName="LogoImage1"
+              UIComponent="FileUpload()"
+              Grouping="Files"
+              Default="login-image.jpg"
+			  PathToUpload="_img\shared\"
+              ReplacementDirectory="portal" />
+
+		<Variable Substitution="%%Privacy_Policy%%"
+              PropertyName="Privacy_Policy-file"
+              UIName="Policy Document"
+              AltText="Image used in the header of all portal and survey pages"
+              ComponentName="PolicyDocument"
+              UIComponent="FileUpload()"
+              Grouping="Files"
+              Default="privacy policy.pdf"
+			  PathToUpload="_img\shared\"
+              ReplacementDirectory="portal" />
+
+
+		<Variable Substitution="%%portal_fontface%%"
+				   PropertyName="font-family"
+				   UIName="Primary portal font family"
+				   AltText="The font to be used for most text in the portal"
+				   ComponentName="PortalFont1"
+				   UIComponent="ListPicker()"
+				   Grouping="Fonts"
+				   ComponentValueList="'Arial, Helvetica, Sans-serif','San-Serif','Georgia','Tahoma','Comic Sans MS'"
+				   Default="Arial, Helvetica, Sans-serif"
+				   ReplacementDirectory="portal" />
+
+		<Variable Substitution="%%surveys_fontface%%"
+			   PropertyName="font-family"
+			   UIName="Default survey font family"
+			   AltText="The font to be used for most text in the portal"
+			   ComponentName="SurveyFont1"
+			   UIComponent="ListPicker()"
+			   Grouping="Fonts"
+			   ComponentValueList="'Arial','Arial, Helvetica, Sans-serif','San-Serif','Georgia','Tahoma','Comic Sans MS'"
+			   Default="Arial"
+			   ReplacementDirectory="both" />
+
+
+		<Variable Substitution="%%quickpoll_visibility%%"
+				  PropertyName="block,none"
+				  UIName="Quick Polls"
+				  AltText="Select to have quick polls appear in your panel"
+				  ComponentName="QuickPollChoice1"
+				  UIComponent="ChoiceSelector()"
+				  Grouping="PortalComponents"
+				  Default="true"
+				  ReplacementDirectory="portal" />
+
+
+		<Variable Substitution="%%newsletter_visibility%%"
+				  PropertyName="block,none"
+				  UIName="Newsletters"
+				  AltText="Select to have newsletters appear in your panel"
+				  ComponentName="NewsLetterChoice1"
+				  UIComponent="ChoiceSelector()"
+				  Grouping="PortalComponents"
+				  Default="true"
+				  ReplacementDirectory="portal" />
+
+		<Variable Substitution="%%content_bottom_border_width%%"
+				  PropertyName="1,0"
+				  UIName="Bottom Content Border"
+				  AltText="Uncheck to hide the lower horizontal border"
+				  ComponentName="ContentBorder1"
+				  UIComponent="ChoiceSelector()"
+				  Grouping="MiscOptions"
+				  Default="true"
+				  ReplacementDirectory="portal" />
+
+		<Variable Substitution="%%content_top_border_width%%"
+			  PropertyName="1,0"
+			  UIName="Top Content Border"
+			  AltText="Uncheck to hide the upper horizontal border"
+			  ComponentName="ContentBorder2"
+			  UIComponent="ChoiceSelector()"
+			  Grouping="MiscOptions"
+			  Default="true"
+			  ReplacementDirectory="portal" />
+
+		<Variable Substitution="%%content_vert_border_width%%"
+			  PropertyName="1,0"
+			  UIName="Vertical Content Border"
+			  AltText="Uncheck to hide the lower horizontal border"
+			  ComponentName="ContentBorder3"
+			  UIComponent="ChoiceSelector()"
+			  Grouping="MiscOptions"
+			  Default="true"
+			  ReplacementDirectory="portal" />
+
+
+
+	</Variables>
+</Substitutions>

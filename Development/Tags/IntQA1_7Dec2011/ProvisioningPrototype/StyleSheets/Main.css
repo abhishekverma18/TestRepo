@@ -1,0 +1,344 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Start of Project CSS*/
+
+#PreferencesFormWrapper
+{
+	padding: 20px;
+}
+
+#PreferencesTitle
+{
+	margin-bottom: 20px;
+	margin-left: 2px;
+	font-size: 20px;
+}
+
+#PreferencesBorder
+{
+	border-radius: 8px;
+	border: 1px solid black;
+	box-shadow: 0px 0px 4px 4px Black;
+}
+
+
+
+.SectionTitle
+{
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	background-image: url("../Content/img/SectionTitleBackground.png");
+	background-repeat: repeat-x;
+	padding: 10px;
+	color: White;
+	font-weight: 600;
+}
+
+.SectionTitleInstruction
+{
+	margin-left: 18px;
+	color: White;
+	font-weight: normal;
+	font-style: italic;
+}
+
+.InnerSectionTitle
+{
+	background-image: url("../Content/img/SectionTitleBackground.png");
+	background-repeat: repeat-x;
+	padding: 10px;
+	color: White;
+	font-weight: 600;
+}
+
+#PQSection
+{
+	padding: 20px;
+}
+
+#PQSelectLabel
+{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#PQListBox
+{
+}
+
+#PQImportLabel
+{
+	margin-bottom: 10px;
+	font-weight: 600;
+	color: Black;
+}
+
+#GeneralInfoSection
+{
+	padding: 20px;
+}
+#loginPage
+{
+	padding: 100px 20px 20px 280px;
+	width: 350px;
+}
+
+
+.TableInput
+{
+	width: 200px;
+}
+
+#AppearanceSection
+{
+	padding: 20px;
+}
+
+#FeaturesSection
+{
+	padding: 20px;
+}
+
+#LayoutSelectionWrapper
+{
+	border-radius: 4px;
+	height: 380px;
+	margin: 0 auto;
+	margin-top: 4px;
+}
+
+
+#LayoutSelectionSection
+{
+	background-color: rgb(235,235,235);
+	margin: 0 auto;
+	float: left;
+	width: 100%;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	height: 320px;
+}
+
+
+
+
+
+#NavBar
+{
+	height: 24px;
+	width: 100%;
+	background-color: rgb(235,235,235);
+	float: left;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+#Prev
+{
+	height: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+#prevBtn
+{
+	height: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+#Next
+{
+	height: 20px;
+	float: right;
+	margin-right: 20px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.GroupControlWrapper
+{
+	margin-top: 10px; /*   display: inline-block;*/
+}
+
+.ControlSelection
+{
+	margin-top: 10px;
+	font-size: 14px;
+	margin-bottom: 20px;
+	border-radius: 4px;
+	background-color: rgb(235,235,235);
+	padding: 10px;
+}
+
+.GroupControlTable
+{
+	display: block;
+	background-color: White;
+	border-radius: 4px;
+}
+
+
+#SelectImagesWrapper
+{
+	width: 100%;
+}
+
+#UploadWrapper
+{
+	margin-top: 10px;
+	padding: 10px;
+	height: 60px;
+	border-radius: 4px;
+	background-color: rgb(235,235,235);
+}
+
+#UploadHeaderWrapper
+{
+	padding: 10px;
+	border-radius: 2px;
+	width: 435px;
+	height: 40px;
+	float: left;
+	background-color: white;
+}
+
+#UploadLogoWrapper
+{
+	margin-left: 15px;
+	padding: 10px;
+	border-radius: 2px;
+	width: 425px;
+	height: 40px;
+	float: left;
+	background-color: white;
+}
+
+#SelectVisibilityWrapper
+{
+	margin-top: 10px;
+}
+
+
+.Link
+{
+	width: 500px;
+}
+
+#LinksWrapper
+{
+	padding: 20px;
+}
+
+#slider ul, #slider li
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#slider, #slider li
+{
+	width: 500px;
+	height: 200px;
+	overflow: hidden;
+}
+span#prevBtn
+{
+}
+span#nextBtn
+{
+}
+
+#LayoutSelectionWrapper2
+{
+	border-radius: 4px;
+	height: 380px;
+	margin: 0 auto;
+	margin-top: 4px;
+}
+#LoginTemplate2
+{
+	margin: 24px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	width: 280px;
+	height: 320px;
+	background-image: url("../../Content/img/Login.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	float: left;
+	background-color: white;
+	border-radius: 2px;
+}
+
+#tablelayout
+{
+	width: 800px;
+}
+
+#LoadFromZip
+{
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	width: 110px;
+	height: 25px;
+	color: Black;
+	background-color: #f3f3f3;
+	border-width: 1px;
+	border-style: solid;
+	border-color: gray;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+}

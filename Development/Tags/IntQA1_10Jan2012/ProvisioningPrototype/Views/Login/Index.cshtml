@@ -1,0 +1,58 @@
+﻿@model ProvisioningPrototype.Models.LoginModel
+@{
+    ViewBag.Title = "Sparq Provisioning Tool";
+}
+<script type="text/javascript" src="../../Scripts/LoginPage.js"></script>
+@using (Html.BeginForm())
+{ <div>
+    <div id="loginPage">
+        <table id="tablelayout">
+            <tr>
+                <td>
+                    Panel Admin Email:
+                </td>
+                <td>@Html.TextBoxFor(m => m.PanelAdminEmail)
+                    @Html.ValidationMessageFor(m => m.PanelAdminEmail)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Password:
+                </td>
+                <td>@Html.EditorFor(m => m.PanelPassword)
+                    @Html.ValidationMessageFor(m => m.PanelPassword)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    PanelUrl:
+                </td>
+                <td>@Html.TextBoxFor(m => m.PanelAdminUrl)
+                    @Html.ValidationMessageFor(m => m.PanelAdminUrl)
+                </td>
+                <td>
+                    e.g. https://www.quicksetup.visioncriticalpanels.com/Admin/
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.CheckBoxFor(m => m.OfflineMode) Offline mode
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td>
+                    <input type="image" name="CreatePanel" src="../../Content/img/CreateSkin.png" value="CreatePanel" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="image" name="ManagePanel" src="../../Content/img/ManagePanel.png" value="ManagePanel" />
+                </td>
+                <td>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </div>
+}

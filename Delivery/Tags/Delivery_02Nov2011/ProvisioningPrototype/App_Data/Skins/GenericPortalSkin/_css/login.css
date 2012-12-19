@@ -1,0 +1,132 @@
+#bgHeader {
+  text-indent: -5000px;
+  display: block;
+  margin: 0 0 5px 0;
+}
+#column-left {
+  float: left;
+  width: 270px;
+  height: auto;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: block;
+  font-size: inherit;
+  /*%%ContentBackgroundColor*/  
+  min-height: 300px;
+  *height: auto !important;
+  *height: 300px;
+}
+#column-main {
+  float: left;
+  width: 379px;
+  height: auto;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: block;
+  font-size: inherit;
+  /*%%ContentBackgroundColor*/  
+  min-height: 300px;
+  *height: auto !important;
+  *height: 300px;
+  border-right: 1px solid #b9b9b9;
+}
+#column-right {
+  float: left;
+  width: 330px;
+  height: auto;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: block;
+  font-size: inherit;
+  /*%%ContentBackgroundColor*/  
+  min-height: 300px;
+  *height: auto !important;
+  *height: 300px;
+}
+#join-now {
+  margin-top: 15px;
+}
+#join-now a {
+  text-indent: -5000px;
+  display: block;
+  width: 296px;
+  height: 58px;
+  background: url("../_img/buttons/btn-join-now.jpg") no-repeat 0 0;
+  display: block;
+  float: none;
+}
+#join-now a:hover {
+  background-position: 0 -58px;
+}
+#wid-login {
+  float: none;
+  width: 260px;
+  height: auto;
+  margin: 0 0 0 0;
+  padding: 30px 35px;
+  display: block;
+  font-size: inherit;
+  background-color: transparent;
+}
+#wid-login h1 {
+  margin-bottom: 20px;
+}
+#wid-login .form-input {
+  overflow: hidden;
+  padding: 0.5em 0;
+}
+#wid-login .form-input span.input-text {
+  display: none;
+}
+#wid-login .form-input span.input-field {
+  display: block;
+  margin: 2px 0;
+}
+#wid-login .form-input span.input-field input {
+  width: 250px;
+  border: 1px solid #444444;
+  padding: 3px;
+}
+#wid-login .form-input span.input-field input#email-placeholder, #wid-login .form-input span.input-field input#password-placeholder {
+  color: #666666;
+}
+#wid-login .form-submit {
+  margin: 10px 0 0 0;
+  height: 18px;
+}
+#wid-login .form-submit .submit-field {
+  width: 77px;
+  height: 18px;
+  display: block;
+  float: right;
+}
+#wid-login .form-submit .submit-field a {
+  text-indent: -5000px;
+  display: block;
+  width: 77px;
+  height: 18px;
+  background: url("../_img/buttons/btn-login.jpg") no-repeat 0 0;
+}
+#wid-login .form-submit .submit-field a:hover {
+  background-position: 0 -18px;
+}
+#wid-login .form-submit .submit-forgot-password {
+  float: left;
+}
+#wid-login .form-submit .submit-forgot-password a {
+  /*%%PrimaryTextColor*/
+  text-decoration: underline;
+}
+#wid-login .form-submit .submit-forgot-password a:hover {
+  text-decoration: none;
+}
+#wid-login .errMsg {
+  color: #FF0000;
+  margin-top: 15px;
+}
+#login-text {
+  padding: 35px;
+}
+#login-text h1 {
+  margin-bottom: 20px;
+}

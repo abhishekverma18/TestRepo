@@ -1,0 +1,3120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StaticContentBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <StaticContentItems>
+    
+      <StaticContentItem Name="Static Content 1" Id="1">
+        <ContentList>
+          <StaticContent Culture="en-CA">
+              &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt;FAQ's &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+              &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt;Learn About Benefits &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+              &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt;Press &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+          </StaticContent>
+          <StaticContent Culture="ru-RU">
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Вопросы и ответы&amp;raquo; &lt;/a&gt;&lt;/div&gt;
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Узнать о преимуществах&amp;raquo; &lt;/a&gt;&lt;/div&gt;
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Пресса&amp;raquo; &lt;/a&gt;&lt;/div&gt;
+          </StaticContent>
+          <StaticContent Culture="fr-CA">
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;FAQ &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;En savoir plus sur les avantages perçus &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Dossier de presse &amp;raquo; &lt;/a&gt;&lt;/div&gt;
+          </StaticContent>
+          <StaticContent Culture="es-ES">
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Preguntas más comunes &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Conocer los beneficios &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Prensa &amp;raquo; &lt;/a&gt;&lt;/div&gt;
+          </StaticContent>
+          <StaticContent Culture="es-EU">
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Preguntas más comunes &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Conocer los beneficios &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Prensa &amp;raquo; &lt;/a&gt;&lt;/div&gt;
+          </StaticContent>
+          <StaticContent Culture="de-DE">
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Häufige Fragen &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Info zu Prämien &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Presse &amp;raquo; &lt;/a&gt;&lt;/div&gt;
+          </StaticContent>
+          <StaticContent Culture="it-IT">
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Domande frequenti &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Per informazioni sul compenso &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Premere &amp;raquo; &lt;/a&gt;&lt;/div&gt;
+          </StaticContent>
+          <StaticContent Culture="ja-JP">
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;よくある質問 &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;報酬の詳細を表示する &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;記事 &amp;raquo; &lt;/a&gt;&lt;/div&gt;
+          </StaticContent>
+          <StaticContent Culture="ko-KR">
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;자주 하는 질문 &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;혜택 알아보기 &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;누르시오 &amp;raquo; &lt;/a&gt;&lt;/div&gt;
+          </StaticContent>
+          <StaticContent Culture="nl-NL">
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Veelgestelde vragen &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Leer meer over voordelen &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Druk &amp;raquo; &lt;/a&gt;&lt;/div&gt;
+          </StaticContent>
+          <StaticContent Culture="pt-BR">
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Perguntas frequentes &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Conheça os benefícios &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Imprensa &amp;raquo; &lt;/a&gt;&lt;/div&gt;
+          </StaticContent>
+          <StaticContent Culture="zh-CN">
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;常见问题与答案 &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;了解有关福利 &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;按下 &amp;raquo; &lt;/a&gt;&lt;/div&gt;
+          </StaticContent>
+          <StaticContent Culture="pl-PL">
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Najczęściej zadawane pytania &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Informacje na temat korzyści &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Wiadomości &amp;raquo; &lt;/a&gt;&lt;/div&gt;
+          </StaticContent>
+          <StaticContent Culture="cs-CZ">
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Často kladené otázky &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Informace o výhodách &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Tisk &amp;raquo; &lt;/a&gt;&lt;/div&gt;
+          </StaticContent>
+          <StaticContent Culture="hu-HU">
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;GYIK-ok &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;További információ a juttatásokról &amp;raquo; &lt;/a&gt;&lt;/div&gt; 
+              &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;Hírek &amp;raquo; &lt;/a&gt;&lt;/div&gt;
+          </StaticContent>
+            <StaticContent Culture="zh-HK">
+                &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;常见问题与答案 &amp;raquo; &lt;/a&gt;&lt;/div&gt;
+                &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;了解有关福利 &amp;raquo; &lt;/a&gt;&lt;/div&gt;
+                &lt;div class="sideNav"&gt;&lt;a href="http://www.visioncritical.com/" target="_blank"&gt;按下 &amp;raquo; &lt;/a&gt;&lt;/div&gt;
+            </StaticContent>
+            <StaticContent Culture="en-GB">
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt;FAQ's &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt;Learn About Benefits &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt;Press &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+            </StaticContent>
+            <StaticContent Culture="th-TH">
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt; คำถามที่พบบ่อย &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt; เรียนรู้เกี่ยวกับผลประโยชน์ &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt; กด &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+            </StaticContent>
+            <StaticContent Culture="id-ID">
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt; Pertanyaan yang kerap Digunakan &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt; Belajar mengenai Manfaat &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt; Tekan &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+            </StaticContent>
+            <StaticContent Culture="sv-SE">
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt; Vanliga frågor (FAQ) &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt; Ta reda på fördelarna &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt; Tryck &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+            </StaticContent>
+            <StaticContent Culture="el-GR">
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt; Συχνές ερωτήσεις &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt; Μάθετε για τα πλεονεκτήματα &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt; Πατήστε &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+            </StaticContent>
+            <StaticContent Culture="da-DK">
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt; Ofte stillede spørgsmål &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt; Læs om fordele &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt; Tryk &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+            </StaticContent>
+            <StaticContent Culture="tr-TR">
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt; ??? &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt; ??? &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt; ??? &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+            </StaticContent>
+            <StaticContent Culture="sk-SK">
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt;FAQ's &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt;Learn About Benefits &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt;Press &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+            </StaticContent>
+            <StaticContent Culture="nb-NO">
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt;FAQ's &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt;Learn About Benefits &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+                &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt;Press &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+            </StaticContent>
+            <StaticContent Culture="hi-IN">
+              &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt;अक्सर पूछे जाने वाले प्रश्न &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+              &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt;लाभ के बारे में जानें &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+              &lt;DIV class=sideNav&gt;&lt;A href="http://www.visioncritical.com/" target=_blank&gt;प्रेस &amp;raquo; &lt;/A&gt;&lt;/DIV&gt;
+            </StaticContent>
+        </ContentList>
+        <FEBlob>&lt;functionalelements&gt;&lt;script&gt;&lt;/script&gt;&lt;/functionalelements&gt;</FEBlob>
+      </StaticContentItem>
+      <StaticContentItem Name="Static Content 2" Id="2">
+        <ContentList>
+          <StaticContent Culture="en-CA">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="fr-CA">&lt;b&gt;Veuillez écrire le contenu statique ici.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="es-ES">&lt;b&gt;Incorpore por favor el contenido estático aquí.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="zh-CN">&lt;b&gt;Incorpore por favor el contenido estático aquí.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="ja-JP">&lt;b&gt;Incorpore por favor el contenido estático aquí.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="de-DE">&lt;b&gt;Incorpore por favor el contenido estático aquí.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="pt-BR">&lt;b&gt;Incorpore por favor el contenido estático aquí.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="ko-KR">&lt;b&gt;Incorpore por favor el contenido estático aquí.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="it-IT">&lt;b&gt;Incorpore por favor el contenido estático aquí.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="nl-NL">&lt;b&gt;Incorpore por favor el contenido estático aquí.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="pl-PL">&lt;b&gt;Incorpore por favor el contenido estático aquí.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="hu-HU">&lt;b&gt;Incorpore por favor el contenido estático aquí.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="cs-CZ">&lt;b&gt;Incorpore por favor el contenido estático aquí.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="ru-RU">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="zh-HK">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="en-GB">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="th-TH">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="id-ID">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="sv-SE">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="el-GR">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="da-DK">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="tr-TR">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="sk-SK">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="nb-NO">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="hi-IN">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+        </ContentList>
+      </StaticContentItem>
+      <StaticContentItem Name="Static Content 3" Id="3">
+        <ContentList>
+          <StaticContent Culture="en-CA">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="fr-CA">&lt;b&gt;Veuillez écrire le contenu statique ici.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="es-ES">&lt;b&gt;Incorpore por favor el contenido estático aquí.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="zh-CN">&lt;b&gt;Incorpore por favor el contenido estático aquí.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="ja-JP">&lt;b&gt;Incorpore por favor el contenido estático aquí.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="de-DE">&lt;b&gt;Incorpore por favor el contenido estático aquí.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="pt-BR">&lt;b&gt;Incorpore por favor el contenido estático aquí.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="ko-KR">&lt;b&gt;Incorpore por favor el contenido estático aquí.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="it-IT">&lt;b&gt;Incorpore por favor el contenido estático aquí.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="nl-NL">&lt;b&gt;Incorpore por favor el contenido estático aquí.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="pl-PL">&lt;b&gt;Incorpore por favor el contenido estático aquí.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="hu-HU">&lt;b&gt;Incorpore por favor el contenido estático aquí.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="cs-CZ">&lt;b&gt;Incorpore por favor el contenido estático aquí.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="ru-RU">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="zh-HK">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="en-GB">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="th-TH">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="id-ID">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="sv-SE">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="el-GR">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="da-DK">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="tr-TR">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="sk-SK">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="nb-NO">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+          <StaticContent Culture="hi-IN">&lt;b&gt;Please enter static content here.&lt;/b&gt;</StaticContent>
+        </ContentList>
+      </StaticContentItem>    
+    
+        <StaticContentItem Name="Login Intro (DEFAULT)" Id="DEFAULT-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(DEFAULT)" Id="DEFAULT-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (DEFAULT)" Id="DEFAULT-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (DEFAULT)" Id="DEFAULT-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (DEFAULT)" Id="DEFAULT-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (DEFAULT)" Id="DEFAULT-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (DEFAULT)" Id="DEFAULT-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        
+        
+        
+        
+    <StaticContentItem Name="Login Intro (QuickPreview1)" Id="QuickPreview1-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(QuickPreview1)" Id="QuickPreview1-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (QuickPreview1)" Id="QuickPreview1-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (QuickPreview1)" Id="QuickPreview1-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (QuickPreview1)" Id="QuickPreview1-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (QuickPreview1)" Id="QuickPreview1-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (QuickPreview1)" Id="QuickPreview1-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+
+        
+        
+                <StaticContentItem Name="Login Intro (QuickPreview2)" Id="QuickPreview2-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(QuickPreview2)" Id="QuickPreview2-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (QuickPreview2)" Id="QuickPreview2-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (QuickPreview2)" Id="QuickPreview2-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (QuickPreview2)" Id="QuickPreview2-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (QuickPreview2)" Id="QuickPreview2-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (QuickPreview2)" Id="QuickPreview2-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+
+        
+        
+        
+                <StaticContentItem Name="Login Intro (QuickPreview3)" Id="QuickPreview3-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(QuickPreview3)" Id="QuickPreview3-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (QuickPreview3)" Id="QuickPreview3-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (QuickPreview3)" Id="QuickPreview3-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (QuickPreview3)" Id="QuickPreview3-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (QuickPreview3)" Id="QuickPreview3-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (QuickPreview3)" Id="QuickPreview3-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+
+        
+        
+        
+        
+        
+                <StaticContentItem Name="Login Intro (QuickPreview4)" Id="QuickPreview4-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(QuickPreview4)" Id="QuickPreview4-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (QuickPreview4)" Id="QuickPreview4-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (QuickPreview4)" Id="QuickPreview4-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (QuickPreview4)" Id="QuickPreview4-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (QuickPreview4)" Id="QuickPreview4-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (QuickPreview4)" Id="QuickPreview4-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+
+
+
+
+
+
+
+        <StaticContentItem Name="Login Intro (QuickPreview5)" Id="QuickPreview5-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(QuickPreview5)" Id="QuickPreview5-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (QuickPreview5)" Id="QuickPreview5-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (QuickPreview5)" Id="QuickPreview5-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (QuickPreview5)" Id="QuickPreview5-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (QuickPreview5)" Id="QuickPreview5-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (QuickPreview5)" Id="QuickPreview5-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+
+
+
+
+
+
+
+        <StaticContentItem Name="Login Intro (QuickPreview6)" Id="QuickPreview6-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(QuickPreview6)" Id="QuickPreview6-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (QuickPreview6)" Id="QuickPreview6-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (QuickPreview6)" Id="QuickPreview6-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (QuickPreview6)" Id="QuickPreview6-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (QuickPreview6)" Id="QuickPreview6-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (QuickPreview6)" Id="QuickPreview6-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+
+
+
+
+
+
+        <StaticContentItem Name="Login Intro (QuickPreview7)" Id="QuickPreview7-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(QuickPreview7)" Id="QuickPreview7-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (QuickPreview7)" Id="QuickPreview7-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (QuickPreview7)" Id="QuickPreview7-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (QuickPreview7)" Id="QuickPreview7-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (QuickPreview7)" Id="QuickPreview7-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (QuickPreview7)" Id="QuickPreview7-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+
+
+
+
+
+        <StaticContentItem Name="Login Intro (QuickPreview8)" Id="QuickPreview8-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(QuickPreview8)" Id="QuickPreview8-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (QuickPreview8)" Id="QuickPreview8-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (QuickPreview8)" Id="QuickPreview8-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (QuickPreview8)" Id="QuickPreview8-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (QuickPreview8)" Id="QuickPreview8-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (QuickPreview8)" Id="QuickPreview8-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+
+
+   
+        <StaticContentItem Name="Login Intro (QuickPreview9)" Id="QuickPreview9-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(QuickPreview9)" Id="QuickPreview9-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (QuickPreview9)" Id="QuickPreview9-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (QuickPreview9)" Id="QuickPreview9-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (QuickPreview9)" Id="QuickPreview9-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (QuickPreview9)" Id="QuickPreview9-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (QuickPreview9)" Id="QuickPreview9-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        
+        
+        
+        
+        
+        
+           
+        <StaticContentItem Name="Login Intro (QuickPreview10)" Id="QuickPreview10-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(QuickPreview10)" Id="QuickPreview10-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (QuickPreview10)" Id="QuickPreview10-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (QuickPreview10)" Id="QuickPreview10-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (QuickPreview10)" Id="QuickPreview10-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (QuickPreview10)" Id="QuickPreview10-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (QuickPreview10)" Id="QuickPreview10-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        
+        
+        
+        
+                   
+        <StaticContentItem Name="Login Intro (QuickPreview11)" Id="QuickPreview11-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(QuickPreview11)" Id="QuickPreview11-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (QuickPreview11)" Id="QuickPreview11-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (QuickPreview11)" Id="QuickPreview11-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (QuickPreview11)" Id="QuickPreview11-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (QuickPreview11)" Id="QuickPreview11-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (QuickPreview11)" Id="QuickPreview11-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        
+        
+        
+        
+        
+        
+        
+        
+           
+        <StaticContentItem Name="Login Intro (QuickPreview12)" Id="QuickPreview12-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(QuickPreview12)" Id="QuickPreview12-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (QuickPreview12)" Id="QuickPreview12-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (QuickPreview12)" Id="QuickPreview12-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (QuickPreview12)" Id="QuickPreview12-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (QuickPreview12)" Id="QuickPreview12-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (QuickPreview12)" Id="QuickPreview12-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        
+        
+        
+        
+        
+        
+        
+                   
+        <StaticContentItem Name="Login Intro (QuickPreview13)" Id="QuickPreview13-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(QuickPreview13)" Id="QuickPreview13-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (QuickPreview13)" Id="QuickPreview13-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (QuickPreview13)" Id="QuickPreview13-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (QuickPreview13)" Id="QuickPreview13-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (QuickPreview13)" Id="QuickPreview13-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (QuickPreview13)" Id="QuickPreview13-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        
+        
+                
+        
+        
+        
+           
+        <StaticContentItem Name="Login Intro (QuickPreview14)" Id="QuickPreview14-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(QuickPreview14)" Id="QuickPreview14-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (QuickPreview14)" Id="QuickPreview14-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (QuickPreview14)" Id="QuickPreview14-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (QuickPreview14)" Id="QuickPreview14-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (QuickPreview14)" Id="QuickPreview14-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (QuickPreview14)" Id="QuickPreview14-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        
+                
+                   
+        <StaticContentItem Name="Login Intro (QuickPreview15)" Id="QuickPreview15-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(QuickPreview15)" Id="QuickPreview15-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (QuickPreview15)" Id="QuickPreview15-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (QuickPreview15)" Id="QuickPreview15-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (QuickPreview15)" Id="QuickPreview15-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (QuickPreview15)" Id="QuickPreview15-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (QuickPreview15)" Id="QuickPreview15-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        
+
+
+
+
+                  
+        <StaticContentItem Name="Login Intro (QuickPreview16)" Id="QuickPreview16-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(QuickPreview16)" Id="QuickPreview16-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (QuickPreview16)" Id="QuickPreview16-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (QuickPreview16)" Id="QuickPreview16-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (QuickPreview16)" Id="QuickPreview16-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (QuickPreview16)" Id="QuickPreview16-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (QuickPreview16)" Id="QuickPreview16-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        
+        
+        
+        
+                  
+        <StaticContentItem Name="Login Intro (QuickPreview17)" Id="QuickPreview17-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(QuickPreview17)" Id="QuickPreview17-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (QuickPreview17)" Id="QuickPreview17-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (QuickPreview17)" Id="QuickPreview17-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (QuickPreview17)" Id="QuickPreview17-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (QuickPreview17)" Id="QuickPreview17-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (QuickPreview17)" Id="QuickPreview17-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        
+           
+
+    
+    
+                  
+        <StaticContentItem Name="Login Intro (QuickPreview18)" Id="QuickPreview18-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(QuickPreview18)" Id="QuickPreview18-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (QuickPreview18)" Id="QuickPreview18-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (QuickPreview18)" Id="QuickPreview18-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (QuickPreview18)" Id="QuickPreview18-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (QuickPreview18)" Id="QuickPreview18-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (QuickPreview18)" Id="QuickPreview18-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        
+           
+                  
+        <StaticContentItem Name="Login Intro (QuickPreview19)" Id="QuickPreview19-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(QuickPreview19)" Id="QuickPreview19-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (QuickPreview19)" Id="QuickPreview19-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (QuickPreview19)" Id="QuickPreview19-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (QuickPreview19)" Id="QuickPreview19-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (QuickPreview19)" Id="QuickPreview19-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (QuickPreview19)" Id="QuickPreview19-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        
+           
+        
+        
+        
+                  
+        <StaticContentItem Name="Login Intro (QuickPreview20)" Id="QuickPreview20-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(QuickPreview20)" Id="QuickPreview20-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (QuickPreview20)" Id="QuickPreview20-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (QuickPreview20)" Id="QuickPreview20-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (QuickPreview20)" Id="QuickPreview20-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (QuickPreview20)" Id="QuickPreview20-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (QuickPreview20)" Id="QuickPreview20-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        
+
+
+
+                  
+        <StaticContentItem Name="Login Intro (QuickPreview21)" Id="QuickPreview21-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(QuickPreview21)" Id="QuickPreview21-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (QuickPreview21)" Id="QuickPreview21-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (QuickPreview21)" Id="QuickPreview21-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (QuickPreview21)" Id="QuickPreview21-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (QuickPreview21)" Id="QuickPreview21-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (QuickPreview21)" Id="QuickPreview21-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        
+   
+
+
+
+                  
+        <StaticContentItem Name="Login Intro (QuickPreview22)" Id="QuickPreview22-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(QuickPreview22)" Id="QuickPreview22-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (QuickPreview22)" Id="QuickPreview22-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (QuickPreview22)" Id="QuickPreview22-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (QuickPreview22)" Id="QuickPreview22-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (QuickPreview22)" Id="QuickPreview22-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (QuickPreview22)" Id="QuickPreview22-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        
+   
+ 
+                   
+        <StaticContentItem Name="Login Intro (QuickPreview23)" Id="QuickPreview23-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(QuickPreview23)" Id="QuickPreview23-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (QuickPreview23)" Id="QuickPreview23-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (QuickPreview23)" Id="QuickPreview23-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (QuickPreview23)" Id="QuickPreview23-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (QuickPreview23)" Id="QuickPreview23-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (QuickPreview23)" Id="QuickPreview23-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        
+             
+
+
+                  
+        <StaticContentItem Name="Login Intro (QuickPreview24)" Id="QuickPreview24-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(QuickPreview24)" Id="QuickPreview24-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (QuickPreview24)" Id="QuickPreview24-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (QuickPreview24)" Id="QuickPreview24-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (QuickPreview24)" Id="QuickPreview24-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (QuickPreview24)" Id="QuickPreview24-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (QuickPreview24)" Id="QuickPreview24-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        
+   
+
+                  
+        <StaticContentItem Name="Login Intro (QuickPreview25)" Id="QuickPreview25-login-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<h1>Welcome</h1>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam egestas dapibus ante. Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor.</p>
+						<p>Vestibulum lectus leo, placerat. Maecenas diam nibh sit amet, condimentum et, ullamcorper ut, dolor. Lorem ipsum dolor sit amet.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Login Image (Width: 280px)(QuickPreview25)" Id="QuickPreview25-login-image">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<img src="_img/shared/login-image.jpg" alt=""/>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Join Now Link (QuickPreview25)" Id="QuickPreview25-login-join-now">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#">Join Now</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Member Welcome (QuickPreview25)" Id="QuickPreview25-member-welcome">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	[%PortalAbsolutePath%]
+						<p>Welcome text relevent to the client/portal goes here. Lorem ipsum dolor sit amet dolor sit. Consecteteur adipiscing elit sed suspendisse viverra nisil etc orro quisquam est, qui dolorem ipsum quia.</p>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Privacy Policy (QuickPreview25)" Id="QuickPreview25-privacy-policy">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Privacy Policy" target="_blank">Privacy Policy</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        <StaticContentItem Name="Web Terms (QuickPreview25)" Id="QuickPreview25-web-terms">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="#" title="Web Terms" target="_blank">Web Terms</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+		<StaticContentItem Name="Technical Support (QuickPreview25)" Id="QuickPreview25-tech-support">
+            <ContentList>
+                <StaticContent Culture="en-CA">
+                    <![CDATA[	
+						<a href="mailto:support@visioncritical.com" title="Technical Support">Technical Support</a>
+		            ]]>
+                </StaticContent>
+                <StaticContent Culture="fr-CA"> </StaticContent>
+                <StaticContent Culture="es-ES"> </StaticContent>
+                <StaticContent Culture="zh-CN"> </StaticContent>
+                <StaticContent Culture="ja-JP"> </StaticContent>
+                <StaticContent Culture="de-DE"> </StaticContent>
+                <StaticContent Culture="pt-BR"> </StaticContent>
+            </ContentList>
+        </StaticContentItem>
+        
+   
+        
+        
+    </StaticContentItems>
+</StaticContentBlocks>

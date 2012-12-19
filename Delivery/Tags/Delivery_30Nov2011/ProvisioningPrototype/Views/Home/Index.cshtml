@@ -1,0 +1,332 @@
+﻿@model ProvisioningPrototype.Models.PreferencesModel
+@{
+    ViewBag.Title = "Sparq Provisioning Tool";
+}
+<link href="@Url.Content("~/StyleSheets/Main.css")" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="../../StyleSheets/standalone.css" />
+<link rel="stylesheet" type="text/css" href="../../StyleSheets/scrollable-horizontal.css" />
+<link rel="stylesheet" type="text/css" href="../../StyleSheets/Error.css" />
+<script type="text/javascript" src="../../Scripts/jscolor/jscolor.js"></script>
+<script type="text/javascript" src="../../Scripts/jquery.js"></script>
+<script type="text/javascript" src="../../Scripts/Validation.js"></script>
+<script type="text/javascript" src="../../Scripts/jquery.tools.min.js"></script>
+<script type="text/javascript" src="../../Scripts/BuildLayout.js"></script>
+<script type="text/javascript" src="../../Scripts/jquery.tmpl.min.js"></script>
+<script type="text/html" id="ImageTemplate">
+    <img src="${Image1}" />
+    <img src="${Image2}" />
+    <img src="${Image3}" />
+</script>
+<script type="text/html" id="GroupNameTemplate">
+    <div class="GroupControlWrapper">    
+    <label>${GroupLabel}</label>
+    <div class="ControlSelection">
+    <table id ="${GroupName}" class="GroupControlTable"></table>
+    </div>
+    </div>
+</script>
+<script type="text/html" id="ColorPickerTemplate">
+    <td><label>${GuiName}:</label></td> 
+    <td>  <input  class="Color" id ="${ComponentName}" name="${ComponentName}" value="${Default}" /></td> 
+</script>
+<script type="text/html" id="ChoiceSelectorTemplate">
+    <td><label>${GuiName}:</label></td> 
+    <td>  <input type="checkbox" id ="${ComponentName}" name="${ComponentName}" value="${Default}"/></td> 
+</script>
+<script type="text/html" id="TextEntryTemplate">
+    <td><label>${GuiName}:</label></td> 
+    <td>  <input class="TextEntry" type="textBox" id ="${ComponentName}" name="${ComponentName}" value="${Default}" /></td> 
+</script>
+@*Modified by Khushbu for phase 2 task 'Support upload/processing of non-image files (e.g. pdf)'*@
+<script type="text/html" id="FileUploadTemplate">
+    <td><label>${GuiName}:</label></td> 
+    <td>  <input type="file" class="FileCtrl" id ="${ComponentName}" name="postedFiles" value="${Default}" onchange="UpdateHdnFileField($(this).get(0).id, $(this).val())" />
+    <input type="hidden" id ="Hdn${ComponentName}" name="Hdn${ComponentName}" value="${Default}" />
+    </td> 
+</script>
+<!-- site specific scripts -->
+<script type="text/javascript">
+    $(function () {
+        // initialize scrollable
+        counter = 0;
+        getTemplate(counter);
+        $("#Counter").val(counter);
+        $(".scrollable").scrollable();
+
+    });
+</script>
+<meta http-equiv="cache-control" content="no-cache">
+@using (Html.BeginForm("SaveAndContinue", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    
+    <div id="PreferencesFormWrapper">
+        @*Added by Khushbu for phase 2 task 'Allow the UI to load previously generated zip files in order to pre-populate the form'*@
+        <div id="LoadFromZip">
+            Load From Zip
+        </div>
+        <div id="ErrorMessages">
+        </div>
+        <div id="PreferencesTitle">
+            Select Preferences</div>
+        <div id="PreferencesBorder">
+            <div class="SectionTitle">
+                1. Profiling Questionnaire: <span class="SectionTitleInstruction">choose one of the
+                    following templates which will serve as your new baseline profiling study. </span>
+            </div>
+            <div id="PQSection">
+                @Html.DropDownListFor(m => m.QuestionnaireId, Model.QuestionnaireSelectList, "Select Questionnaire")
+            </div>
+            <div class="InnerSectionTitle">
+                2. General Information: <span class="SectionTitleInstruction">Enter the company and
+                    contact details for this panel </span>
+            </div>
+            <div id="GeneralInfoSection">
+                <table>
+                    <tr>
+                        <td>
+                            Company Name:
+                        </td>
+                        <td>@Html.TextBoxFor(m => m.CompanyName)<br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Contact E-Mail:
+                        </td>
+                        <td>@Html.TextBoxFor(m => m.ContactEmail)<br />
+                        </td>
+                    </tr>
+                    @* Added for Language selection *@
+                    <tr>
+                        <td>
+                            Language:
+                        </td>
+                        <td>
+                            @Html.DropDownListFor(m => m.Language, Model.LanguageSelectList, "Select a Language")
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="InnerSectionTitle">
+                2. Appearance: <span class="SectionTitleInstruction">Select the layout you would like
+                    applied to the login, portal and survey screens, then customize parameters of that
+                    layout</span></div>
+            <div id="AppearanceSection">
+                <label>
+                    Select a Layout:</label>
+                <div id="LayoutSelectionWrapper">
+                    <div id="LayoutSelectionSection">
+                        <div class="scrollable">
+                            <!-- root element for the items -->
+                            <div class="items" id="LayoutSectionContainer">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="NavBar">
+                        <div id="Prev" class="prev left">
+                            &lt; Previous</div>
+                        <div id="Next" class="next  right">
+                            Next &gt;</div>
+                    </div>
+                </div>
+                <div id="DynamicGUI">
+                </div>
+                @Html.HiddenFor(m => m.HdnLayoutCount)
+                @Html.HiddenFor(m => m.HdnSelectedLayoutName)
+                @Html.HiddenFor(m => m.HdnSelectedLayout)
+                @* Added for offline mode and Advanced Mode *@
+                @Html.HiddenFor(m => m.PanelAdminEmail)
+                @Html.HiddenFor(m => m.PanelPassword)
+                @Html.HiddenFor(m => m.PanelAdminUrl)
+                @Html.HiddenFor(m => m.OfflineMode)
+                @Html.HiddenFor(m => m.Counter)
+            </div>
+        </div>
+        <input style="margin-left: 820px; margin-top: 10px;" type="image" name="SaveAndContinue"
+            src="../../Content/img/CreatePanelButton.png" onclick="return validate();" />
+    </div>
+    
+
+    <script type="text/javascript">
+        function getTemplate(index) {
+            $.ajax({
+                dataType: "json",
+                url: "/Home/Template/" + index,
+                json: "$callback",
+                success: function (guiData) {
+                    $("#DynamicGUI").empty();
+                    $("#HdnSelectedLayoutName").val(guiData.TemplateName);
+                    BuildLayout(guiData.Image1, guiData.Image2, guiData.Image3);
+                    var layoutCount = $("#HdnLayoutCount").val();
+                    if (counter == 0) {
+                        $("#Prev").css("display", "none");
+                        $("#Next").css("display", "block");
+                    }
+
+                    else if (counter == layoutCount - 1) {
+                        $("#Prev").css("display", "block");
+                        $("#Next").css("display", "none");
+                    }
+                    else {
+                        $("#Prev").css("display", "block");
+                        $("#Next").css("display", "block");
+                    }
+
+                    $(guiData.VariableGroups).each(function (index, Element) {
+                        var gName = this.GroupName;
+                        $("#GroupNameTemplate").tmpl(this).appendTo("#DynamicGUI");
+
+                        $(this.Variables).each(function (index, Element) {
+                            var variableCounter = index;
+                            var compName = this.ComponentName;
+
+                            if (index % 2 == 0) {
+                                $("<tr id ='" + gName + '_' + variableCounter + "'></tr>").appendTo("#" + gName);
+                            }
+                            else {
+                                variableCounter--;
+                            }
+                            if (this.UiComponent == "ListPicker()") {
+
+                                $("<td> <label>" + this.GuiName + ": </label></td><td><select id='" + compName + "' name='" + compName + "'> </select></td>").appendTo("#" + gName + '_' + variableCounter);
+                                var selectedValue = this.Default;
+                                $(this.ComponentValueList).each(function () {
+                                    if (this == selectedValue) {
+                                        $("<option selected='selected' value='" + this + "'>" + this + "</option>").appendTo("#" + compName); ;
+                                    }
+                                    else {
+                                        $("<option value='" + this + "'>" + this + "</option>").appendTo("#" + compName); ;
+                                    }
+                                });
+                            }
+                            else if (this.UiComponent == "ColorPicker()") {
+                                $("#ColorPickerTemplate").tmpl(this).appendTo("#" + gName + '_' + variableCounter);
+                                var myPicker = new jscolor.color(document.getElementById(compName), {});
+                            }
+                            else if (this.UiComponent == "ChoiceSelector()") {
+                                $("#ChoiceSelectorTemplate").tmpl(this).appendTo("#" + gName + '_' + variableCounter);
+                                if (this.Default == "true") {
+                                    $("#" + this.ComponentName).prop("checked", true);
+                                }
+                            }
+                            else if (this.UiComponent == "TextEntry()") {
+                                $("#TextEntryTemplate").tmpl(this).appendTo("#" + gName + '_' + variableCounter);
+                            }
+                            else if (this.UiComponent == "FileUpload()") {
+                                $("#FileUploadTemplate").tmpl(this).appendTo("#" + gName + '_' + variableCounter);
+                            }
+                        });
+                    });
+                }
+            });
+        }
+
+        var counter;
+        $("#Prev").click(function () {
+            getTemplate(--counter);
+            $("#Counter").val(counter);
+        });
+
+        $("#Next").click(function () {
+            getTemplate(++counter);
+            $("#Counter").val(counter);
+        });
+        // Modified by Khushbu for phase 2 task 'Support upload/processing of non-image files (e.g. pdf)'
+        function UpdateHdnFileField(id, value) {
+            $("#Hdn" + id).val(value);
+        }
+        // Added by Khushbu for phase 2 task 'Allow the UI to load previously generated zip files in order to pre-populate the form'
+        function loadFromZip(index) {
+            $.ajax({
+                dataType: "json",
+                url: "/Home/LoadFromZip/" + index,
+                json: "$callback",
+                success: function (guiData) {
+                    $("#DynamicGUI").empty();
+                    $("#HdnSelectedLayoutName").val(guiData.TemplateName);
+                    if (guiData.SelectedTemplate == "-2") {
+                        $('div#ErrorMessages').empty();
+                        $('<div class="error">Sorry, Previously generated template Package Zip is not found at the specified path</div>').appendTo('div#ErrorMessages');
+
+                    }
+                    else if (guiData.SelectedTemplate == "-1") {
+                        $('div#ErrorMessages').empty();
+                        $('<div class="error">Sorry, Previously generated template does not exist in current templates</div>').appendTo('div#ErrorMessages');
+                    }
+
+                    else {
+                        $("#HdnSelectedLayout").val(guiData.SelectedTemplate);
+
+                    }
+
+                    counter = $("#HdnSelectedLayout").val() - 1;
+                    BuildLayout(guiData.Image1, guiData.Image2, guiData.Image3);
+                    var layoutCount = $("#HdnLayoutCount").val();
+                    if (counter == 0) {
+                        $("#Prev").css("display", "none");
+                        $("#Next").css("display", "block");
+                    }
+
+                    else if (counter == layoutCount - 1) {
+                        $("#Prev").css("display", "block");
+                        $("#Next").css("display", "none");
+                    }
+                    else {
+                        $("#Prev").css("display", "block");
+                        $("#Next").css("display", "block");
+                    }
+
+                    $(guiData.VariableGroups).each(function (index, Element) {
+                        var gName = this.GroupName;
+                        $("#GroupNameTemplate").tmpl(this).appendTo("#DynamicGUI");
+
+                        $(this.Variables).each(function (index, Element) {
+                            var variableCounter = index;
+                            var compName = this.ComponentName;
+
+                            if (index % 2 == 0) {
+                                $("<tr id ='" + gName + '_' + variableCounter + "'></tr>").appendTo("#" + gName);
+                            }
+                            else {
+                                variableCounter--;
+                            }
+                            if (this.UiComponent == "ListPicker()") {
+
+                                $("<td> <label>" + this.GuiName + ": </label></td><td><select id='" + compName + "' name='" + compName + "'> </select></td>").appendTo("#" + gName + '_' + variableCounter);
+                                var selectedValue = this.Default;
+                                $(this.ComponentValueList).each(function () {
+                                    if (this == selectedValue) {
+                                        $("<option selected='selected' value='" + this + "'>" + this + "</option>").appendTo("#" + compName); ;
+                                    }
+                                    else {
+                                        $("<option value='" + this + "'>" + this + "</option>").appendTo("#" + compName); ;
+                                    }
+                                });
+                            }
+                            else if (this.UiComponent == "ColorPicker()") {
+                                $("#ColorPickerTemplate").tmpl(this).appendTo("#" + gName + '_' + variableCounter);
+                                var myPicker = new jscolor.color(document.getElementById(compName), {});
+                            }
+                            else if (this.UiComponent == "ChoiceSelector()") {
+                                $("#ChoiceSelectorTemplate").tmpl(this).appendTo("#" + gName + '_' + variableCounter);
+                                if (this.Default == "true") {
+                                    $("#" + this.ComponentName).prop("checked", true);
+                                }
+                            }
+                            else if (this.UiComponent == "TextEntry()") {
+                                $("#TextEntryTemplate").tmpl(this).appendTo("#" + gName + '_' + variableCounter);
+                            }
+                            else if (this.UiComponent == "FileUpload()") {
+                                $("#FileUploadTemplate").tmpl(this).appendTo("#" + gName + '_' + variableCounter);
+                            }
+                        });
+                    });
+                }
+            });
+        }
+        $("#LoadFromZip").click(function () {
+            loadFromZip(counter);
+        });
+    </script>
+    
+}

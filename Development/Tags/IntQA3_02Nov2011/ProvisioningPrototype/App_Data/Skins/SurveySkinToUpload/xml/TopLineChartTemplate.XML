@@ -1,0 +1,136 @@
+﻿<Chart type="ComponentArt.Charting.WebChart">
+  <LabelStyles type="ComponentArt.Charting.LabelStyleCollection">
+    <item type="ComponentArt.Charting.LabelStyle">
+      <LiftZ type="System.Double" value="0.5" />
+      <Name type="System.String" value="Default" />
+      <Font type="System.Drawing.Font" value="Arial Unicode MS, 20pt" />
+    </item>
+    <item type="ComponentArt.Charting.LabelStyle">
+      <LiftZ type="System.Double" value="0.5" />
+      <Name type="System.String" value="DefaultAxisLabels" />
+      <Font type="System.Drawing.Font" value="Arial Unicode MS, 20pt" />
+      <ForeColor type="System.Drawing.Color" value="0, 0, 0, 0" />
+    </item>
+    <item type="ComponentArt.Charting.LabelStyle">
+      <Name type="System.String" value="AnswerStyle" />
+      <Font type="System.Drawing.Font" value="Arial Unicode MS, 20pt" />
+    </item>
+    <item type="ComponentArt.Charting.LabelStyle">
+      <Name type="System.String" value="PercentStyle" />
+      <Font type="System.Drawing.Font" value="Arial Unicode MS, 15pt" />
+    </item>
+  </LabelStyles>
+  <Palettes type="ComponentArt.Charting.PaletteCollection">
+    <item type="ComponentArt.Charting.Palette">
+      <Name type="System.String" value="Default" />
+      <PrimaryColors type="ComponentArt.Charting.ChartColorCollection" value="ffeb3200,fffefefe,ff000000,ff8c1e00,ffa9a9a9" />
+      <SecondaryColors type="ComponentArt.Charting.ChartColorCollection" value="ffff8000,ffffd700,ffc04000,ffb8860b,ffff4500" />
+      <CoordinatePlaneColor type="System.Drawing.Color" value="200, 200, 200" />
+      <CoordinatePlaneSecondaryColor type="System.Drawing.Color" value="192, 192, 192" />
+      <CoordinateLineColor type="System.Drawing.Color" value="128, 128, 128" />
+      <AxisLineColor type="System.Drawing.Color" value="169, 169, 169" />
+      <CoodinateLabelFontColor type="System.Drawing.Color" value="0, 0, 0" />
+      <DataLabelFontColor type="System.Drawing.Color" value="0, 191, 255" />
+      <BackgroundColor type="System.Drawing.Color" value="240, 240, 240" />
+      <BackgroundEndingColor type="System.Drawing.Color" value="255, 255, 255" />
+      <TwoDObjectBorderColor type="System.Drawing.Color" value="0, 0, 0" />
+      <TitleFontColor type="System.Drawing.Color" value="0, 0, 0" />
+      <FrameFontColor type="System.Drawing.Color" value="0, 0, 0" />
+      <FrameColor type="System.Drawing.Color" value="240, 240, 240" />
+      <FrameSecondaryColor type="System.Drawing.Color" value="240, 240, 240" />
+      <LegendBorderColor type="System.Drawing.Color" value="64, 64, 64" />
+      <LegendBackgroundColor type="System.Drawing.Color" value="255, 255, 196" />
+      <LegendFontColor type="System.Drawing.Color" value="0, 0, 0" />
+      <Alpha type="System.Int32" value="255" />
+    </item>
+  </Palettes>
+  <SafetyMarginsPercentage type="System.Double" value="10" />
+  <Legend type="ComponentArt.Charting.Legend">
+    <Name type="System.String" value="&lt;Default&gt;" />
+    <Ordered type="System.Boolean" value="False" />
+    <NumberOfItems type="System.Int32" value="2147483647" />
+    <Font type="System.Drawing.Font" value="Arial Unicode MS, 10pt" />
+    <FontColor type="System.Drawing.Color" value="Transparent" />
+  </Legend>
+  <Series type="ComponentArt.Charting.SeriesCollection">
+    <item type="ComponentArt.Charting.Series">
+      <StyleName type="System.String" value="Cylinder" />
+      <MarkerSizePts type="System.Double" value="0" />
+      <NumberOfPoints type="System.Int32" value="5" />
+      <HasIndependentYAxis type="System.Boolean" value="False" />
+      <Name type="System.String" value="S0" />
+    </item>
+  </Series>
+  <NumberOfSumulatedDataPoints type="System.Int32" value="5" />
+  <CoordinateSystem type="ComponentArt.Charting.CoordinateSystem">
+    <Orientation type="ComponentArt.Charting.CoordinateSystemOrientation" value="Horizontal" />
+    <XAxis type="ComponentArt.Charting.Axis">
+      <Visible type="System.Boolean" value="True" />
+      <AxisAnnotations type="ComponentArt.Charting.AxisAnnotationCollection">
+        <item type="ComponentArt.Charting.AxisAnnotation">
+          <Name type="System.String" value="X@Zmax" />
+          <Visible type="System.Boolean" value="False" />
+          <VisibleIn2D type="System.Boolean" value="False" />
+          <VisibleIn3D type="System.Boolean" value="False" />
+          <RotationAngle type="System.Double" value="0" />
+          <LiftZ type="System.Double" value="0.2" />
+          <PositionKind type="ComponentArt.Charting.AxisLinePositionKind" value="AtMaximumValue" />
+          <TickMarkStyleName type="System.String" value="Default" />
+          <AlternateAxisOrientation type="ComponentArt.Charting.AxisOrientation" value="ZAxis" />
+        </item>
+        <item type="ComponentArt.Charting.AxisAnnotation">
+          <Name type="System.String" value="X@Ymin" />
+          <RotationAngle type="System.Double" value="0" />
+          <LiftZ type="System.Double" value="0.2" />
+          <PositionKind type="ComponentArt.Charting.AxisLinePositionKind" value="AtMinimumValue" />
+          <LabelStyleName type="System.String" value="AnswerStyle" />
+          <AxisTitleStyleName type="System.String" value="Default" />
+          <TickMarkStyleName type="System.String" value="Default" />
+          <AlternateAxisOrientation type="ComponentArt.Charting.AxisOrientation" value="YAxis" />
+        </item>
+      </AxisAnnotations>
+      <CoordinateStep type="System.Double" value="1" />
+      <DefaultCoordinateSetComputation type="ComponentArt.Charting.CoordinateSetComputation" value="ByNumberOfPoints,5,1,Day,True,True" />
+    </XAxis>
+    <YAxis type="ComponentArt.Charting.Axis">
+      <Visible type="System.Boolean" value="True" />
+      <AxisAnnotations type="ComponentArt.Charting.AxisAnnotationCollection">
+        <item type="ComponentArt.Charting.AxisAnnotation">
+          <Name type="System.String" value="Y@Xmin" />
+          <RotationAngle type="System.Double" value="0" />
+          <LiftZ type="System.Double" value="0.2" />
+          <PositionKind type="ComponentArt.Charting.AxisLinePositionKind" value="AtMinimumValue" />
+          <LabelStyleName type="System.String" value="PercentStyle" />
+          <AxisTitle type="System.String" value="(%)" />
+          <AxisTitleStyleName type="System.String" value="PercentStyle" />
+          <AxisTitleOffsetPts type="System.Double" value="19" />
+          <TickMarkStyleName type="System.String" value="Default" />
+          <AlternateAxisOrientation type="ComponentArt.Charting.AxisOrientation" value="XAxis" />
+        </item>
+      </AxisAnnotations>
+      <CoordinateStep type="System.Double" value="20" />
+      <DefaultCoordinateSetComputation type="ComponentArt.Charting.CoordinateSetComputation" value="ByNumberOfPoints,5,20,Day,True,True" />
+    </YAxis>
+    <ZAxis type="ComponentArt.Charting.Axis">
+      <Visible type="System.Boolean" value="True" />
+      <CoordinateStep type="System.Double" value="1" />
+      <DefaultCoordinateSetComputation type="ComponentArt.Charting.CoordinateSetComputation" value="ByNumberOfPoints,5,1,Day,True,True" />
+    </ZAxis>
+    <PlaneYZ type="ComponentArt.Charting.CoordinatePlane">
+      <Visible type="System.Boolean" value="False" />
+    </PlaneYZ>
+    <PlaneZX type="ComponentArt.Charting.CoordinatePlane">
+      <Visible type="System.Boolean" value="False" />
+    </PlaneZX>
+  </CoordinateSystem>
+  <RenderingPrecision type="System.Double" value="0.3" />
+  <View type="ComponentArt.Charting.Mapping">
+    <Perspective type="System.Int32" value="57" />
+    <Kind type="ComponentArt.Charting.ProjectionKind" value="TwoDimensional" />
+  </View>
+  <BackColor type="System.Drawing.Color" value="Transparent" />
+  <ForeColor type="System.Drawing.Color" value="ControlText" />
+  <Height type="System.Web.UI.WebControls.Unit" value="270px" />
+  <Width type="System.Web.UI.WebControls.Unit" value="350px" />
+  <ID type="System.String" value="WebChart1" />
+</Chart>

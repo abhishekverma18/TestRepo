@@ -1,0 +1,192 @@
+
+.ForumGrid
+{
+		
+}
+
+.ForumGridLabel
+{
+	font-family: verdana,sans-serif;
+	font-size: 10px;
+	font-weight:bold;	
+}
+
+.ForumNoItemsLabel
+{
+	font-family: verdana,sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	line-height: 18px;	
+}
+
+.ForumGridHeader
+{
+	font-family: verdana,sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	text-decoration:none;
+	line-height: 18px;
+	padding:3px;
+}
+
+.ForumGridItem
+{
+	font-family: verdana,sans-serif;
+	font-size: 12px;
+}
+
+.ForumGridAlternatingItem
+{
+	font-family: verdana,sans-serif;
+	font-size: 12px;
+	
+}
+
+.ForumGridModeratorItem
+{
+	font-family: Verdana;
+	font-size: 12px;
+	
+}
+
+.ForumGridModeratorAlternatingItem
+{
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+.ForumGridSelected
+{
+ 		
+}
+
+
+.ForumGridPager
+{
+	
+}
+
+.ForumGridPager a
+{
+	
+}
+
+.ForumUserManagementDiv 
+{ 
+	padding:15px 0px 30px 4px;
+}
+
+.ForumValidatorText
+{
+	font-family: verdana,sans-serif;
+	font-size: 12px;
+	font-weight:normal;
+}
+
+.ForumText
+{
+	font-family: verdana,sans-serif;
+	font-size: 12px;
+	font-weight:normal;
+	/*line-height: 18px;*/
+}
+
+.ForumSmallText
+{
+	font-family: verdana,sans-serif;
+	font-size: 11px;
+	font-weight:normal;
+	line-height: 18px;
+}
+
+.ForumSubjectText
+{
+	font-family: verdana,sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	line-height: 18px;
+}
+
+.ForumPostTextBox
+{
+	width: 325px;
+	font-family: verdana,sans-serif;
+	font-size: 12px;
+	font-weight:normal;
+	line-height: 18px;
+}
+
+.ForumPostTitleTextBox
+{
+	width: 200px;
+	font-family: verdana,sans-serif;
+	font-size: 12px;
+	font-weight:normal;
+	line-height: 18px;
+}
+
+.ForumCurrentUserText
+{
+	font-family:Verdana, Sans-Serif;
+	font-weight:normal;
+	font-size:10px;
+}
+
+.ForumErrorMsg
+{
+	font-family: verdana,sans-serif;
+	font-size: 13px;
+	font-weight:normal;
+	line-height: 18px;
+}
+
+.ForumPostNameColumn
+{
+	width: 200px;
+	vertical-align: top;
+	font-size:11px;
+}
+
+.ForumPostColumn
+{
+	width: 80%;
+	vertical-align: top;
+	font-size:11px;
+}
+
+.ForumHidePostColumn
+{
+	width: 50px;
+	vertical-align: top;
+}
+
+.ForumPostNameHeaderColumn
+{
+	width: 200px;
+	vertical-align: top;
+}
+
+.ForumPostHeaderColumn
+{
+	width: 450px;
+	vertical-align: top;
+}
+
+.ForumPostNameDiv
+{
+	width:200px;
+	overflow: visible;
+}
+
+.ForumPostTextDiv
+{
+	width: 380px;
+	overflow: visible;
+}
+
+.ForumPostTitleDiv
+{
+	width: 380px;
+	overflow: visible;
+	font-weight: bold;
+}

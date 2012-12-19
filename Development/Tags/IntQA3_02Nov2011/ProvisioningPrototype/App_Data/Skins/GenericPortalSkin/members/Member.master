@@ -1,0 +1,126 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" MasterPageFile="../Main.Master" %>
+<%@ Import Namespace="VisionCritical.PanelPlus.OpenPortal.Controls" %>
+<%@ Import Namespace="VisionCritical.PanelPlus.OpenPortal.Controls.Controls" %>
+<%@ Import Namespace="VisionCritical.PanelPlus.OpenPortal.Controls.DataTypes" %>
+
+<%@ Register TagPrefix="scb" TagName="getscb" Src="~/_controls/scb.ascx" %>
+<%@ Register 
+    Assembly="VisionCritical.PanelPlus.OpenPortal.Controls" 
+    Namespace="VisionCritical.PanelPlus.OpenPortal.Controls.Controls"
+    TagPrefix="OpenPortalControls" %>
+
+	<asp:content id="ServerScripts" contentplaceholderid="ServerScripts" runat="server">
+	<script language="C#" runat="server">
+		protected override void OnInit(EventArgs e)
+		{
+			this.LogoutControl.LoggingOut +=new EventHandler(LogoutControl_Logout);
+			this.NewslettersControl.AllNewslettersRequested += new EventHandler(NewslettersControl_AllNewslettersRequested);
+			base.OnInit(e);
+		}
+
+		protected void LogoutControl_Logout(object o, EventArgs e)
+		{
+			this.Response.Redirect(((IOpenPortalHost)this.Page).ApplicationBaseUrl+"/default.aspx");
+		}
+
+		protected void NewslettersControl_AllNewslettersRequested(object o, EventArgs e)
+		{
+			this.Response.Redirect(((IOpenPortalHost)this.Page).SkinBaseUrl+"/members/newsletters.aspx");
+		}
+
+       protected string[] FileNameArray = new string[] {
+				"default.aspx",
+				"studies.aspx",
+                "forums.aspx"
+			};
+		protected string ActivePageLink(int pageIndex, bool getURL)
+		{
+			//Return Selected in CSS class to result different color for link if current page is shown
+			string fileName = Request.FilePath.Substring(Request.FilePath.LastIndexOf("/") + 1);
+
+            string[] fileNameArray = FileNameArray;
+
+			if (!getURL) {
+				if (fileName == fileNameArray[pageIndex-1]) { return "active"; }
+				else { return ""; }
+			}
+			else {
+				return ((IOpenPortalHost)this.Page).SkinBaseUrl + "/members/" + fileNameArray[pageIndex-1];
+			}
+		}
+	</script>
+	<asp:ContentPlaceHolder id="ServerScriptsMember" runat="server" />		
+	</asp:content>
+
+	<asp:content id="head" contentplaceholderid="head" runat="server">
+		<asp:ContentPlaceHolder id="headMember" runat="server" />
+	</asp:content>
+
+	<asp:content id="css" contentplaceholderid="css" runat="server">
+	 <link rel="stylesheet" type="text/css" href="<%=((IOpenPortalHost)this.Page).SkinBaseUrl%>/_css/member.css" media="All" />
+		<asp:ContentPlaceHolder id="cssMember" runat="server" />
+	 </asp:content>
+
+
+
+	<asp:content id="userdetail" contentplaceholderid="userdetail" runat="server">
+		<div id="userdetail">
+		    <ul>
+		        <li id="userdetail-logout"><OpenPortalControls:LogoutControl1_1 ID="LogoutControl" IncludeDefaultStyle="false" runat="server" /></li>
+				<li id="userdetail-profile"><a href="/CSTransferHandler.aspx?ps=<%=((IOpenPortalHost)this.Page).Panelist.SecureId%>&site=cs&page=user/EditProfile.aspx">My Community Profile</a></li>
+		        <li id="userdetail-update"><a href="Profile.aspx">Update User Info</a></li>
+		        <li id="userdetail-name"><%=((IOpenPortalHost)this.Page).Panelist.Name%></li>
+		    </ul>
+		</div>
+	</asp:content>
+	<asp:content id="navigation" contentplaceholderid="navigation" runat="server">
+	<div id="nav-container">
+	    <ul>				    
+	     <li id="nav-home"><a class="<%=ActivePageLink(1,false)%>" href="<%=ActivePageLink(1,true)%>" title="Home">Home</a></li>
+	     <li id="nav-studies"><a class="<%=ActivePageLink(2,false)%>" href="<%=ActivePageLink(2,true)%>" title="All Surveys">All Surveys</a></li>	
+	     <li id="nav-discussions"><a class="<%=ActivePageLink(3,false)%>" href="<%=ActivePageLink(3,true)%>" title="All Discussions">All Discussions</a></li>
+        </ul>
+	</div>
+	</asp:content>
+	
+	<asp:content id="Column1" contentplaceholderid="Column1" runat="server">
+        LEFT COLUMN HERE	
+	</asp:content>
+
+       <asp:content id="Column2" contentplaceholderid="Column2" runat="server">
+	
+		<!-- Content Place Holder //-->
+		<asp:ContentPlaceHolder id="Column2Member" runat="server" />
+		
+	</asp:content>
+
+	<asp:content id="Column3" contentplaceholderid="Column3" runat="server">
+        <!-- PANEL : Widget Quick Poll -->
+		<div class="widgets" id="wid-quick-poll">	 
+			<!-- QuickPolls -->
+			<OpenPortalControls:QuickPollControl1_1 
+			ID="QuickPoll1" 
+			IncludeDefaultStyle="false" 
+			runat="server" />  
+			<div class="clear"></div>
+		</div>
+		<!-- END PANEL : Widget Quick Poll -->
+
+
+		<!-- PANEL : Widget Newsletters List -->
+		<div class="widgets" id="wid-newsletter-list">
+				<!--Newsletters  --> 
+				<OpenPortalControls:NewslettersControl1_1 
+				ID="NewslettersControl" 
+				IncludeDefaultStyle="false" 
+				MaximumNewsletterCount="4"
+				ShowAllButton = "true" 
+				runat="server" />			
+		</div>
+		<!-- END PANEL : Widget Newsletters List -->
+	
+	</asp:content>
+
+
+
+	

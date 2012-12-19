@@ -1,0 +1,133 @@
+/*
+HOWTO : 
+
+Replace all instances of #PanelPlusDefaultNav_180 with the name of this tab style 
+	(should match the Name of the .css and the folder)
+Adjust the padding of StudyNav a to match the width of the "left" images   
+	(ie padding:0 0 0 5px; for a left image 5px wide [default])
+Adjust the offset in the :hover classes to match the size of the tabs
+	(by default each tab image is 300px high, two tabs therefor 150px offset
+	 background-position:0% -150px; )
+*/
+
+
+.PanelPlusDefaultNav_180
+{
+	letter-spacing: -0.5px;
+	font-family: verdana,sans-serif;
+	font-size: 9px;
+	cursor:hand;cursor:pointer;
+	vertical-align:middle;	
+	text-decoration:none;
+	text-transform:uppercase;
+	border-top: 1px solid #D8D8D8;
+	border-left: 1px solid #D8D8D8;
+	border-bottom: 1px solid #717171;
+	border-right: 1px solid #717171;
+	background: #C7C7C7;
+	color: #000;	
+	padding: 1px 8px 1px 8px;
+	margin: 0px 0px 0px 2px;
+	height:12px;
+	width:180px;
+	text-align:center;
+}
+
+A.PanelPlusDefaultNav_180:hover
+{
+	border-top: 1px solid #FDDC63;
+	border-left: 1px solid #FDDC63;
+	border-bottom: 1px solid #8F7512;
+	border-right: 1px solid #8F7512;
+	background: #FCCD1F;
+	color:#fff;
+}  
+
+
+.PanelPlusDefaultNav_180Disabled
+{
+	letter-spacing: -0.5px;
+	font-family: verdana,sans-serif;
+	font-size: 9px;
+	cursor:hand;cursor:pointer;
+	vertical-align:middle;	
+	text-decoration: none;
+	text-transform:uppercase;
+	border-top: 1px solid #D8D8D8;
+	border-left: 1px solid #D8D8D8;
+	border-bottom: 1px solid #717171;
+	border-right: 1px solid #717171;
+	background: #C7C7C7;
+	color: #999;	
+	padding: 1px 8px 1px 8px;
+	margin: 0px 0px 0px 2px;
+	height:12px;
+	width:180px;
+	text-align:center;
+}
+
+A.PanelPlusDefaultNav_180Disabled:hover
+{
+	text-decoration:none;
+	color: #999;
+}
+
+
+.PanelPlusHighlightNav
+{
+	letter-spacing: -0.5px;
+	font-family: verdana,sans-serif;
+	font-size: 9px;
+	vertical-align:middle;	
+	text-decoration:none;
+	text-transform:uppercase;
+	border-top: 1px solid #D8D8D8;
+	border-left: 1px solid #D8D8D8;
+	border-bottom: 1px solid #717171;
+	border-right: 1px solid #717171;
+	background: #f00;
+	color: #fff;	
+	padding: 1px 8px 1px 8px;
+	margin: 0px 0px 0px 2px;
+	height:12px;
+	width:180px;
+	text-align:center;
+}
+
+A.PanelPlusHighlightNav:hover
+{
+	border-top: 1px solid #FDDC63;
+	border-left: 1px solid #FDDC63;
+	border-bottom: 1px solid #8F7512;
+	border-right: 1px solid #8F7512;
+	background: #FCCD1F;
+	color:#fff;
+}  
+
+.PanelPlusHighlightNavDisabled
+{
+	letter-spacing: -0.5px;
+	font-family: verdana,sans-serif;
+	font-size: 9px;
+	cursor:hand;cursor: pointer;
+	vertical-align: middle;	
+	text-decoration:none;
+	text-transform:uppercase;
+	border-top: 1px solid #D8D8D8;
+	border-left: 1px solid #D8D8D8;
+	border-bottom: 1px solid #717171;
+	border-right: 1px solid #717171;
+	background: #C7C7C7;
+	color: #999;	
+	padding: 1px 8px 1px 8px;
+	margin: 0px 0px 0px 2px;
+	height:12px;
+	width:180px;
+	text-align:center;
+}
+
+A.PanelPlusHighlightNavDisabled:hover
+{
+	text-decoration:none;
+	color: #999;
+}

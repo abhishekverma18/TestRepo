@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PXML Version="1.30" xmlns="http://visioncritical.com/PXml.xsd">
+  <PanelUrl>https://showcase.visioncriticalpartners.com/Admin/</PanelUrl>
+  <PanelName>ShowcasePartners</PanelName>
+  <PanelVersion>1.0.0.0</PanelVersion>
+  <ExportDate>2011-09-01T15:18:08.6176825-07:00</ExportDate>
+  <Study Name="Profiling Study">
+    <Properties>
+      <Version>1.0</Version>
+      <Title Culture="en-CA">Profiling Study</Title>
+      <OpenDate>2009-11-20T00:00:01</OpenDate>
+      <CloseDate>2013-12-31T23:59:00</CloseDate>
+      <ShowBackButton>true</ShowBackButton>
+      <AutoNextButton>false</AutoNextButton>
+      <ShowProgressBar>false</ShowProgressBar>
+      <ShowInPortal>true</ShowInPortal>
+      <ShowInPanelReports>false</ShowInPanelReports>
+      <ShowInAdHocReport>false</ShowInAdHocReport>
+      <RenderingType>Html</RenderingType>
+      <Note><![CDATA[Leave notes for other users working on this project...]]></Note>
+      <StudyPoints>
+        <Incompleted>0</Incompleted>
+        <Completed>0</Completed>
+        <Disqualified>0</Disqualified>
+        <OverQuota>0</OverQuota>
+      </StudyPoints>
+      <DefaultThemeName>default</DefaultThemeName>
+    </Properties>
+    <Cultures>
+      <Culture Default="true" Status="Completed">en-CA</Culture>
+    </Cultures>
+    <Workflow Name="Questionnaire" AllowBack="false">
+      <Instruction Name="Welcome">
+        <Properties>
+          <FixPosition>false</FixPosition>
+          <WorkflowStepHidden>false</WorkflowStepHidden>
+          <AllowBackButton>true</AllowBackButton>
+          <RandomizeRotate>None</RandomizeRotate>
+          <RenderingType>Default</RenderingType>
+          <DoNotTranslate>false</DoNotTranslate>
+        </Properties>
+        <InstructionText Culture="en-CA">Hello and welcome to Sparq</InstructionText>
+      </Instruction>
+      <Page Name="Demographics">
+        <Properties>
+          <FixPosition>false</FixPosition>
+          <WorkflowStepHidden>false</WorkflowStepHidden>
+          <AllowBackButton>true</AllowBackButton>
+          <RandomizeRotate>None</RandomizeRotate>
+          <RenderingType>Default</RenderingType>
+          <DoNotTranslate>false</DoNotTranslate>
+        </Properties>
+        <InstructionText Culture="en-CA" />
+        <NestedSteps>
+          <Question Type="SingleChoice" Name="Gender">
+            <Properties>
+              <FixPosition>false</FixPosition>
+              <WorkflowStepHidden>false</WorkflowStepHidden>
+              <AllowBackButton>true</AllowBackButton>
+              <RandomizeRotate>None</RandomizeRotate>
+              <RenderingType>Default</RenderingType>
+              <DoNotTranslate>false</DoNotTranslate>
+              <Required>true</Required>
+              <Hidden>false</Hidden>
+              <IsCalculated>false</IsCalculated>
+              <Height>1</Height>
+              <Width>45</Width>
+              <ShowInParticipation>false</ShowInParticipation>
+              <UrlVariable>false</UrlVariable>
+              <DecryptUrlData>false</DecryptUrlData>
+              <IsScalar>false</IsScalar>
+              <ShowType>RadioButton</ShowType>
+              <AnswerContainerCount>1</AnswerContainerCount>
+              <AnswerOrientation>Vertical</AnswerOrientation>
+            </Properties>
+            <InstructionText Culture="en-CA">Please select one response only.</InstructionText>
+            <Text Culture="en-CA">&lt;P&gt;Please indicate your gender.&lt;/P&gt;</Text>
+            <Answers Count="2">
+              <Answer Code="1">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">Male</Text>
+              </Answer>
+              <Answer Code="2">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">Female</Text>
+              </Answer>
+            </Answers>
+          </Question>
+          <Question Type="SingleChoice" Name="Education">
+            <Properties>
+              <FixPosition>false</FixPosition>
+              <WorkflowStepHidden>false</WorkflowStepHidden>
+              <AllowBackButton>true</AllowBackButton>
+              <RandomizeRotate>None</RandomizeRotate>
+              <RenderingType>Default</RenderingType>
+              <DoNotTranslate>false</DoNotTranslate>
+              <Required>true</Required>
+              <Hidden>false</Hidden>
+              <IsCalculated>false</IsCalculated>
+              <Height>1</Height>
+              <Width>45</Width>
+              <ShowInParticipation>false</ShowInParticipation>
+              <UrlVariable>false</UrlVariable>
+              <DecryptUrlData>false</DecryptUrlData>
+              <IsScalar>false</IsScalar>
+              <ShowType>RadioButton</ShowType>
+              <AnswerContainerCount>1</AnswerContainerCount>
+              <AnswerOrientation>Vertical</AnswerOrientation>
+            </Properties>
+            <InstructionText Culture="en-CA">Please select one response only.</InstructionText>
+            <Text Culture="en-CA">What is the highest level of formal education you have personally completed? </Text>
+            <Answers Count="5">
+              <Answer Code="1">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">Grade School</Text>
+              </Answer>
+              <Answer Code="2">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">High School</Text>
+              </Answer>
+              <Answer Code="3">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">College</Text>
+              </Answer>
+              <Answer Code="4">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">Undergraduate</Text>
+              </Answer>
+              <Answer Code="5">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">Post Graduate</Text>
+              </Answer>
+            </Answers>
+          </Question>
+          <Question Type="OpenEnd" Name="Name">
+            <Properties>
+              <FixPosition>false</FixPosition>
+              <WorkflowStepHidden>false</WorkflowStepHidden>
+              <AllowBackButton>true</AllowBackButton>
+              <RandomizeRotate>None</RandomizeRotate>
+              <RenderingType>Default</RenderingType>
+              <DoNotTranslate>false</DoNotTranslate>
+              <Required>true</Required>
+              <Hidden>false</Hidden>
+              <IsCalculated>false</IsCalculated>
+              <Height>1</Height>
+              <Width>45</Width>
+              <ShowInParticipation>false</ShowInParticipation>
+              <UrlVariable>false</UrlVariable>
+              <DecryptUrlData>false</DecryptUrlData>
+              <IsPrivate>false</IsPrivate>
+              <ValidationType>None</ValidationType>
+            </Properties>
+            <InstructionText Culture="en-CA">Please be as specific as possible.</InstructionText>
+            <Text Culture="en-CA">Please enter your name.</Text>
+          </Question>
+          <Question Type="OpenEnd" Name="Email">
+            <Properties>
+              <FixPosition>false</FixPosition>
+              <WorkflowStepHidden>false</WorkflowStepHidden>
+              <AllowBackButton>true</AllowBackButton>
+              <RandomizeRotate>None</RandomizeRotate>
+              <RenderingType>Default</RenderingType>
+              <DoNotTranslate>false</DoNotTranslate>
+              <Required>true</Required>
+              <Hidden>false</Hidden>
+              <IsCalculated>false</IsCalculated>
+              <Height>1</Height>
+              <Width>45</Width>
+              <ShowInParticipation>false</ShowInParticipation>
+              <UrlVariable>false</UrlVariable>
+              <DecryptUrlData>false</DecryptUrlData>
+              <Format>x@x.com</Format>
+              <IsPrivate>false</IsPrivate>
+              <ValidationType>EmailAddress</ValidationType>
+            </Properties>
+            <InstructionText Culture="en-CA">Please be as specific as possible.</InstructionText>
+            <Text Culture="en-CA">Please enter your e-mail address.</Text>
+          </Question>
+          <Question Type="OpenEnd" Name="Password">
+            <Properties>
+              <FixPosition>false</FixPosition>
+              <WorkflowStepHidden>false</WorkflowStepHidden>
+              <AllowBackButton>true</AllowBackButton>
+              <RandomizeRotate>None</RandomizeRotate>
+              <RenderingType>Default</RenderingType>
+              <DoNotTranslate>false</DoNotTranslate>
+              <Required>true</Required>
+              <Hidden>false</Hidden>
+              <IsCalculated>false</IsCalculated>
+              <Height>1</Height>
+              <Width>45</Width>
+              <ShowInParticipation>false</ShowInParticipation>
+              <UrlVariable>false</UrlVariable>
+              <DecryptUrlData>false</DecryptUrlData>
+              <IsPrivate>false</IsPrivate>
+              <ValidationType>None</ValidationType>
+            </Properties>
+            <InstructionText Culture="en-CA">Please be as specific as possible.</InstructionText>
+            <Text Culture="en-CA">Please enter your password address.</Text>
+          </Question>
+          <Question Type="SingleChoice" Name="Income">
+            <Properties>
+              <FixPosition>false</FixPosition>
+              <WorkflowStepHidden>false</WorkflowStepHidden>
+              <AllowBackButton>true</AllowBackButton>
+              <RandomizeRotate>None</RandomizeRotate>
+              <RenderingType>Default</RenderingType>
+              <DoNotTranslate>false</DoNotTranslate>
+              <Required>true</Required>
+              <Hidden>false</Hidden>
+              <IsCalculated>false</IsCalculated>
+              <Height>1</Height>
+              <Width>45</Width>
+              <ShowInParticipation>false</ShowInParticipation>
+              <UrlVariable>false</UrlVariable>
+              <DecryptUrlData>false</DecryptUrlData>
+              <IsScalar>false</IsScalar>
+              <ShowType>RadioButton</ShowType>
+              <AnswerContainerCount>1</AnswerContainerCount>
+              <AnswerOrientation>Vertical</AnswerOrientation>
+            </Properties>
+            <InstructionText Culture="en-CA">Please select one response only.</InstructionText>
+            <Text Culture="en-CA">Please indicate your income level</Text>
+            <Answers Count="8">
+              <Answer Code="1">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">&amp;lt; $25,000</Text>
+              </Answer>
+              <Answer Code="2">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">$25k to $35k</Text>
+              </Answer>
+              <Answer Code="3">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">$35k to $50k</Text>
+              </Answer>
+              <Answer Code="4">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">$50k to $75k</Text>
+              </Answer>
+              <Answer Code="5">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">$75k to $100k</Text>
+              </Answer>
+              <Answer Code="6">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">$100k to $125k</Text>
+              </Answer>
+              <Answer Code="7">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">$125K or more</Text>
+              </Answer>
+              <Answer Code="8">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">Prefer not to answer</Text>
+              </Answer>
+            </Answers>
+          </Question>
+          <Question Type="SingleChoice" Name="Region">
+            <Properties>
+              <FixPosition>false</FixPosition>
+              <WorkflowStepHidden>false</WorkflowStepHidden>
+              <AllowBackButton>true</AllowBackButton>
+              <RandomizeRotate>None</RandomizeRotate>
+              <RenderingType>Default</RenderingType>
+              <DoNotTranslate>false</DoNotTranslate>
+              <Required>true</Required>
+              <Hidden>false</Hidden>
+              <IsCalculated>false</IsCalculated>
+              <Height>1</Height>
+              <Width>45</Width>
+              <ShowInParticipation>false</ShowInParticipation>
+              <UrlVariable>false</UrlVariable>
+              <DecryptUrlData>false</DecryptUrlData>
+              <IsScalar>false</IsScalar>
+              <ShowType>RadioButton</ShowType>
+              <AnswerContainerCount>1</AnswerContainerCount>
+              <AnswerOrientation>Vertical</AnswerOrientation>
+            </Properties>
+            <InstructionText Culture="en-CA">Please select one response only.</InstructionText>
+            <Text Culture="en-CA">In which region do you reside?</Text>
+            <Answers Count="14">
+              <Answer Code="1">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">Northeast US</Text>
+              </Answer>
+              <Answer Code="2">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">Southeast US</Text>
+              </Answer>
+              <Answer Code="3">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">Midwest US</Text>
+              </Answer>
+              <Answer Code="4">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">Southwest US</Text>
+              </Answer>
+              <Answer Code="5">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">Northwest US</Text>
+              </Answer>
+              <Answer Code="6">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">Western Canada</Text>
+              </Answer>
+              <Answer Code="7">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">Eastern Canada</Text>
+              </Answer>
+              <Answer Code="8">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">Atlantic Canada</Text>
+              </Answer>
+              <Answer Code="9">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">Western Europe</Text>
+              </Answer>
+              <Answer Code="10">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">Eastern Europe</Text>
+              </Answer>
+              <Answer Code="11">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">Russia</Text>
+              </Answer>
+              <Answer Code="12">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">China</Text>
+              </Answer>
+              <Answer Code="13">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">Japan</Text>
+              </Answer>
+              <Answer Code="14">
+                <Properties>
+                  <FixPosition>false</FixPosition>
+                  <ScaleValue>-32768</ScaleValue>
+                  <AnswerBoxLocation>None</AnswerBoxLocation>
+                  <Exclusive>true</Exclusive>
+                  <ExcludeFromCalculation>false</ExcludeFromCalculation>
+                  <IsHeader>false</IsHeader>
+                </Properties>
+                <Text Culture="en-CA">Other</Text>
+              </Answer>
+            </Answers>
+          </Question>
+        </NestedSteps>
+      </Page>
+      <Script Name="setupPanelist">
+        <Properties>
+          <FixPosition>false</FixPosition>
+          <WorkflowStepHidden>false</WorkflowStepHidden>
+          <AllowBackButton>true</AllowBackButton>
+          <RandomizeRotate>None</RandomizeRotate>
+          <RenderingType>Default</RenderingType>
+          <DoNotTranslate>false</DoNotTranslate>
+        </Properties>
+        <Code><![CDATA[Panelist.Password = Password;
+Panelist.Name = Name;
+Panelist.Email = Email;
+SavePanelist();
+]]></Code>
+      </Script>
+      <Termination Name="TerminateConfirm">
+        <Properties>
+          <FixPosition>false</FixPosition>
+          <WorkflowStepHidden>false</WorkflowStepHidden>
+          <AllowBackButton>true</AllowBackButton>
+          <RandomizeRotate>None</RandomizeRotate>
+          <RenderingType>Default</RenderingType>
+          <DoNotTranslate>false</DoNotTranslate>
+          <TerminationMethod>Redirect</TerminationMethod>
+          <TerminationResult>Completed</TerminationResult>
+        </Properties>
+        <InstructionText Culture="en-CA" />
+        <RedirectUrl Culture="en-CA">[%ConfirmationLink%]</RedirectUrl>
+      </Termination>
+    </Workflow>
+    <EntryQuotas />
+    <Quotas />
+  </Study>
+</PXML>

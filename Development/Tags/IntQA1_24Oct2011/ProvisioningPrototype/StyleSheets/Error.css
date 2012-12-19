@@ -1,0 +1,23 @@
+﻿#ErrorWrapper
+{
+    margin: 0 auto;
+    width: 970px;
+    padding: 10px;
+    box-shadow: 0px 0px 4px 4px Black;
+    border-radius: 8px;
+    background-color: black;
+    color: White; 
+    font-weight: 600;  
+}
+
+#ErrorHeader
+{
+    padding: 20px; 
+    background-color: White; 
+    display: inline-block; 
+    box-shadow: 0px 0px 3px 3px Red; 
+    border-radius: 8px; 
+    margin-left: 20px; 
+    background-color: rgba(255,0,0,0.04);  
+    
+}

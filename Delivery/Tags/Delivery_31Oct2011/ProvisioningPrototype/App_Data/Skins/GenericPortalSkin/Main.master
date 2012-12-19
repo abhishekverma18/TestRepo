@@ -1,0 +1,106 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" %>
+<%@ Import Namespace="VisionCritical.PanelPlus.OpenPortal.Controls" %>
+<%@ Import Namespace="VisionCritical.PanelPlus.OpenPortal.Controls.Controls" %>
+<%@ Import Namespace="VisionCritical.PanelPlus.OpenPortal.Controls.DataTypes" %>
+<%@ Register TagPrefix="scb" TagName="getscb" Src="~/_controls/scb.ascx" %>
+
+<%@ Register 
+    Assembly="VisionCritical.PanelPlus.OpenPortal.Controls" 
+    Namespace="VisionCritical.PanelPlus.OpenPortal.Controls.Controls"
+    TagPrefix="OpenPortalControls" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<script language="C#" runat="server">
+
+	 protected string MasterBaseUrl      = String.Empty;
+     
+   protected override void OnInit(EventArgs e)
+	{	
+		//If Authenticated and accessing main URL, redirect to Member
+       if (((IOpenPortalHost)this.Page).IsAuthenticated
+          && (Request.FilePath.EndsWith("/default.aspx") || Request.FilePath.EndsWith("/"))
+          && !Request.FilePath.Contains("/members/"))
+       {
+          this.Response.Redirect(((IOpenPortalHost)this.Page).SkinBaseUrl + "/members/default.aspx");
+          this.MasterBaseUrl = ((IOpenPortalHost)this.Page).SkinBaseUrl + "/members/";
+       }
+
+		else if (!((IOpenPortalHost)this.Page).IsAuthenticated && Request.FilePath.IndexOf("/members/") >= 0)
+		{
+			this.Response.Redirect(((IOpenPortalHost)this.Page).ApplicationBaseUrl+"/default.aspx");
+		}
+
+		this.MasterBaseUrl = ((IOpenPortalHost)this.Page).SkinBaseUrl;
+      
+      
+		if (Request.FilePath.IndexOf("/members/") >= 0) { 
+			this.MasterBaseUrl = ((IOpenPortalHost)this.Page).SkinBaseUrl+"/members/";
+		}
+		base.OnInit(e);
+	}
+	
+</script>
+
+<!-- Content Place Holder: Server Script //-->
+<asp:ContentPlaceHolder id="ServerScripts" runat="server">
+</asp:ContentPlaceHolder>
+
+                
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title><%= ((IOpenPortalHost)this.Page).PanelContext.ContextName %></title>
+    <!-- Study Style Sheet References //-->
+	 <link rel="stylesheet" type="text/css" href="<%=((IOpenPortalHost)this.Page).SkinBaseUrl%>/_css/reset.css">
+	 <link rel="stylesheet" type="text/css" href="<%=((IOpenPortalHost)this.Page).SkinBaseUrl%>/_css/common.css">
+	 <script type="text/javascript" src="<%=((IOpenPortalHost)this.Page).SkinBaseUrl %>/_js/jquery.js"></script>
+     <script type="text/javascript" src="<%=((IOpenPortalHost)this.Page).SkinBaseUrl %>/_js/scripts.js"></script>		
+	 <!--[if lte IE 6]>
+		<script type="text/javascript" src="<%=((IOpenPortalHost)this.Page).SkinBaseUrl %>/_js/supersleight.plugin.js"></script>
+		<script type="text/javascript" src="<%=((IOpenPortalHost)this.Page).SkinBaseUrl %>/_js/png.js"></script>
+	<![endif]-->
+    <!-- Content Place Holder: HEADER //-->
+	 <asp:ContentPlaceHolder id="head" runat="server" />
+   
+    <!-- Content Place Holder: StyleSheet Override //-->
+	 <asp:ContentPlaceHolder id="css" runat="server" />   
+</head>
+	<!--[if IE 6]><body id="<%=((IOpenPortalHost)this.Page).PanelContext.Environment %>" class="IE6"><![endif]-->
+	<!--[if IE 7]><body id="<%=((IOpenPortalHost)this.Page).PanelContext.Environment %>" class="IE7"><![endif]-->
+	<!--[if (gt IE 7)|!(IE)]><!--><body id="<%=((IOpenPortalHost)this.Page).PanelContext.Environment %>"><!--<![endif]--> 
+    <form id="form1" runat="server">
+    <div class="container">
+	    <div id="header">
+		         <asp:ContentPlaceHolder id="userdetail" runat="server" />
+		        <div id="logo"><a href="default.aspx" title="Home">home</a></div>
+		        <asp:ContentPlaceHolder id="navigation" runat="server" />    
+	    </div>	
+
+	    <div id="column-layout">
+			<div id="column-left">
+					<asp:ContentPlaceHolder id="Column1" runat="server" />
+			 </div>
+			<div id="column-main">
+					<asp:ContentPlaceHolder id="Column2" runat="server" />
+			 </div>
+			 <div id="column-right">
+					<asp:ContentPlaceHolder id="Column3" runat="server" />
+			 </div>
+			 <div class="clear"></div>
+        </div>
+		<div id="footer">
+			<div id="VCLogo"><a href="http://www.visioncritical.com" title="Vision Critical" target="_blank">Powered by Vision Critical</a></div>
+			<ul id="footer-list">
+                <li><scb:getscb ID="Getscb1" getThisID="privacy-policy" runat="server" operation="getStaticContent"></scb:getscb></li>
+                <li><scb:getscb ID="Getscb2" getThisID="web-terms" runat="server" operation="getStaticContent"></scb:getscb></li>
+                <li class="last"><scb:getscb ID="Getscb3" getThisID="tech-support" runat="server" operation="getStaticContent"></scb:getscb></li>
+			</ul>
+			<div class="clear"></div>
+        </div>
+     </div>
+   </form>
+   <iframe id="KeepAliveFrame" name="KeepAliveFrame" src="<%=((IOpenPortalHost)this.Page).SkinBaseUrl + "/KeepAlive.aspx" %>" 
+width="1" height="1" frameborder="0" />
+</body>
+</html>

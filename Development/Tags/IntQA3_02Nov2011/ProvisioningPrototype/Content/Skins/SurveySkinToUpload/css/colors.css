@@ -1,0 +1,299 @@
+body{
+	/*%%BackgroundColor*/
+}
+
+/*************************
+
+
+COLORS
+*************************/
+
+/* GLOBALS */
+html,body,td,th{color: #4d4d4d;}
+A{color: #649ed7;}
+A:hover{ color: #459ff7;}
+#MessageLabel, .errorMsg
+{
+	background-color:#ff6767;
+	border: 1px solid #f83809;	
+	color: #ffffff !important;
+}
+.contentBlock{background:#eee;}
+.headerBlock{background:#ffffff;}
+
+
+/* TEXT COLORS */
+.QuestionText, 
+.FinishText
+{
+	color: #333333;	
+}
+
+.InstructionText
+{
+    color: #4c504d;
+}
+
+.OptionText
+{
+	color: #333333;
+}
+
+.OptionTextHorizontal
+{
+	color: #333333;
+}
+
+.OptionHeaderText
+{
+	color: #333333;
+}
+
+
+/* HEADER */
+.helpTitle{color: #4d4d4d;}
+.helpText{color: #4d4d4d;}
+.helpText A{color: #649ed7;}
+.helpText A:hover{color: #459ff7;}
+
+/* Use if login page and panelist page have different background colors */
+/*
+.top .helpText{color:#4D4D4D;}
+.top .helpTitle{color:#4D4D4D;}
+*/
+
+
+/* FOOTER */
+.footerLink{color:#4d4d4d;}
+.footerLink:hover{color:#4d4d4d;}
+#PrivacyLink{color:#4d4d4d;}
+
+
+/* PANELISTS PAGE */
+.userInfoTitle
+{
+	color:#FFFFFF;
+	background-color:#777777;
+}
+.newsletterTitle
+{
+	color:#FFFFFF;
+	background-color:#777777;
+}
+.newsletterLink
+{
+	color:#4d4d4d;
+}
+.quickpollTitle
+{
+	color:#FFFFFF;
+	background-color:#777777;
+}
+.studylinkTitle
+{
+	color:#FFFFFF;
+	background-color:#777777;
+}
+.studylinkLink
+{
+	color:#4d4d4d;
+}
+.studyListOpenTitle
+{
+	color:#FFFFFF;
+	background-color: #777777; 
+}
+.studylistItemRow{background-color:#dddddd;}
+#NoOpenStudiesLabel{background-color:#dddddd;}
+#userInfo{background-color:#dddddd;}
+#incentiveInfo{background-color:#dddddd;}
+#newsletterInfo{background-color:#dddddd;}
+#quickpollInfo{background-color:#dddddd;}
+#studylinkInfo{background-color:#dddddd;}
+
+/* GRID COLORS */
+.ResponseGridHeaderTd, 
+.ResponseAllocGridTotalLabel,
+.ResponseAllocGridTotalInput
+{
+	color: #FFFFFF;
+	background-color: #4c504d;
+}
+
+.ResponseGridTd
+{
+	background-color: #aab39e;
+	color: #57585C;
+}
+
+.ResponseGridTdAlternate
+{
+	background-color: #d1d7ca;
+	color: #57585C;
+}
+
+.ResponseGridTdLabelCol
+{
+	color: #594642;
+	background-color: #aab39e;
+}
+
+.ResponseGridTdLabelColAlternate
+{
+	color: #594642;
+	background-color: #d1d7ca;
+}
+
+.ResponseGridTd_sel{background:#4c504d;}
+.ResponseGridTdAlternate_sel{background:#4c504d;}
+
+/* BUTTONS */
+
+.ForgotPasswordButton{
+	width: 95px !important;
+	text-decoration: underline;
+}
+
+#LoginModule_LoginButton{
+	
+}
+
+#SubmitUserNameButton,
+#SubmitEmailAddressButton,
+#SubmitPasswordButton,
+#LoginModule_LoginButton {
+  border-bottom:1px solid #A64E07;
+  border-right:1px solid #A64E07;
+  border-top:1px solid #FDAF5B;
+  border-left:1px solid #FDAF5B;
+  background-color: #FB962A;
+  color: #000;
+  text-decoration: none;
+}
+
+#SubmitUserNameButton:hover,
+#SubmitPasswordButton:hover,
+#SubmitEmailAddressButton:hover,
+#LoginModule_LoginButton:hover {
+	border-bottom:1px solid #A64E07;
+    border-right:1px solid #A64E07;
+    border-top:1px solid #FD9446;
+    border-left:1px solid #FD9446;
+    background-color: #F97819;  
+    text-decoration: none;
+}
+
+
+#CancelUserNameButton,
+#CancelEmailButton,
+#CancelPasswordButton
+ 
+{
+  border-bottom:1px solid #848484;
+  border-right:1px solid #848484;
+  border-top:1px solid #ffffff;
+  border-left:1px solid #ffffff;
+  background-color: #DBDBDB;
+  color: #5C5B5B;
+  text-decoration: none;
+}
+
+
+#CancelUserNameButton:hover,
+#CancelEmailButton:hover,
+#CancelPasswordButton:hover
+
+{
+    border-bottom:1px solid #848484;
+    border-right:1px solid #848484;
+    border-top:1px solid #dddddd;
+    border-left:1px solid #dddddd;
+    background-color: #BCBCBC; 
+    text-decoration: none;
+}
+
+
+/* FORUM */
+
+.ForumGridLabel
+{
+	color: #333333;	
+}
+
+.ForumNoItemsLabel
+{
+	color: #CC0000;	
+}
+
+.ForumGridHeader
+{
+	color: #FFFFFF;
+	background-color: #3A1000;
+}
+
+.ForumGridItem
+{
+	background-color: #E1DCD0;
+	color: #57585C;
+}
+
+.ForumGridAlternatingItem
+{
+	background-color: #E8E4DB;
+	color: #57585C;	
+	
+}
+
+.ForumGridModeratorItem
+{
+	background-color: #b6c4cb;
+	color: #57585C;
+	
+}
+
+.ForumGridModeratorAlternatingItem
+{
+	background-color: #bccbcf;
+	color: #57585C;
+}
+
+.ForumValidatorText
+{
+	color: #CC0000;
+}
+
+.ForumText
+{
+	color: #333333;
+}
+
+.ForumSmallText
+{
+	color: #333333;
+}
+
+.ForumSubjectText
+{
+	color: #333333;
+}
+
+.ForumPostTextBox
+{
+	color: #333333;
+}
+
+.ForumPostTitleTextBox
+{
+	color: #333333;
+}
+
+.ForumCurrentUserText
+{
+	color:#2C200D;
+}
+
+.ForumErrorMsg
+{
+	color: #CC0000;
+}
+

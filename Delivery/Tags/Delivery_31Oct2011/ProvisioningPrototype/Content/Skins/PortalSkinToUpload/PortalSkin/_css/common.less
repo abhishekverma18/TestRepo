@@ -1,0 +1,108 @@
+@import "globals.less";
+@header-background-color: transparent;
+
+body
+{
+	font-size: @default-font-size;
+	font-family: @font-family;
+}
+a, a:visited
+{
+	text-decoration: @general-linknormal-style;
+	color: @general-link-color;
+	&:hover{text-decoration: @general-linkhover-style;}
+}
+h1
+{
+	color: @general-h1-color;
+	font-size: @general-h1-size;
+	font-weight: @general-h1-weight;
+	margin: @general-h1-margin;
+	padding: @general-h1-padding;
+}
+h2
+{
+	color: @general-h2-color;
+	font-size: @general-h2-size;
+	font-weight: @general-h2-weight;
+	margin: @general-h2-margin;
+	padding: @general-h2-padding;
+}
+
+#header
+{
+	border-bottom: 1px solid #b9b9b9;
+	#container > .default(@main-container-width, @header-height, none, 0, 0 0 0 0, block, inherit, transparent);
+	background: url("@{image-rel-link}@{header-image}") no-repeat 0 0;
+	#logo{
+		width: 100%;
+		height: 100%;
+		a{
+			text-indent: -5000px;
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
+.container {
+	#container > .withminheight(@main-container-width, auto, none, 0 auto, 0 0 0 0, block, inherit, 200px, none);
+}
+.clear
+{
+	clear: both;
+}
+#column-layout {
+    width: 980px; /*need for IE6*/
+}
+.widgets
+{
+	line-height: @default-line-height;
+}
+#VCLogo {
+    margin: 5px 0 0 0;
+    float: right;
+    display: block;
+    width: 114px;
+    height: 33px;
+}
+
+#VCLogo a {
+	height: 33px;
+	display: block;
+	width: 114px;
+	background: url(https://logo.visioncriticalpanels.com/vclogo_darkgrey.png) 0 0 no-repeat;
+	text-indent: -5000px;   
+}
+@footer-text-color: #333333;
+@footer-font-size: 11px;
+#footer{
+	padding-top: 10px;
+	border-top: 1px solid #b9b9b9;
+	#footer-list
+	{
+		float: left;
+		li
+		{
+			font-size: @footer-font-size;
+			float: left;
+			color: @footer-text-color;
+			list-style: none;
+			padding: 0 10px;
+			border-right: 1px solid @footer-text-color;
+			&.last{
+				border: 0;
+				color: @footer-text-color;
+			}
+			a{
+				color: @footer-text-color;
+				font-size: @footer-font-size;
+			}
+		}
+	}
+}
+#KeepAliveFrame
+{
+	display: none;
+	visibility: none;
+}

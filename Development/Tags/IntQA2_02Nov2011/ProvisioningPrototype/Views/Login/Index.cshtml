@@ -1,0 +1,55 @@
+﻿@model ProvisioningPrototype.Models.LoginModel
+@{
+    ViewBag.Title = "Sparq Provisioning Tool";
+}
+<script type="text/javascript" src="../../Scripts/LoginPage.js"></script>
+
+@using (Html.BeginForm("SaveAndContinue", "Login", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{ <div>
+    <div id="loginPage">
+        <table id ="tablelayout">
+            <tr>
+                <td>
+                    Panel Admin Email:
+                </td>
+                <td>@Html.TextBoxFor(m => m.PanelAdminEmail)
+                @Html.ValidationMessageFor(m=>m.PanelAdminEmail)
+                
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Password:
+                </td>
+                <td>@Html.EditorFor(m => m.PanelPassword)
+                @Html.ValidationMessageFor(m=>m.PanelPassword)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    PanelUrl:
+                </td>
+                <td>@Html.TextBoxFor(m => m.PanelAdminUrl)
+                @Html.ValidationMessageFor(m=>m.PanelAdminUrl)
+                </td>
+                <td>e.g. https://www.quicksetup.visioncriticalpanels.com/Admin/ </td>
+            </tr>
+            <tr>
+                <td>
+                 @Html.CheckBoxFor(m => m.OfflineMode) Offline mode
+                </td>
+                <td>
+               
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td>
+                    <input  type="image" name="SaveAndContinue" src="../../Content/img/Next.png" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    </div>
+}

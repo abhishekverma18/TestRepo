@@ -1,0 +1,105 @@
+
+.MagGrid_sort_images_single .RadDockableObjectFixed, 
+.MagGrid_sort_images_single .RadDockableObjectDisabled
+{
+ border:0px;
+ margin:0px; 
+}
+
+.MagGrid_sort_images_single .RadDockableObjectTitleBarRight
+{
+padding:0px;
+}
+
+.MagGrid_sort_images_single .RadDockableObjectTitleBarLeft
+{
+padding:0px;
+}
+
+.MagGrid_sort_images_single .RadDockingZone
+{
+border:0px;
+padding:0px;
+}
+
+.MagGrid_sort_images_single .RadDockableObjectTitleBar
+{
+border:0px;
+background-color:#D7D7D5;
+padding:0px !important;
+margin:0px;
+
+}
+
+.MagGrid_sort_images_single .RadDockableObjectTitle
+{
+width:300px;
+padding:0px !important;
+border:0px;
+margin:0px;
+text-align:center;
+color:black;
+font-weight:normal;
+font-size:12px;
+font-family: verdana, arial, sans-serif;
+white-space:normal;
+display:block;
+}
+
+.MagGrid_sort_images_single .MagneticGrid_Dockables
+{
+
+width:315px;
+float:left;
+margin:0px;
+margin-top:7px;
+border:0px;
+clear:both;
+height:400px;
+}
+
+
+.MagGrid_sort_images_single .MagneticGrid_Zones
+{
+float: right;
+background:transparent;
+padding:0px;
+margin:0px 0px 4px 0px;
+}
+
+.MagGrid_sort_images_single .MagneticGrid_Zone1, 
+.MagGrid_sort_images_single .MagneticGrid_Zone2, 
+.MagGrid_sort_images_single .MagneticGrid_Zone3, 
+.MagGrid_sort_images_single .MagneticGrid_Zone4, 
+.MagGrid_sort_images_single .MagneticGrid_Zone5, 
+.MagGrid_sort_images_single .MagneticGrid_Zone6, 
+.MagGrid_sort_images_single .MagneticGrid_Zone0,
+.MagGrid_sort_images_single .MagneticGrid_Zone7,
+.MagGrid_sort_images_single .MagneticGrid_Zone8
+{
+width:340px;
+height:100px;
+background:#eee;
+overflow: auto;
+margin:5px;
+border:2px solid #fff;
+font-weight:bold;
+font-size:12px;
+font-family:verdana, arial, sans-serif;
+text-align:center;
+ scrollbar-face-color: #eee;
+ scrollbar-track-color: #cdc;
+ scrollbar-highlight-color: #ddd;
+ scrollbar-3dlight-color: #F7F7E4;
+ scrollbar-shadow-color: #C3C3B7;
+ scrollbar-darkshadow-color: #D1D1BE;
+ scrollbar-arrow-color: #545441;
+
+
+}
+
+.MagGrid_sort_images_single .RadDockableObjectVerticalGrip
+{
+	width: auto ;
+	background-color: #fff;	
+}

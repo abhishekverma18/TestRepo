@@ -1,0 +1,219 @@
+/*
+	In Panel 3.9, magnetic grids are largely templated via inline style
+	tags. These style tags are in library versions of the grid and only 
+	work if the classes in this file have not already been defined. Therefore
+	the code for magnetic grid rendering will only include this file when the 
+	grid itself does not define it's own style (match on <style> and .Rad*)
+	
+	In future versions the templates will all become css files included based
+	on a property of the mag grid. 
+ */
+
+/* left side */
+
+ 
+
+.MagGrid_default .RadDockableObjectFixed, 
+.MagGrid_default .RadDockableObjectDisabled
+
+{
+
+ border:0px;
+
+ margin:0px; 
+
+}
+
+ 
+
+.MagGrid_default .RadDockableObjectTitleBarRight
+
+{
+
+padding:0px;
+
+}
+
+ 
+
+.MagGrid_default .RadDockableObjectTitleBarLeft
+
+{
+
+padding:0px;
+
+}
+
+ 
+
+.MagGrid_default .RadDockingZone
+
+{
+border:0px;
+
+padding:0px;
+
+}
+
+ 
+
+.MagGrid_default .RadDockableObjectTitleBar
+
+{
+
+border:0px;
+
+background-color: #fff;
+
+filter:alpha(opacity=60);
+
+moz-opacity:0.6;
+
+opacity:0.6;
+
+padding:0px !important;
+
+margin-right:2px;
+
+margin-top:4px;
+
+}
+
+ 
+
+.MagGrid_default .RadDockableObjectTitle
+
+{
+
+width:140px;
+
+padding:3px !important;
+
+padding-left:8px !important;
+
+border:0px;
+
+margin:0px;
+
+color:#000;
+
+font-weight:normal;
+
+font-size:12px;
+
+font-family: verdana, arial, sans-serif;
+
+text-align:left; 
+
+white-space:normal;
+
+display:block;
+
+}
+
+ 
+
+.MagGrid_default .MagneticGrid_Dockables
+
+{
+
+width:153px;
+
+float:left;
+
+margin:0px;
+
+border:0px;
+
+padding:0px;
+
+clear:both;
+
+height:400px;
+
+}
+
+ 
+
+ 
+
+/* right side */
+
+ 
+
+.MagGrid_default .MagneticGrid_Zones
+
+{
+width:520px;
+
+float: right;
+
+background:transparent;
+
+padding:2px;
+
+margin:0px 0px 4px 2px;
+
+ 
+
+}
+
+ 
+
+.MagGrid_default .MagneticGrid_Zone1,
+.MagGrid_default .MagneticGrid_Zone2, 
+.MagGrid_default .MagneticGrid_Zone3, 
+.MagGrid_default .MagneticGrid_Zone4, 
+.MagGrid_default .MagneticGrid_Zone5, 
+.MagGrid_default .MagneticGrid_Zone6, 
+.MagGrid_default .MagneticGrid_Zone0,
+.MagGrid_default .MagneticGrid_Zone7,
+.MagGrid_default .MagneticGrid_Zone8
+
+{
+
+width:170px;
+
+height:170px;
+
+float:left;
+
+background:#ccc;
+
+background-repeat:no-repeat;
+
+background-position:center;
+
+overflow: auto;
+
+margin:2px;
+
+white-space:normal;
+
+display:block;
+
+scrollbar-face-color: #eee;
+
+scrollbar-track-color: #cdc;
+
+scrollbar-highlight-color: #ddd;
+
+scrollbar-3dlight-color: #F7F7E4;
+
+scrollbar-shadow-color: #C3C3B7;
+
+scrollbar-darkshadow-color: #D1D1BE;
+
+scrollbar-arrow-color: #545441;
+
+ 
+
+}
+
+
+.MagGrid_default .RadDockableObjectVerticalGrip
+{
+	width: auto ;
+	background-color: #fff;	
+}
+

@@ -1,0 +1,42 @@
+.changeButtons
+{
+	height:38px;
+}
+
+.ChangeEmailButton, 
+.ChangePasswordButton 
+{
+  display:block;
+  width:180px;
+  text-align:center;
+  margin-bottom:5px;
+  min-height: 12px;
+}
+
+#LoginModule_LoginButton
+{
+	height:28px;	
+	text-align:center; 
+	padding-top:6px;
+}
+
+
+.ForgotPasswordButton
+{
+  top: 20px;
+  float:right;
+  height:12px;
+}
+
+.LoginButton
+{
+	position:relative;
+	top: -20px;
+	float:right;
+	height:12px;	
+}
+
+.LoginSpacer
+{
+	height:26;
+}

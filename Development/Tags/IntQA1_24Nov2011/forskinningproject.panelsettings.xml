@@ -1,0 +1,1827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelSettings>
+  <xmlSerializerSection type="VisionCritical.PanelPlus.Configuration.PanelSettings, VisionCritical.PanelPlus.Configuration, Version=4.3.0.0, Culture=neutral, PublicKeyToken=19a4cbc24ab2b3b5">
+    <PanelSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <Name>ForSkinningProject</Name>
+      <CompanyName>Vision Critical Inc.</CompanyName>
+      <ProductName>Sparq</ProductName>
+      <PanelId>87ac655b-7e22-4a58-8e81-1c6a8da5a27c</PanelId>
+      <Contexts>
+        <Context Culture="en-CA" Environment="DEFAULT" IsHidden="true">
+          <PrivacyPolicyLink />
+          <Name>ch Portal</Name>
+          <ShortTimeFormat>h:mm tt</ShortTimeFormat>
+          <ShortDateFormat>MMM-d-yyyy</ShortDateFormat>
+          <LongDateFormat>dddd, MMMM d, yyyy</LongDateFormat>
+          <PanelistPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[a-zA-Z]).{6,12}$</PanelistPasswordRegex>
+          <PanelPlusUserPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[A-Z])(?=[^ ]*[a-z]).{6,12}$</PanelPlusUserPasswordRegex>
+          <ReturnEmailAddress>vcadmin@visioncritical.com</ReturnEmailAddress>
+          <ReturnEmailPassword>Password1</ReturnEmailPassword>
+          <TechSupportEmail>vcadmin@visioncritical.com</TechSupportEmail>
+          <TechSupportPhone>604-111-1111</TechSupportPhone>
+          <ReturnEmailName>ForSkinningProject</ReturnEmailName>
+          <TechSupportStudyLink>http://www.google.com/survey</TechSupportStudyLink>
+          <MediaServer>/MediaServer</MediaServer>
+          <AdminBaseUrl>http://ForSkinningProject.bostaff.test.com/Admin/</AdminBaseUrl>
+          <AdminSkinPath>s97104/</AdminSkinPath>
+          <AdminJavascriptPath>js96601/</AdminJavascriptPath>
+          <PortalBaseUrl>http://ForSkinningProject.bostaff.test.com/</PortalBaseUrl>
+          <PortalJavascriptPath>js96174/</PortalJavascriptPath>
+          <PortalFlashPath>f63180/</PortalFlashPath>
+          <OpenPortalLiveBaseUrl>http://ForSkinningProject.bostaff.test.com/Portal/</OpenPortalLiveBaseUrl>
+          <OpenPortalSkinFolder>DEFAULTenCA</OpenPortalSkinFolder>
+          <OpenPortalTestBaseUrl>http://ForSkinningProject.bostaff.test.com/PortalStaging/</OpenPortalTestBaseUrl>
+          <PortalSkinPath>skin/DEFAULTenCA/</PortalSkinPath>
+          <TranslationBaseUrl>http://ForSkinningProject.bostaff.test.com/Translation/</TranslationBaseUrl>
+          <TranslationSkinPath>skin/</TranslationSkinPath>
+          <ReportingBaseUrl>http://ForSkinningProject.bostaff.test.com/Reporting/</ReportingBaseUrl>
+          <ShelfsetBuilderBaseUrl>http://ForSkinningProject.bostaff.test.com/ShelfsetBuilder/</ShelfsetBuilderBaseUrl>
+          <StudyPointsDescription>points</StudyPointsDescription>
+          <PointsFormatString>0</PointsFormatString>
+          <PointTransactionHistoryMonthsPerPage>3</PointTransactionHistoryMonthsPerPage>
+          <UnsubscribedSuccessfullyMessage>Thank you, your email address has been removed from the panel.</UnsubscribedSuccessfullyMessage>
+          <ForgotPassword>Forgot Password?</ForgotPassword>
+          <NowAPanelist>Congratulations, you are now a panelist.</NowAPanelist>
+          <PanelistPortalLogin>Login to the Panelist Portal.</PanelistPortalLogin>
+          <UnsubscribeMessage>To unsubscribe click here</UnsubscribeMessage>
+          <ConfirmUnsubscribe>Please click the button below to confirm that you want to unsubscribe the following email address:</ConfirmUnsubscribe>
+          <PrePanelNameWelcome>Welcome to the </PrePanelNameWelcome>
+          <PostPanelNameWelcome>. Thank you for your participation.&lt;br&gt;&lt;br&gt;Please select from the following options:</PostPanelNameWelcome>
+          <InvalidPasswordFormatMessage>Please enter an alpha-numeric password between 6 and 12 characters including at least one number.</InvalidPasswordFormatMessage>
+          <CommunityTermsAndInstructions />
+          <CommunityUsernameLabel />
+          <CommunityUsernameSubmitButtonLabel />
+          <Notifications>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Admin" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Author" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Observer" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+          </Notifications>
+          <DecimalDelimiterOverride />
+        </Context>
+        <Context Culture="en-CA" Environment="QuickPreview1" IsHidden="true">
+          <PrivacyPolicyLink />
+          <Name>Chris Inc Portal</Name>
+          <ShortTimeFormat>h:mm tt</ShortTimeFormat>
+          <ShortDateFormat>MMM-d-yyyy</ShortDateFormat>
+          <LongDateFormat>dddd, MMMM d, yyyy</LongDateFormat>
+          <PanelistPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[a-zA-Z]).{6,12}$</PanelistPasswordRegex>
+          <PanelPlusUserPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[A-Z])(?=[^ ]*[a-z]).{6,12}$</PanelPlusUserPasswordRegex>
+          <ReturnEmailAddress>vcadmin@visioncritical.com</ReturnEmailAddress>
+          <ReturnEmailPassword>Password1</ReturnEmailPassword>
+          <TechSupportEmail>vcadmin@visioncritical.com</TechSupportEmail>
+          <TechSupportPhone>604-111-1111</TechSupportPhone>
+          <ReturnEmailName>ForSkinningProject</ReturnEmailName>
+          <TechSupportStudyLink>http://www.google.com/survey</TechSupportStudyLink>
+          <MediaServer>/MediaServer</MediaServer>
+          <AdminBaseUrl>http://ForSkinningProject.bostaff.test.com/Admin/</AdminBaseUrl>
+          <AdminSkinPath>s97104/</AdminSkinPath>
+          <AdminJavascriptPath>js96601/</AdminJavascriptPath>
+          <PortalBaseUrl>http://nugm.bostaff.test.com/</PortalBaseUrl>
+          <PortalJavascriptPath>js96174/</PortalJavascriptPath>
+          <PortalFlashPath>f63180/</PortalFlashPath>
+          <OpenPortalLiveBaseUrl>http://nugm.bostaff.test.com/Portal/</OpenPortalLiveBaseUrl>
+          <OpenPortalSkinFolder />
+          <OpenPortalTestBaseUrl>http://nugm.bostaff.test.com/PortalStaging/</OpenPortalTestBaseUrl>
+          <PortalSkinPath>skin/QuickPreview1enCA/</PortalSkinPath>
+          <TranslationBaseUrl>http://ForSkinningProject.bostaff.test.com/Translation/</TranslationBaseUrl>
+          <TranslationSkinPath>skin/</TranslationSkinPath>
+          <ReportingBaseUrl>http://ForSkinningProject.bostaff.test.com/Reporting/</ReportingBaseUrl>
+          <ShelfsetBuilderBaseUrl>http://ForSkinningProject.bostaff.test.com/ShelfsetBuilder/</ShelfsetBuilderBaseUrl>
+          <StudyPointsDescription>points</StudyPointsDescription>
+          <PointsFormatString>0</PointsFormatString>
+          <PointTransactionHistoryMonthsPerPage>3</PointTransactionHistoryMonthsPerPage>
+          <UnsubscribedSuccessfullyMessage>Thank you, your email address has been removed from the panel.</UnsubscribedSuccessfullyMessage>
+          <ForgotPassword>Forgot Password?</ForgotPassword>
+          <NowAPanelist>Congratulations, you are now a panelist.</NowAPanelist>
+          <PanelistPortalLogin>Login to the Panelist Portal.</PanelistPortalLogin>
+          <UnsubscribeMessage>To unsubscribe click here</UnsubscribeMessage>
+          <ConfirmUnsubscribe>Please click the button below to confirm that you want to unsubscribe the following email address:</ConfirmUnsubscribe>
+          <PrePanelNameWelcome>Welcome to the </PrePanelNameWelcome>
+          <PostPanelNameWelcome>. Thank you for your participation.&lt;br&gt;&lt;br&gt;Please select from the following options:</PostPanelNameWelcome>
+          <InvalidPasswordFormatMessage>Please enter an alpha-numeric password between 6 and 12 characters including at least one number.</InvalidPasswordFormatMessage>
+          <CommunityTermsAndInstructions />
+          <CommunityUsernameLabel />
+          <CommunityUsernameSubmitButtonLabel />
+          <Notifications>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Admin" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Author" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Observer" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+          </Notifications>
+          <DecimalDelimiterOverride />
+        </Context>
+        <Context Culture="en-CA" Environment="QuickPreview2" IsHidden="true">
+          <PrivacyPolicyLink />
+          <Name>wer Portal</Name>
+          <ShortTimeFormat>h:mm tt</ShortTimeFormat>
+          <ShortDateFormat>MMM-d-yyyy</ShortDateFormat>
+          <LongDateFormat>dddd, MMMM d, yyyy</LongDateFormat>
+          <PanelistPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[a-zA-Z]).{6,12}$</PanelistPasswordRegex>
+          <PanelPlusUserPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[A-Z])(?=[^ ]*[a-z]).{6,12}$</PanelPlusUserPasswordRegex>
+          <ReturnEmailAddress>vcadmin@visioncritical.com</ReturnEmailAddress>
+          <ReturnEmailPassword>Password1</ReturnEmailPassword>
+          <TechSupportEmail>vcadmin@visioncritical.com</TechSupportEmail>
+          <TechSupportPhone>604-111-1111</TechSupportPhone>
+          <ReturnEmailName>ForSkinningProject</ReturnEmailName>
+          <TechSupportStudyLink>http://www.google.com/survey</TechSupportStudyLink>
+          <MediaServer>/MediaServer</MediaServer>
+          <AdminBaseUrl>http://ForSkinningProject.bostaff.test.com/Admin/</AdminBaseUrl>
+          <AdminSkinPath>s97104/</AdminSkinPath>
+          <AdminJavascriptPath>js96601/</AdminJavascriptPath>
+          <PortalBaseUrl>http://ublz.bostaff.test.com/</PortalBaseUrl>
+          <PortalJavascriptPath>js96174/</PortalJavascriptPath>
+          <PortalFlashPath>f63180/</PortalFlashPath>
+          <OpenPortalLiveBaseUrl>http://ublz.bostaff.test.com/Portal/</OpenPortalLiveBaseUrl>
+          <OpenPortalSkinFolder />
+          <OpenPortalTestBaseUrl>http://ublz.bostaff.test.com/PortalStaging/</OpenPortalTestBaseUrl>
+          <PortalSkinPath>skin/QuickPreview2enCA/</PortalSkinPath>
+          <TranslationBaseUrl>http://ForSkinningProject.bostaff.test.com/Translation/</TranslationBaseUrl>
+          <TranslationSkinPath>skin/</TranslationSkinPath>
+          <ReportingBaseUrl>http://ForSkinningProject.bostaff.test.com/Reporting/</ReportingBaseUrl>
+          <ShelfsetBuilderBaseUrl>http://ForSkinningProject.bostaff.test.com/ShelfsetBuilder/</ShelfsetBuilderBaseUrl>
+          <StudyPointsDescription>points</StudyPointsDescription>
+          <PointsFormatString>0</PointsFormatString>
+          <PointTransactionHistoryMonthsPerPage>3</PointTransactionHistoryMonthsPerPage>
+          <UnsubscribedSuccessfullyMessage>Thank you, your email address has been removed from the panel.</UnsubscribedSuccessfullyMessage>
+          <ForgotPassword>Forgot Password?</ForgotPassword>
+          <NowAPanelist>Congratulations, you are now a panelist.</NowAPanelist>
+          <PanelistPortalLogin>Login to the Panelist Portal.</PanelistPortalLogin>
+          <UnsubscribeMessage>To unsubscribe click here</UnsubscribeMessage>
+          <ConfirmUnsubscribe>Please click the button below to confirm that you want to unsubscribe the following email address:</ConfirmUnsubscribe>
+          <PrePanelNameWelcome>Welcome to the </PrePanelNameWelcome>
+          <PostPanelNameWelcome>. Thank you for your participation.&lt;br&gt;&lt;br&gt;Please select from the following options:</PostPanelNameWelcome>
+          <InvalidPasswordFormatMessage>Please enter an alpha-numeric password between 6 and 12 characters including at least one number.</InvalidPasswordFormatMessage>
+          <CommunityTermsAndInstructions />
+          <CommunityUsernameLabel />
+          <CommunityUsernameSubmitButtonLabel />
+          <Notifications>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Admin" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Author" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Observer" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+          </Notifications>
+          <DecimalDelimiterOverride />
+        </Context>
+        <Context Culture="en-CA" Environment="QuickPreview3" IsHidden="true">
+          <PrivacyPolicyLink />
+          <Name>cwer Portal</Name>
+          <ShortTimeFormat>h:mm tt</ShortTimeFormat>
+          <ShortDateFormat>MMM-d-yyyy</ShortDateFormat>
+          <LongDateFormat>dddd, MMMM d, yyyy</LongDateFormat>
+          <PanelistPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[a-zA-Z]).{6,12}$</PanelistPasswordRegex>
+          <PanelPlusUserPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[A-Z])(?=[^ ]*[a-z]).{6,12}$</PanelPlusUserPasswordRegex>
+          <ReturnEmailAddress>vcadmin@visioncritical.com</ReturnEmailAddress>
+          <ReturnEmailPassword>Password1</ReturnEmailPassword>
+          <TechSupportEmail>vcadmin@visioncritical.com</TechSupportEmail>
+          <TechSupportPhone>604-111-1111</TechSupportPhone>
+          <ReturnEmailName>ForSkinningProject</ReturnEmailName>
+          <TechSupportStudyLink>http://www.google.com/survey</TechSupportStudyLink>
+          <MediaServer>/MediaServer</MediaServer>
+          <AdminBaseUrl>http://ForSkinningProject.bostaff.test.com/Admin/</AdminBaseUrl>
+          <AdminSkinPath>s97104/</AdminSkinPath>
+          <AdminJavascriptPath>js96601/</AdminJavascriptPath>
+          <PortalBaseUrl>http://a1r8.bostaff.test.com/</PortalBaseUrl>
+          <PortalJavascriptPath>js96174/</PortalJavascriptPath>
+          <PortalFlashPath>f63180/</PortalFlashPath>
+          <OpenPortalLiveBaseUrl>http://a1r8.bostaff.test.com/Portal/</OpenPortalLiveBaseUrl>
+          <OpenPortalSkinFolder />
+          <OpenPortalTestBaseUrl>http://a1r8.bostaff.test.com/PortalStaging/</OpenPortalTestBaseUrl>
+          <PortalSkinPath>skin/QuickPreview3enCA/</PortalSkinPath>
+          <TranslationBaseUrl>http://ForSkinningProject.bostaff.test.com/Translation/</TranslationBaseUrl>
+          <TranslationSkinPath>skin/</TranslationSkinPath>
+          <ReportingBaseUrl>http://ForSkinningProject.bostaff.test.com/Reporting/</ReportingBaseUrl>
+          <ShelfsetBuilderBaseUrl>http://ForSkinningProject.bostaff.test.com/ShelfsetBuilder/</ShelfsetBuilderBaseUrl>
+          <StudyPointsDescription>points</StudyPointsDescription>
+          <PointsFormatString>0</PointsFormatString>
+          <PointTransactionHistoryMonthsPerPage>3</PointTransactionHistoryMonthsPerPage>
+          <UnsubscribedSuccessfullyMessage>Thank you, your email address has been removed from the panel.</UnsubscribedSuccessfullyMessage>
+          <ForgotPassword>Forgot Password?</ForgotPassword>
+          <NowAPanelist>Congratulations, you are now a panelist.</NowAPanelist>
+          <PanelistPortalLogin>Login to the Panelist Portal.</PanelistPortalLogin>
+          <UnsubscribeMessage>To unsubscribe click here</UnsubscribeMessage>
+          <ConfirmUnsubscribe>Please click the button below to confirm that you want to unsubscribe the following email address:</ConfirmUnsubscribe>
+          <PrePanelNameWelcome>Welcome to the </PrePanelNameWelcome>
+          <PostPanelNameWelcome>. Thank you for your participation.&lt;br&gt;&lt;br&gt;Please select from the following options:</PostPanelNameWelcome>
+          <InvalidPasswordFormatMessage>Please enter an alpha-numeric password between 6 and 12 characters including at least one number.</InvalidPasswordFormatMessage>
+          <CommunityTermsAndInstructions />
+          <CommunityUsernameLabel />
+          <CommunityUsernameSubmitButtonLabel />
+          <Notifications>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Admin" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Author" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Observer" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+          </Notifications>
+          <DecimalDelimiterOverride />
+        </Context>
+        <Context Culture="en-CA" Environment="QuickPreview4" IsHidden="false">
+          <PrivacyPolicyLink />
+          <Name>werwer Portal</Name>
+          <ShortTimeFormat>h:mm tt</ShortTimeFormat>
+          <ShortDateFormat>MMM-d-yyyy</ShortDateFormat>
+          <LongDateFormat>dddd, MMMM d, yyyy</LongDateFormat>
+          <PanelistPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[a-zA-Z]).{6,12}$</PanelistPasswordRegex>
+          <PanelPlusUserPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[A-Z])(?=[^ ]*[a-z]).{6,12}$</PanelPlusUserPasswordRegex>
+          <ReturnEmailAddress>vcadmin@visioncritical.com</ReturnEmailAddress>
+          <ReturnEmailPassword>Password1</ReturnEmailPassword>
+          <TechSupportEmail>vcadmin@visioncritical.com</TechSupportEmail>
+          <TechSupportPhone>604-111-1111</TechSupportPhone>
+          <ReturnEmailName>ForSkinningProject</ReturnEmailName>
+          <TechSupportStudyLink>http://www.google.com/survey</TechSupportStudyLink>
+          <MediaServer>/MediaServer</MediaServer>
+          <AdminBaseUrl>http://ForSkinningProject.bostaff.test.com/Admin/</AdminBaseUrl>
+          <AdminSkinPath>s97104/</AdminSkinPath>
+          <AdminJavascriptPath>js96601/</AdminJavascriptPath>
+          <PortalBaseUrl>http://p6lj.bostaff.test.com/</PortalBaseUrl>
+          <PortalJavascriptPath>js96174/</PortalJavascriptPath>
+          <PortalFlashPath>f63180/</PortalFlashPath>
+          <OpenPortalLiveBaseUrl>http://p6lj.bostaff.test.com/Portal/</OpenPortalLiveBaseUrl>
+          <OpenPortalSkinFolder />
+          <OpenPortalTestBaseUrl>http://p6lj.bostaff.test.com/PortalStaging/</OpenPortalTestBaseUrl>
+          <PortalSkinPath>skin/QuickPreview4enCA/</PortalSkinPath>
+          <TranslationBaseUrl>http://ForSkinningProject.bostaff.test.com/Translation/</TranslationBaseUrl>
+          <TranslationSkinPath>skin/</TranslationSkinPath>
+          <ReportingBaseUrl>http://ForSkinningProject.bostaff.test.com/Reporting/</ReportingBaseUrl>
+          <ShelfsetBuilderBaseUrl>http://ForSkinningProject.bostaff.test.com/ShelfsetBuilder/</ShelfsetBuilderBaseUrl>
+          <StudyPointsDescription>points</StudyPointsDescription>
+          <PointsFormatString>0</PointsFormatString>
+          <PointTransactionHistoryMonthsPerPage>3</PointTransactionHistoryMonthsPerPage>
+          <UnsubscribedSuccessfullyMessage>Thank you, your email address has been removed from the panel.</UnsubscribedSuccessfullyMessage>
+          <ForgotPassword>Forgot Password?</ForgotPassword>
+          <NowAPanelist>Congratulations, you are now a panelist.</NowAPanelist>
+          <PanelistPortalLogin>Login to the Panelist Portal.</PanelistPortalLogin>
+          <UnsubscribeMessage>To unsubscribe click here</UnsubscribeMessage>
+          <ConfirmUnsubscribe>Please click the button below to confirm that you want to unsubscribe the following email address:</ConfirmUnsubscribe>
+          <PrePanelNameWelcome>Welcome to the </PrePanelNameWelcome>
+          <PostPanelNameWelcome>. Thank you for your participation.&lt;br&gt;&lt;br&gt;Please select from the following options:</PostPanelNameWelcome>
+          <InvalidPasswordFormatMessage>Please enter an alpha-numeric password between 6 and 12 characters including at least one number.</InvalidPasswordFormatMessage>
+          <CommunityTermsAndInstructions />
+          <CommunityUsernameLabel />
+          <CommunityUsernameSubmitButtonLabel />
+          <Notifications>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Admin" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Author" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Observer" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+          </Notifications>
+          <DecimalDelimiterOverride />
+        </Context>
+        <Context Culture="en-CA" Environment="QuickPreview5" IsHidden="true">
+          <PrivacyPolicyLink />
+          <Name>mohit Portal</Name>
+          <ShortTimeFormat>h:mm tt</ShortTimeFormat>
+          <ShortDateFormat>MMM-d-yyyy</ShortDateFormat>
+          <LongDateFormat>dddd, MMMM d, yyyy</LongDateFormat>
+          <PanelistPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[a-zA-Z]).{6,12}$</PanelistPasswordRegex>
+          <PanelPlusUserPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[A-Z])(?=[^ ]*[a-z]).{6,12}$</PanelPlusUserPasswordRegex>
+          <ReturnEmailAddress>vcadmin@visioncritical.com</ReturnEmailAddress>
+          <ReturnEmailPassword>Password1</ReturnEmailPassword>
+          <TechSupportEmail>vcadmin@visioncritical.com</TechSupportEmail>
+          <TechSupportPhone>604-111-1111</TechSupportPhone>
+          <ReturnEmailName>ForSkinningProject</ReturnEmailName>
+          <TechSupportStudyLink>http://www.google.com/survey</TechSupportStudyLink>
+          <MediaServer>/MediaServer</MediaServer>
+          <AdminBaseUrl>http://ForSkinningProject.bostaff.test.com/Admin/</AdminBaseUrl>
+          <AdminSkinPath>s97104/</AdminSkinPath>
+          <AdminJavascriptPath>js96601/</AdminJavascriptPath>
+          <PortalBaseUrl>http://yttm.bostaff.test.com/</PortalBaseUrl>
+          <PortalJavascriptPath>js96174/</PortalJavascriptPath>
+          <PortalFlashPath>f63180/</PortalFlashPath>
+          <OpenPortalLiveBaseUrl>http://yttm.bostaff.test.com/Portal/</OpenPortalLiveBaseUrl>
+          <OpenPortalSkinFolder />
+          <OpenPortalTestBaseUrl>http://yttm.bostaff.test.com/PortalStaging/</OpenPortalTestBaseUrl>
+          <PortalSkinPath>skin/ForSkinningProject</PortalSkinPath>
+          <TranslationBaseUrl>http://ForSkinningProject.bostaff.test.com/Translation/</TranslationBaseUrl>
+          <TranslationSkinPath>skin/</TranslationSkinPath>
+          <ReportingBaseUrl>http://ForSkinningProject.bostaff.test.com/Reporting/</ReportingBaseUrl>
+          <ShelfsetBuilderBaseUrl>http://ForSkinningProject.bostaff.test.com/ShelfsetBuilder/</ShelfsetBuilderBaseUrl>
+          <StudyPointsDescription>points</StudyPointsDescription>
+          <PointsFormatString>0</PointsFormatString>
+          <PointTransactionHistoryMonthsPerPage>3</PointTransactionHistoryMonthsPerPage>
+          <UnsubscribedSuccessfullyMessage>Thank you, your email address has been removed from the panel.</UnsubscribedSuccessfullyMessage>
+          <ForgotPassword>Forgot Password?</ForgotPassword>
+          <NowAPanelist>Congratulations, you are now a panelist.</NowAPanelist>
+          <PanelistPortalLogin>Login to the Panelist Portal.</PanelistPortalLogin>
+          <UnsubscribeMessage>To unsubscribe click here</UnsubscribeMessage>
+          <ConfirmUnsubscribe>Please click the button below to confirm that you want to unsubscribe the following email address:</ConfirmUnsubscribe>
+          <PrePanelNameWelcome>Welcome to the </PrePanelNameWelcome>
+          <PostPanelNameWelcome>. Thank you for your participation.&lt;br&gt;&lt;br&gt;Please select from the following options:</PostPanelNameWelcome>
+          <InvalidPasswordFormatMessage>Please enter an alpha-numeric password between 6 and 12 characters including at least one number.</InvalidPasswordFormatMessage>
+          <CommunityTermsAndInstructions />
+          <CommunityUsernameLabel />
+          <CommunityUsernameSubmitButtonLabel />
+          <Notifications>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Admin" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Author" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Observer" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+          </Notifications>
+          <DecimalDelimiterOverride />
+        </Context>
+        <Context Culture="en-CA" Environment="QuickPreview6" IsHidden="true">
+          <PrivacyPolicyLink />
+          <Name>mohit Portal</Name>
+          <ShortTimeFormat>h:mm tt</ShortTimeFormat>
+          <ShortDateFormat>MMM-d-yyyy</ShortDateFormat>
+          <LongDateFormat>dddd, MMMM d, yyyy</LongDateFormat>
+          <PanelistPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[a-zA-Z]).{6,12}$</PanelistPasswordRegex>
+          <PanelPlusUserPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[A-Z])(?=[^ ]*[a-z]).{6,12}$</PanelPlusUserPasswordRegex>
+          <ReturnEmailAddress>vcadmin@visioncritical.com</ReturnEmailAddress>
+          <ReturnEmailPassword>Password1</ReturnEmailPassword>
+          <TechSupportEmail>vcadmin@visioncritical.com</TechSupportEmail>
+          <TechSupportPhone>604-111-1111</TechSupportPhone>
+          <ReturnEmailName>ForSkinningProject</ReturnEmailName>
+          <TechSupportStudyLink>http://www.google.com/survey</TechSupportStudyLink>
+          <MediaServer>/MediaServer</MediaServer>
+          <AdminBaseUrl>http://ForSkinningProject.bostaff.test.com/Admin/</AdminBaseUrl>
+          <AdminSkinPath>s97104/</AdminSkinPath>
+          <AdminJavascriptPath>js96601/</AdminJavascriptPath>
+          <PortalBaseUrl>http://s1f3.bostaff.test.com/</PortalBaseUrl>
+          <PortalJavascriptPath>js96174/</PortalJavascriptPath>
+          <PortalFlashPath>f63180/</PortalFlashPath>
+          <OpenPortalLiveBaseUrl>http://s1f3.bostaff.test.com/Portal/</OpenPortalLiveBaseUrl>
+          <OpenPortalSkinFolder />
+          <OpenPortalTestBaseUrl>http://s1f3.bostaff.test.com/PortalStaging/</OpenPortalTestBaseUrl>
+          <PortalSkinPath>skin/ForSkinningProject</PortalSkinPath>
+          <TranslationBaseUrl>http://ForSkinningProject.bostaff.test.com/Translation/</TranslationBaseUrl>
+          <TranslationSkinPath>skin/</TranslationSkinPath>
+          <ReportingBaseUrl>http://ForSkinningProject.bostaff.test.com/Reporting/</ReportingBaseUrl>
+          <ShelfsetBuilderBaseUrl>http://ForSkinningProject.bostaff.test.com/ShelfsetBuilder/</ShelfsetBuilderBaseUrl>
+          <StudyPointsDescription>points</StudyPointsDescription>
+          <PointsFormatString>0</PointsFormatString>
+          <PointTransactionHistoryMonthsPerPage>3</PointTransactionHistoryMonthsPerPage>
+          <UnsubscribedSuccessfullyMessage>Thank you, your email address has been removed from the panel.</UnsubscribedSuccessfullyMessage>
+          <ForgotPassword>Forgot Password?</ForgotPassword>
+          <NowAPanelist>Congratulations, you are now a panelist.</NowAPanelist>
+          <PanelistPortalLogin>Login to the Panelist Portal.</PanelistPortalLogin>
+          <UnsubscribeMessage>To unsubscribe click here</UnsubscribeMessage>
+          <ConfirmUnsubscribe>Please click the button below to confirm that you want to unsubscribe the following email address:</ConfirmUnsubscribe>
+          <PrePanelNameWelcome>Welcome to the </PrePanelNameWelcome>
+          <PostPanelNameWelcome>. Thank you for your participation.&lt;br&gt;&lt;br&gt;Please select from the following options:</PostPanelNameWelcome>
+          <InvalidPasswordFormatMessage>Please enter an alpha-numeric password between 6 and 12 characters including at least one number.</InvalidPasswordFormatMessage>
+          <CommunityTermsAndInstructions />
+          <CommunityUsernameLabel />
+          <CommunityUsernameSubmitButtonLabel />
+          <Notifications>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Admin" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Author" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Observer" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+          </Notifications>
+          <DecimalDelimiterOverride />
+        </Context>
+        <Context Culture="en-CA" Environment="QuickPreview7" IsHidden="true">
+          <PrivacyPolicyLink />
+          <Name>ForSkinningProject</Name>
+          <ShortTimeFormat>h:mm tt</ShortTimeFormat>
+          <ShortDateFormat>MMM-d-yyyy</ShortDateFormat>
+          <LongDateFormat>dddd, MMMM d, yyyy</LongDateFormat>
+          <PanelistPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[a-zA-Z]).{6,12}$</PanelistPasswordRegex>
+          <PanelPlusUserPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[A-Z])(?=[^ ]*[a-z]).{6,12}$</PanelPlusUserPasswordRegex>
+          <ReturnEmailAddress>vcadmin@visioncritical.com</ReturnEmailAddress>
+          <ReturnEmailPassword>Password1</ReturnEmailPassword>
+          <TechSupportEmail>vcadmin@visioncritical.com</TechSupportEmail>
+          <TechSupportPhone>604-111-1111</TechSupportPhone>
+          <ReturnEmailName>ForSkinningProject</ReturnEmailName>
+          <TechSupportStudyLink>http://www.google.com/survey</TechSupportStudyLink>
+          <MediaServer>/MediaServer</MediaServer>
+          <AdminBaseUrl>http://ForSkinningProject.bostaff.test.com/Admin/</AdminBaseUrl>
+          <AdminSkinPath>s97104/</AdminSkinPath>
+          <AdminJavascriptPath>js96601/</AdminJavascriptPath>
+          <PortalBaseUrl>http://ahog.bostaff.test.com/</PortalBaseUrl>
+          <PortalJavascriptPath>js96174/</PortalJavascriptPath>
+          <PortalFlashPath>f63180/</PortalFlashPath>
+          <OpenPortalLiveBaseUrl>http://ahog.bostaff.test.com/Portal/</OpenPortalLiveBaseUrl>
+          <OpenPortalSkinFolder />
+          <OpenPortalTestBaseUrl>http://ahog.bostaff.test.com/PortalStaging/</OpenPortalTestBaseUrl>
+          <PortalSkinPath>skin/ForSkinningProject</PortalSkinPath>
+          <TranslationBaseUrl>http://ForSkinningProject.bostaff.test.com/Translation/</TranslationBaseUrl>
+          <TranslationSkinPath>skin/</TranslationSkinPath>
+          <ReportingBaseUrl>http://ForSkinningProject.bostaff.test.com/Reporting/</ReportingBaseUrl>
+          <ShelfsetBuilderBaseUrl>http://ForSkinningProject.bostaff.test.com/ShelfsetBuilder/</ShelfsetBuilderBaseUrl>
+          <StudyPointsDescription>points</StudyPointsDescription>
+          <PointsFormatString>0</PointsFormatString>
+          <PointTransactionHistoryMonthsPerPage>3</PointTransactionHistoryMonthsPerPage>
+          <UnsubscribedSuccessfullyMessage>Thank you, your email address has been removed from the panel.</UnsubscribedSuccessfullyMessage>
+          <ForgotPassword>Forgot Password?</ForgotPassword>
+          <NowAPanelist>Congratulations, you are now a panelist.</NowAPanelist>
+          <PanelistPortalLogin>Login to the Panelist Portal.</PanelistPortalLogin>
+          <UnsubscribeMessage>To unsubscribe click here</UnsubscribeMessage>
+          <ConfirmUnsubscribe>Please click the button below to confirm that you want to unsubscribe the following email address:</ConfirmUnsubscribe>
+          <PrePanelNameWelcome>Welcome to the </PrePanelNameWelcome>
+          <PostPanelNameWelcome>. Thank you for your participation.&lt;br&gt;&lt;br&gt;Please select from the following options:</PostPanelNameWelcome>
+          <InvalidPasswordFormatMessage>Please enter an alpha-numeric password between 6 and 12 characters including at least one number.</InvalidPasswordFormatMessage>
+          <CommunityTermsAndInstructions />
+          <CommunityUsernameLabel />
+          <CommunityUsernameSubmitButtonLabel />
+          <Notifications>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Admin" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Author" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Observer" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+          </Notifications>
+          <DecimalDelimiterOverride />
+        </Context>
+        <Context Culture="en-CA" Environment="QuickPreview8" IsHidden="true">
+          <PrivacyPolicyLink />
+          <Name>ForSkinningProject</Name>
+          <ShortTimeFormat>h:mm tt</ShortTimeFormat>
+          <ShortDateFormat>MMM-d-yyyy</ShortDateFormat>
+          <LongDateFormat>dddd, MMMM d, yyyy</LongDateFormat>
+          <PanelistPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[a-zA-Z]).{6,12}$</PanelistPasswordRegex>
+          <PanelPlusUserPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[A-Z])(?=[^ ]*[a-z]).{6,12}$</PanelPlusUserPasswordRegex>
+          <ReturnEmailAddress>vcadmin@visioncritical.com</ReturnEmailAddress>
+          <ReturnEmailPassword>Password1</ReturnEmailPassword>
+          <TechSupportEmail>vcadmin@visioncritical.com</TechSupportEmail>
+          <TechSupportPhone>604-111-1111</TechSupportPhone>
+          <ReturnEmailName>ForSkinningProject</ReturnEmailName>
+          <TechSupportStudyLink>http://www.google.com/survey</TechSupportStudyLink>
+          <MediaServer>/MediaServer</MediaServer>
+          <AdminBaseUrl>http://ForSkinningProject.bostaff.test.com/Admin/</AdminBaseUrl>
+          <AdminSkinPath>s97104/</AdminSkinPath>
+          <AdminJavascriptPath>js96601/</AdminJavascriptPath>
+          <PortalBaseUrl>http://zte8.bostaff.test.com/</PortalBaseUrl>
+          <PortalJavascriptPath>js96174/</PortalJavascriptPath>
+          <PortalFlashPath>f63180/</PortalFlashPath>
+          <OpenPortalLiveBaseUrl>http://zte8.bostaff.test.com/Portal/</OpenPortalLiveBaseUrl>
+          <OpenPortalSkinFolder />
+          <OpenPortalTestBaseUrl>http://zte8.bostaff.test.com/PortalStaging/</OpenPortalTestBaseUrl>
+          <PortalSkinPath>skin/ForSkinningProject</PortalSkinPath>
+          <TranslationBaseUrl>http://ForSkinningProject.bostaff.test.com/Translation/</TranslationBaseUrl>
+          <TranslationSkinPath>skin/</TranslationSkinPath>
+          <ReportingBaseUrl>http://ForSkinningProject.bostaff.test.com/Reporting/</ReportingBaseUrl>
+          <ShelfsetBuilderBaseUrl>http://ForSkinningProject.bostaff.test.com/ShelfsetBuilder/</ShelfsetBuilderBaseUrl>
+          <StudyPointsDescription>points</StudyPointsDescription>
+          <PointsFormatString>0</PointsFormatString>
+          <PointTransactionHistoryMonthsPerPage>3</PointTransactionHistoryMonthsPerPage>
+          <UnsubscribedSuccessfullyMessage>Thank you, your email address has been removed from the panel.</UnsubscribedSuccessfullyMessage>
+          <ForgotPassword>Forgot Password?</ForgotPassword>
+          <NowAPanelist>Congratulations, you are now a panelist.</NowAPanelist>
+          <PanelistPortalLogin>Login to the Panelist Portal.</PanelistPortalLogin>
+          <UnsubscribeMessage>To unsubscribe click here</UnsubscribeMessage>
+          <ConfirmUnsubscribe>Please click the button below to confirm that you want to unsubscribe the following email address:</ConfirmUnsubscribe>
+          <PrePanelNameWelcome>Welcome to the </PrePanelNameWelcome>
+          <PostPanelNameWelcome>. Thank you for your participation.&lt;br&gt;&lt;br&gt;Please select from the following options:</PostPanelNameWelcome>
+          <InvalidPasswordFormatMessage>Please enter an alpha-numeric password between 6 and 12 characters including at least one number.</InvalidPasswordFormatMessage>
+          <CommunityTermsAndInstructions />
+          <CommunityUsernameLabel />
+          <CommunityUsernameSubmitButtonLabel />
+          <Notifications>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Admin" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Author" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Observer" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+          </Notifications>
+          <DecimalDelimiterOverride />
+        </Context>
+        <Context Culture="en-CA" Environment="QuickPreview9" IsHidden="true">
+          <PrivacyPolicyLink />
+          <Name>ForSkinningProject</Name>
+          <ShortTimeFormat>h:mm tt</ShortTimeFormat>
+          <ShortDateFormat>MMM-d-yyyy</ShortDateFormat>
+          <LongDateFormat>dddd, MMMM d, yyyy</LongDateFormat>
+          <PanelistPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[a-zA-Z]).{6,12}$</PanelistPasswordRegex>
+          <PanelPlusUserPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[A-Z])(?=[^ ]*[a-z]).{6,12}$</PanelPlusUserPasswordRegex>
+          <ReturnEmailAddress>vcadmin@visioncritical.com</ReturnEmailAddress>
+          <ReturnEmailPassword>Password1</ReturnEmailPassword>
+          <TechSupportEmail>vcadmin@visioncritical.com</TechSupportEmail>
+          <TechSupportPhone>604-111-1111</TechSupportPhone>
+          <ReturnEmailName>ForSkinningProject</ReturnEmailName>
+          <TechSupportStudyLink>http://www.google.com/survey</TechSupportStudyLink>
+          <MediaServer>/MediaServer</MediaServer>
+          <AdminBaseUrl>http://ForSkinningProject.bostaff.test.com/Admin/</AdminBaseUrl>
+          <AdminSkinPath>s97104/</AdminSkinPath>
+          <AdminJavascriptPath>js96601/</AdminJavascriptPath>
+          <PortalBaseUrl>http://o5be.bostaff.test.com/</PortalBaseUrl>
+          <PortalJavascriptPath>js96174/</PortalJavascriptPath>
+          <PortalFlashPath>f63180/</PortalFlashPath>
+          <OpenPortalLiveBaseUrl>http://o5be.bostaff.test.com/Portal/</OpenPortalLiveBaseUrl>
+          <OpenPortalSkinFolder />
+          <OpenPortalTestBaseUrl>http://o5be.bostaff.test.com/PortalStaging/</OpenPortalTestBaseUrl>
+          <PortalSkinPath>skin/ForSkinningProject</PortalSkinPath>
+          <TranslationBaseUrl>http://ForSkinningProject.bostaff.test.com/Translation/</TranslationBaseUrl>
+          <TranslationSkinPath>skin/</TranslationSkinPath>
+          <ReportingBaseUrl>http://ForSkinningProject.bostaff.test.com/Reporting/</ReportingBaseUrl>
+          <ShelfsetBuilderBaseUrl>http://ForSkinningProject.bostaff.test.com/ShelfsetBuilder/</ShelfsetBuilderBaseUrl>
+          <StudyPointsDescription>points</StudyPointsDescription>
+          <PointsFormatString>0</PointsFormatString>
+          <PointTransactionHistoryMonthsPerPage>3</PointTransactionHistoryMonthsPerPage>
+          <UnsubscribedSuccessfullyMessage>Thank you, your email address has been removed from the panel.</UnsubscribedSuccessfullyMessage>
+          <ForgotPassword>Forgot Password?</ForgotPassword>
+          <NowAPanelist>Congratulations, you are now a panelist.</NowAPanelist>
+          <PanelistPortalLogin>Login to the Panelist Portal.</PanelistPortalLogin>
+          <UnsubscribeMessage>To unsubscribe click here</UnsubscribeMessage>
+          <ConfirmUnsubscribe>Please click the button below to confirm that you want to unsubscribe the following email address:</ConfirmUnsubscribe>
+          <PrePanelNameWelcome>Welcome to the </PrePanelNameWelcome>
+          <PostPanelNameWelcome>. Thank you for your participation.&lt;br&gt;&lt;br&gt;Please select from the following options:</PostPanelNameWelcome>
+          <InvalidPasswordFormatMessage>Please enter an alpha-numeric password between 6 and 12 characters including at least one number.</InvalidPasswordFormatMessage>
+          <CommunityTermsAndInstructions />
+          <CommunityUsernameLabel />
+          <CommunityUsernameSubmitButtonLabel />
+          <Notifications>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Admin" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Author" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Observer" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+          </Notifications>
+          <DecimalDelimiterOverride />
+        </Context>
+        <Context Culture="en-CA" Environment="QuickPreview10" IsHidden="true">
+          <PrivacyPolicyLink />
+          <Name>uyu Portal</Name>
+          <ShortTimeFormat>h:mm tt</ShortTimeFormat>
+          <ShortDateFormat>MMM-d-yyyy</ShortDateFormat>
+          <LongDateFormat>dddd, MMMM d, yyyy</LongDateFormat>
+          <PanelistPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[a-zA-Z]).{6,12}$</PanelistPasswordRegex>
+          <PanelPlusUserPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[A-Z])(?=[^ ]*[a-z]).{6,12}$</PanelPlusUserPasswordRegex>
+          <ReturnEmailAddress>vcadmin@visioncritical.com</ReturnEmailAddress>
+          <ReturnEmailPassword>Password1</ReturnEmailPassword>
+          <TechSupportEmail>vcadmin@visioncritical.com</TechSupportEmail>
+          <TechSupportPhone>604-111-1111</TechSupportPhone>
+          <ReturnEmailName>ForSkinningProject</ReturnEmailName>
+          <TechSupportStudyLink>http://www.google.com/survey</TechSupportStudyLink>
+          <MediaServer>/MediaServer</MediaServer>
+          <AdminBaseUrl>http://ForSkinningProject.bostaff.test.com/Admin/</AdminBaseUrl>
+          <AdminSkinPath>s97104/</AdminSkinPath>
+          <AdminJavascriptPath>js96601/</AdminJavascriptPath>
+          <PortalBaseUrl>http://ddob.bostaff.test.com/</PortalBaseUrl>
+          <PortalJavascriptPath>js96174/</PortalJavascriptPath>
+          <PortalFlashPath>f63180/</PortalFlashPath>
+          <OpenPortalLiveBaseUrl>http://ddob.bostaff.test.com/Portal/</OpenPortalLiveBaseUrl>
+          <OpenPortalSkinFolder />
+          <OpenPortalTestBaseUrl>http://ddob.bostaff.test.com/PortalStaging/</OpenPortalTestBaseUrl>
+          <PortalSkinPath>skin/ForSkinningProject</PortalSkinPath>
+          <TranslationBaseUrl>http://ForSkinningProject.bostaff.test.com/Translation/</TranslationBaseUrl>
+          <TranslationSkinPath>skin/</TranslationSkinPath>
+          <ReportingBaseUrl>http://ForSkinningProject.bostaff.test.com/Reporting/</ReportingBaseUrl>
+          <ShelfsetBuilderBaseUrl>http://ForSkinningProject.bostaff.test.com/ShelfsetBuilder/</ShelfsetBuilderBaseUrl>
+          <StudyPointsDescription>points</StudyPointsDescription>
+          <PointsFormatString>0</PointsFormatString>
+          <PointTransactionHistoryMonthsPerPage>3</PointTransactionHistoryMonthsPerPage>
+          <UnsubscribedSuccessfullyMessage>Thank you, your email address has been removed from the panel.</UnsubscribedSuccessfullyMessage>
+          <ForgotPassword>Forgot Password?</ForgotPassword>
+          <NowAPanelist>Congratulations, you are now a panelist.</NowAPanelist>
+          <PanelistPortalLogin>Login to the Panelist Portal.</PanelistPortalLogin>
+          <UnsubscribeMessage>To unsubscribe click here</UnsubscribeMessage>
+          <ConfirmUnsubscribe>Please click the button below to confirm that you want to unsubscribe the following email address:</ConfirmUnsubscribe>
+          <PrePanelNameWelcome>Welcome to the </PrePanelNameWelcome>
+          <PostPanelNameWelcome>. Thank you for your participation.&lt;br&gt;&lt;br&gt;Please select from the following options:</PostPanelNameWelcome>
+          <InvalidPasswordFormatMessage>Please enter an alpha-numeric password between 6 and 12 characters including at least one number.</InvalidPasswordFormatMessage>
+          <CommunityTermsAndInstructions />
+          <CommunityUsernameLabel />
+          <CommunityUsernameSubmitButtonLabel />
+          <Notifications>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Admin" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Author" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Observer" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+          </Notifications>
+          <DecimalDelimiterOverride />
+        </Context>
+        <Context Culture="en-CA" Environment="QuickPreview11" IsHidden="true">
+          <PrivacyPolicyLink />
+          <Name>ForSkinningProject</Name>
+          <ShortTimeFormat>h:mm tt</ShortTimeFormat>
+          <ShortDateFormat>MMM-d-yyyy</ShortDateFormat>
+          <LongDateFormat>dddd, MMMM d, yyyy</LongDateFormat>
+          <PanelistPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[a-zA-Z]).{6,12}$</PanelistPasswordRegex>
+          <PanelPlusUserPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[A-Z])(?=[^ ]*[a-z]).{6,12}$</PanelPlusUserPasswordRegex>
+          <ReturnEmailAddress>vcadmin@visioncritical.com</ReturnEmailAddress>
+          <ReturnEmailPassword>Password1</ReturnEmailPassword>
+          <TechSupportEmail>vcadmin@visioncritical.com</TechSupportEmail>
+          <TechSupportPhone>604-111-1111</TechSupportPhone>
+          <ReturnEmailName>ForSkinningProject</ReturnEmailName>
+          <TechSupportStudyLink>http://www.google.com/survey</TechSupportStudyLink>
+          <MediaServer>/MediaServer</MediaServer>
+          <AdminBaseUrl>http://ForSkinningProject.bostaff.test.com/Admin/</AdminBaseUrl>
+          <AdminSkinPath>s97104/</AdminSkinPath>
+          <AdminJavascriptPath>js96601/</AdminJavascriptPath>
+          <PortalBaseUrl>http://6uy4.bostaff.test.com/</PortalBaseUrl>
+          <PortalJavascriptPath>js96174/</PortalJavascriptPath>
+          <PortalFlashPath>f63180/</PortalFlashPath>
+          <OpenPortalLiveBaseUrl>http://6uy4.bostaff.test.com/Portal/</OpenPortalLiveBaseUrl>
+          <OpenPortalSkinFolder />
+          <OpenPortalTestBaseUrl>http://6uy4.bostaff.test.com/PortalStaging/</OpenPortalTestBaseUrl>
+          <PortalSkinPath>skin/ForSkinningProject</PortalSkinPath>
+          <TranslationBaseUrl>http://ForSkinningProject.bostaff.test.com/Translation/</TranslationBaseUrl>
+          <TranslationSkinPath>skin/</TranslationSkinPath>
+          <ReportingBaseUrl>http://ForSkinningProject.bostaff.test.com/Reporting/</ReportingBaseUrl>
+          <ShelfsetBuilderBaseUrl>http://ForSkinningProject.bostaff.test.com/ShelfsetBuilder/</ShelfsetBuilderBaseUrl>
+          <StudyPointsDescription>points</StudyPointsDescription>
+          <PointsFormatString>0</PointsFormatString>
+          <PointTransactionHistoryMonthsPerPage>3</PointTransactionHistoryMonthsPerPage>
+          <UnsubscribedSuccessfullyMessage>Thank you, your email address has been removed from the panel.</UnsubscribedSuccessfullyMessage>
+          <ForgotPassword>Forgot Password?</ForgotPassword>
+          <NowAPanelist>Congratulations, you are now a panelist.</NowAPanelist>
+          <PanelistPortalLogin>Login to the Panelist Portal.</PanelistPortalLogin>
+          <UnsubscribeMessage>To unsubscribe click here</UnsubscribeMessage>
+          <ConfirmUnsubscribe>Please click the button below to confirm that you want to unsubscribe the following email address:</ConfirmUnsubscribe>
+          <PrePanelNameWelcome>Welcome to the </PrePanelNameWelcome>
+          <PostPanelNameWelcome>. Thank you for your participation.&lt;br&gt;&lt;br&gt;Please select from the following options:</PostPanelNameWelcome>
+          <InvalidPasswordFormatMessage>Please enter an alpha-numeric password between 6 and 12 characters including at least one number.</InvalidPasswordFormatMessage>
+          <CommunityTermsAndInstructions />
+          <CommunityUsernameLabel />
+          <CommunityUsernameSubmitButtonLabel />
+          <Notifications>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Admin" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Author" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Observer" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+          </Notifications>
+          <DecimalDelimiterOverride />
+        </Context>
+        <Context Culture="en-CA" Environment="QuickPreview12" IsHidden="true">
+          <PrivacyPolicyLink />
+          <Name>ForSkinningProject</Name>
+          <ShortTimeFormat>h:mm tt</ShortTimeFormat>
+          <ShortDateFormat>MMM-d-yyyy</ShortDateFormat>
+          <LongDateFormat>dddd, MMMM d, yyyy</LongDateFormat>
+          <PanelistPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[a-zA-Z]).{6,12}$</PanelistPasswordRegex>
+          <PanelPlusUserPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[A-Z])(?=[^ ]*[a-z]).{6,12}$</PanelPlusUserPasswordRegex>
+          <ReturnEmailAddress>vcadmin@visioncritical.com</ReturnEmailAddress>
+          <ReturnEmailPassword>Password1</ReturnEmailPassword>
+          <TechSupportEmail>vcadmin@visioncritical.com</TechSupportEmail>
+          <TechSupportPhone>604-111-1111</TechSupportPhone>
+          <ReturnEmailName>ForSkinningProject</ReturnEmailName>
+          <TechSupportStudyLink>http://www.google.com/survey</TechSupportStudyLink>
+          <MediaServer>/MediaServer</MediaServer>
+          <AdminBaseUrl>http://ForSkinningProject.bostaff.test.com/Admin/</AdminBaseUrl>
+          <AdminSkinPath>s97104/</AdminSkinPath>
+          <AdminJavascriptPath>js96601/</AdminJavascriptPath>
+          <PortalBaseUrl>http://ivfq.bostaff.test.com/</PortalBaseUrl>
+          <PortalJavascriptPath>js96174/</PortalJavascriptPath>
+          <PortalFlashPath>f63180/</PortalFlashPath>
+          <OpenPortalLiveBaseUrl>http://ivfq.bostaff.test.com/Portal/</OpenPortalLiveBaseUrl>
+          <OpenPortalSkinFolder />
+          <OpenPortalTestBaseUrl>http://ivfq.bostaff.test.com/PortalStaging/</OpenPortalTestBaseUrl>
+          <PortalSkinPath>skin/ForSkinningProject</PortalSkinPath>
+          <TranslationBaseUrl>http://ForSkinningProject.bostaff.test.com/Translation/</TranslationBaseUrl>
+          <TranslationSkinPath>skin/</TranslationSkinPath>
+          <ReportingBaseUrl>http://ForSkinningProject.bostaff.test.com/Reporting/</ReportingBaseUrl>
+          <ShelfsetBuilderBaseUrl>http://ForSkinningProject.bostaff.test.com/ShelfsetBuilder/</ShelfsetBuilderBaseUrl>
+          <StudyPointsDescription>points</StudyPointsDescription>
+          <PointsFormatString>0</PointsFormatString>
+          <PointTransactionHistoryMonthsPerPage>3</PointTransactionHistoryMonthsPerPage>
+          <UnsubscribedSuccessfullyMessage>Thank you, your email address has been removed from the panel.</UnsubscribedSuccessfullyMessage>
+          <ForgotPassword>Forgot Password?</ForgotPassword>
+          <NowAPanelist>Congratulations, you are now a panelist.</NowAPanelist>
+          <PanelistPortalLogin>Login to the Panelist Portal.</PanelistPortalLogin>
+          <UnsubscribeMessage>To unsubscribe click here</UnsubscribeMessage>
+          <ConfirmUnsubscribe>Please click the button below to confirm that you want to unsubscribe the following email address:</ConfirmUnsubscribe>
+          <PrePanelNameWelcome>Welcome to the </PrePanelNameWelcome>
+          <PostPanelNameWelcome>. Thank you for your participation.&lt;br&gt;&lt;br&gt;Please select from the following options:</PostPanelNameWelcome>
+          <InvalidPasswordFormatMessage>Please enter an alpha-numeric password between 6 and 12 characters including at least one number.</InvalidPasswordFormatMessage>
+          <CommunityTermsAndInstructions />
+          <CommunityUsernameLabel />
+          <CommunityUsernameSubmitButtonLabel />
+          <Notifications>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Admin" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Author" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Observer" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+          </Notifications>
+          <DecimalDelimiterOverride />
+        </Context>
+        <Context Culture="en-CA" Environment="QuickPreview13" IsHidden="true">
+          <PrivacyPolicyLink />
+          <Name>ForSkinningProject</Name>
+          <ShortTimeFormat>h:mm tt</ShortTimeFormat>
+          <ShortDateFormat>MMM-d-yyyy</ShortDateFormat>
+          <LongDateFormat>dddd, MMMM d, yyyy</LongDateFormat>
+          <PanelistPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[a-zA-Z]).{6,12}$</PanelistPasswordRegex>
+          <PanelPlusUserPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[A-Z])(?=[^ ]*[a-z]).{6,12}$</PanelPlusUserPasswordRegex>
+          <ReturnEmailAddress>vcadmin@visioncritical.com</ReturnEmailAddress>
+          <ReturnEmailPassword>Password1</ReturnEmailPassword>
+          <TechSupportEmail>vcadmin@visioncritical.com</TechSupportEmail>
+          <TechSupportPhone>604-111-1111</TechSupportPhone>
+          <ReturnEmailName>ForSkinningProject</ReturnEmailName>
+          <TechSupportStudyLink>http://www.google.com/survey</TechSupportStudyLink>
+          <MediaServer>/MediaServer</MediaServer>
+          <AdminBaseUrl>http://ForSkinningProject.bostaff.test.com/Admin/</AdminBaseUrl>
+          <AdminSkinPath>s97104/</AdminSkinPath>
+          <AdminJavascriptPath>js96601/</AdminJavascriptPath>
+          <PortalBaseUrl>http://w5rh.bostaff.test.com/</PortalBaseUrl>
+          <PortalJavascriptPath>js96174/</PortalJavascriptPath>
+          <PortalFlashPath>f63180/</PortalFlashPath>
+          <OpenPortalLiveBaseUrl>http://w5rh.bostaff.test.com/Portal/</OpenPortalLiveBaseUrl>
+          <OpenPortalSkinFolder />
+          <OpenPortalTestBaseUrl>http://w5rh.bostaff.test.com/PortalStaging/</OpenPortalTestBaseUrl>
+          <PortalSkinPath>skin/ForSkinningProject</PortalSkinPath>
+          <TranslationBaseUrl>http://ForSkinningProject.bostaff.test.com/Translation/</TranslationBaseUrl>
+          <TranslationSkinPath>skin/</TranslationSkinPath>
+          <ReportingBaseUrl>http://ForSkinningProject.bostaff.test.com/Reporting/</ReportingBaseUrl>
+          <ShelfsetBuilderBaseUrl>http://ForSkinningProject.bostaff.test.com/ShelfsetBuilder/</ShelfsetBuilderBaseUrl>
+          <StudyPointsDescription>points</StudyPointsDescription>
+          <PointsFormatString>0</PointsFormatString>
+          <PointTransactionHistoryMonthsPerPage>3</PointTransactionHistoryMonthsPerPage>
+          <UnsubscribedSuccessfullyMessage>Thank you, your email address has been removed from the panel.</UnsubscribedSuccessfullyMessage>
+          <ForgotPassword>Forgot Password?</ForgotPassword>
+          <NowAPanelist>Congratulations, you are now a panelist.</NowAPanelist>
+          <PanelistPortalLogin>Login to the Panelist Portal.</PanelistPortalLogin>
+          <UnsubscribeMessage>To unsubscribe click here</UnsubscribeMessage>
+          <ConfirmUnsubscribe>Please click the button below to confirm that you want to unsubscribe the following email address:</ConfirmUnsubscribe>
+          <PrePanelNameWelcome>Welcome to the </PrePanelNameWelcome>
+          <PostPanelNameWelcome>. Thank you for your participation.&lt;br&gt;&lt;br&gt;Please select from the following options:</PostPanelNameWelcome>
+          <InvalidPasswordFormatMessage>Please enter an alpha-numeric password between 6 and 12 characters including at least one number.</InvalidPasswordFormatMessage>
+          <CommunityTermsAndInstructions />
+          <CommunityUsernameLabel />
+          <CommunityUsernameSubmitButtonLabel />
+          <Notifications>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Admin" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Author" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Observer" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+          </Notifications>
+          <DecimalDelimiterOverride />
+        </Context>
+        <Context Culture="en-CA" Environment="QuickPreview14" IsHidden="true">
+          <PrivacyPolicyLink />
+          <Name>as Portal</Name>
+          <ShortTimeFormat>h:mm tt</ShortTimeFormat>
+          <ShortDateFormat>MMM-d-yyyy</ShortDateFormat>
+          <LongDateFormat>dddd, MMMM d, yyyy</LongDateFormat>
+          <PanelistPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[a-zA-Z]).{6,12}$</PanelistPasswordRegex>
+          <PanelPlusUserPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[A-Z])(?=[^ ]*[a-z]).{6,12}$</PanelPlusUserPasswordRegex>
+          <ReturnEmailAddress>vcadmin@visioncritical.com</ReturnEmailAddress>
+          <ReturnEmailPassword>Password1</ReturnEmailPassword>
+          <TechSupportEmail>vcadmin@visioncritical.com</TechSupportEmail>
+          <TechSupportPhone>604-111-1111</TechSupportPhone>
+          <ReturnEmailName>ForSkinningProject</ReturnEmailName>
+          <TechSupportStudyLink>http://www.google.com/survey</TechSupportStudyLink>
+          <MediaServer>/MediaServer</MediaServer>
+          <AdminBaseUrl>http://ForSkinningProject.bostaff.test.com/Admin/</AdminBaseUrl>
+          <AdminSkinPath>s97104/</AdminSkinPath>
+          <AdminJavascriptPath>js96601/</AdminJavascriptPath>
+          <PortalBaseUrl>http://iqum.bostaff.test.com/</PortalBaseUrl>
+          <PortalJavascriptPath>js96174/</PortalJavascriptPath>
+          <PortalFlashPath>f63180/</PortalFlashPath>
+          <OpenPortalLiveBaseUrl>http://iqum.bostaff.test.com/Portal/</OpenPortalLiveBaseUrl>
+          <OpenPortalSkinFolder />
+          <OpenPortalTestBaseUrl>http://iqum.bostaff.test.com/PortalStaging/</OpenPortalTestBaseUrl>
+          <PortalSkinPath>skin/ForSkinningProject</PortalSkinPath>
+          <TranslationBaseUrl>http://ForSkinningProject.bostaff.test.com/Translation/</TranslationBaseUrl>
+          <TranslationSkinPath>skin/</TranslationSkinPath>
+          <ReportingBaseUrl>http://ForSkinningProject.bostaff.test.com/Reporting/</ReportingBaseUrl>
+          <ShelfsetBuilderBaseUrl>http://ForSkinningProject.bostaff.test.com/ShelfsetBuilder/</ShelfsetBuilderBaseUrl>
+          <StudyPointsDescription>points</StudyPointsDescription>
+          <PointsFormatString>0</PointsFormatString>
+          <PointTransactionHistoryMonthsPerPage>3</PointTransactionHistoryMonthsPerPage>
+          <UnsubscribedSuccessfullyMessage>Thank you, your email address has been removed from the panel.</UnsubscribedSuccessfullyMessage>
+          <ForgotPassword>Forgot Password?</ForgotPassword>
+          <NowAPanelist>Congratulations, you are now a panelist.</NowAPanelist>
+          <PanelistPortalLogin>Login to the Panelist Portal.</PanelistPortalLogin>
+          <UnsubscribeMessage>To unsubscribe click here</UnsubscribeMessage>
+          <ConfirmUnsubscribe>Please click the button below to confirm that you want to unsubscribe the following email address:</ConfirmUnsubscribe>
+          <PrePanelNameWelcome>Welcome to the </PrePanelNameWelcome>
+          <PostPanelNameWelcome>. Thank you for your participation.&lt;br&gt;&lt;br&gt;Please select from the following options:</PostPanelNameWelcome>
+          <InvalidPasswordFormatMessage>Please enter an alpha-numeric password between 6 and 12 characters including at least one number.</InvalidPasswordFormatMessage>
+          <CommunityTermsAndInstructions />
+          <CommunityUsernameLabel />
+          <CommunityUsernameSubmitButtonLabel />
+          <Notifications>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Admin" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Author" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Observer" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+          </Notifications>
+          <DecimalDelimiterOverride />
+        </Context>
+        <Context Culture="en-CA" Environment="QuickPreview15" IsHidden="true">
+          <PrivacyPolicyLink />
+          <Name>ForSkinningProject</Name>
+          <ShortTimeFormat>h:mm tt</ShortTimeFormat>
+          <ShortDateFormat>MMM-d-yyyy</ShortDateFormat>
+          <LongDateFormat>dddd, MMMM d, yyyy</LongDateFormat>
+          <PanelistPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[a-zA-Z]).{6,12}$</PanelistPasswordRegex>
+          <PanelPlusUserPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[A-Z])(?=[^ ]*[a-z]).{6,12}$</PanelPlusUserPasswordRegex>
+          <ReturnEmailAddress>vcadmin@visioncritical.com</ReturnEmailAddress>
+          <ReturnEmailPassword>Password1</ReturnEmailPassword>
+          <TechSupportEmail>vcadmin@visioncritical.com</TechSupportEmail>
+          <TechSupportPhone>604-111-1111</TechSupportPhone>
+          <ReturnEmailName>ForSkinningProject</ReturnEmailName>
+          <TechSupportStudyLink>http://www.google.com/survey</TechSupportStudyLink>
+          <MediaServer>/MediaServer</MediaServer>
+          <AdminBaseUrl>http://ForSkinningProject.bostaff.test.com/Admin/</AdminBaseUrl>
+          <AdminSkinPath>s97104/</AdminSkinPath>
+          <AdminJavascriptPath>js96601/</AdminJavascriptPath>
+          <PortalBaseUrl>http://cvw4.bostaff.test.com/</PortalBaseUrl>
+          <PortalJavascriptPath>js96174/</PortalJavascriptPath>
+          <PortalFlashPath>f63180/</PortalFlashPath>
+          <OpenPortalLiveBaseUrl>http://cvw4.bostaff.test.com/Portal/</OpenPortalLiveBaseUrl>
+          <OpenPortalSkinFolder />
+          <OpenPortalTestBaseUrl>http://cvw4.bostaff.test.com/PortalStaging/</OpenPortalTestBaseUrl>
+          <PortalSkinPath>skin/ForSkinningProject</PortalSkinPath>
+          <TranslationBaseUrl>http://ForSkinningProject.bostaff.test.com/Translation/</TranslationBaseUrl>
+          <TranslationSkinPath>skin/</TranslationSkinPath>
+          <ReportingBaseUrl>http://ForSkinningProject.bostaff.test.com/Reporting/</ReportingBaseUrl>
+          <ShelfsetBuilderBaseUrl>http://ForSkinningProject.bostaff.test.com/ShelfsetBuilder/</ShelfsetBuilderBaseUrl>
+          <StudyPointsDescription>points</StudyPointsDescription>
+          <PointsFormatString>0</PointsFormatString>
+          <PointTransactionHistoryMonthsPerPage>3</PointTransactionHistoryMonthsPerPage>
+          <UnsubscribedSuccessfullyMessage>Thank you, your email address has been removed from the panel.</UnsubscribedSuccessfullyMessage>
+          <ForgotPassword>Forgot Password?</ForgotPassword>
+          <NowAPanelist>Congratulations, you are now a panelist.</NowAPanelist>
+          <PanelistPortalLogin>Login to the Panelist Portal.</PanelistPortalLogin>
+          <UnsubscribeMessage>To unsubscribe click here</UnsubscribeMessage>
+          <ConfirmUnsubscribe>Please click the button below to confirm that you want to unsubscribe the following email address:</ConfirmUnsubscribe>
+          <PrePanelNameWelcome>Welcome to the </PrePanelNameWelcome>
+          <PostPanelNameWelcome>. Thank you for your participation.&lt;br&gt;&lt;br&gt;Please select from the following options:</PostPanelNameWelcome>
+          <InvalidPasswordFormatMessage>Please enter an alpha-numeric password between 6 and 12 characters including at least one number.</InvalidPasswordFormatMessage>
+          <CommunityTermsAndInstructions />
+          <CommunityUsernameLabel />
+          <CommunityUsernameSubmitButtonLabel />
+          <Notifications>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Admin" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Author" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Observer" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+          </Notifications>
+          <DecimalDelimiterOverride />
+        </Context>
+        <Context Culture="en-CA" Environment="QuickPreview16" IsHidden="true">
+          <PrivacyPolicyLink />
+          <Name>ForSkinningProject</Name>
+          <ShortTimeFormat>h:mm tt</ShortTimeFormat>
+          <ShortDateFormat>MMM-d-yyyy</ShortDateFormat>
+          <LongDateFormat>dddd, MMMM d, yyyy</LongDateFormat>
+          <PanelistPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[a-zA-Z]).{6,12}$</PanelistPasswordRegex>
+          <PanelPlusUserPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[A-Z])(?=[^ ]*[a-z]).{6,12}$</PanelPlusUserPasswordRegex>
+          <ReturnEmailAddress>vcadmin@visioncritical.com</ReturnEmailAddress>
+          <ReturnEmailPassword>Password1</ReturnEmailPassword>
+          <TechSupportEmail>vcadmin@visioncritical.com</TechSupportEmail>
+          <TechSupportPhone>604-111-1111</TechSupportPhone>
+          <ReturnEmailName>ForSkinningProject</ReturnEmailName>
+          <TechSupportStudyLink>http://www.google.com/survey</TechSupportStudyLink>
+          <MediaServer>/MediaServer</MediaServer>
+          <AdminBaseUrl>http://ForSkinningProject.bostaff.test.com/Admin/</AdminBaseUrl>
+          <AdminSkinPath>s97104/</AdminSkinPath>
+          <AdminJavascriptPath>js96601/</AdminJavascriptPath>
+          <PortalBaseUrl>http://qhjg.bostaff.test.com/</PortalBaseUrl>
+          <PortalJavascriptPath>js96174/</PortalJavascriptPath>
+          <PortalFlashPath>f63180/</PortalFlashPath>
+          <OpenPortalLiveBaseUrl>http://qhjg.bostaff.test.com/Portal/</OpenPortalLiveBaseUrl>
+          <OpenPortalSkinFolder />
+          <OpenPortalTestBaseUrl>http://qhjg.bostaff.test.com/PortalStaging/</OpenPortalTestBaseUrl>
+          <PortalSkinPath>skin/ForSkinningProject</PortalSkinPath>
+          <TranslationBaseUrl>http://ForSkinningProject.bostaff.test.com/Translation/</TranslationBaseUrl>
+          <TranslationSkinPath>skin/</TranslationSkinPath>
+          <ReportingBaseUrl>http://ForSkinningProject.bostaff.test.com/Reporting/</ReportingBaseUrl>
+          <ShelfsetBuilderBaseUrl>http://ForSkinningProject.bostaff.test.com/ShelfsetBuilder/</ShelfsetBuilderBaseUrl>
+          <StudyPointsDescription>points</StudyPointsDescription>
+          <PointsFormatString>0</PointsFormatString>
+          <PointTransactionHistoryMonthsPerPage>3</PointTransactionHistoryMonthsPerPage>
+          <UnsubscribedSuccessfullyMessage>Thank you, your email address has been removed from the panel.</UnsubscribedSuccessfullyMessage>
+          <ForgotPassword>Forgot Password?</ForgotPassword>
+          <NowAPanelist>Congratulations, you are now a panelist.</NowAPanelist>
+          <PanelistPortalLogin>Login to the Panelist Portal.</PanelistPortalLogin>
+          <UnsubscribeMessage>To unsubscribe click here</UnsubscribeMessage>
+          <ConfirmUnsubscribe>Please click the button below to confirm that you want to unsubscribe the following email address:</ConfirmUnsubscribe>
+          <PrePanelNameWelcome>Welcome to the </PrePanelNameWelcome>
+          <PostPanelNameWelcome>. Thank you for your participation.&lt;br&gt;&lt;br&gt;Please select from the following options:</PostPanelNameWelcome>
+          <InvalidPasswordFormatMessage>Please enter an alpha-numeric password between 6 and 12 characters including at least one number.</InvalidPasswordFormatMessage>
+          <CommunityTermsAndInstructions />
+          <CommunityUsernameLabel />
+          <CommunityUsernameSubmitButtonLabel />
+          <Notifications>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Admin" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Author" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Observer" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+          </Notifications>
+          <DecimalDelimiterOverride />
+        </Context>
+        <Context Culture="en-CA" Environment="QuickPreview17" IsHidden="true">
+          <PrivacyPolicyLink />
+          <Name>ForSkinningProject</Name>
+          <ShortTimeFormat>h:mm tt</ShortTimeFormat>
+          <ShortDateFormat>MMM-d-yyyy</ShortDateFormat>
+          <LongDateFormat>dddd, MMMM d, yyyy</LongDateFormat>
+          <PanelistPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[a-zA-Z]).{6,12}$</PanelistPasswordRegex>
+          <PanelPlusUserPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[A-Z])(?=[^ ]*[a-z]).{6,12}$</PanelPlusUserPasswordRegex>
+          <ReturnEmailAddress>vcadmin@visioncritical.com</ReturnEmailAddress>
+          <ReturnEmailPassword>Password1</ReturnEmailPassword>
+          <TechSupportEmail>vcadmin@visioncritical.com</TechSupportEmail>
+          <TechSupportPhone>604-111-1111</TechSupportPhone>
+          <ReturnEmailName>ForSkinningProject</ReturnEmailName>
+          <TechSupportStudyLink>http://www.google.com/survey</TechSupportStudyLink>
+          <MediaServer>/MediaServer</MediaServer>
+          <AdminBaseUrl>http://ForSkinningProject.bostaff.test.com/Admin/</AdminBaseUrl>
+          <AdminSkinPath>s97104/</AdminSkinPath>
+          <AdminJavascriptPath>js96601/</AdminJavascriptPath>
+          <PortalBaseUrl>http://m89y.bostaff.test.com/</PortalBaseUrl>
+          <PortalJavascriptPath>js96174/</PortalJavascriptPath>
+          <PortalFlashPath>f63180/</PortalFlashPath>
+          <OpenPortalLiveBaseUrl>http://m89y.bostaff.test.com/Portal/</OpenPortalLiveBaseUrl>
+          <OpenPortalSkinFolder />
+          <OpenPortalTestBaseUrl>http://m89y.bostaff.test.com/PortalStaging/</OpenPortalTestBaseUrl>
+          <PortalSkinPath>skin/ForSkinningProject</PortalSkinPath>
+          <TranslationBaseUrl>http://ForSkinningProject.bostaff.test.com/Translation/</TranslationBaseUrl>
+          <TranslationSkinPath>skin/</TranslationSkinPath>
+          <ReportingBaseUrl>http://ForSkinningProject.bostaff.test.com/Reporting/</ReportingBaseUrl>
+          <ShelfsetBuilderBaseUrl>http://ForSkinningProject.bostaff.test.com/ShelfsetBuilder/</ShelfsetBuilderBaseUrl>
+          <StudyPointsDescription>points</StudyPointsDescription>
+          <PointsFormatString>0</PointsFormatString>
+          <PointTransactionHistoryMonthsPerPage>3</PointTransactionHistoryMonthsPerPage>
+          <UnsubscribedSuccessfullyMessage>Thank you, your email address has been removed from the panel.</UnsubscribedSuccessfullyMessage>
+          <ForgotPassword>Forgot Password?</ForgotPassword>
+          <NowAPanelist>Congratulations, you are now a panelist.</NowAPanelist>
+          <PanelistPortalLogin>Login to the Panelist Portal.</PanelistPortalLogin>
+          <UnsubscribeMessage>To unsubscribe click here</UnsubscribeMessage>
+          <ConfirmUnsubscribe>Please click the button below to confirm that you want to unsubscribe the following email address:</ConfirmUnsubscribe>
+          <PrePanelNameWelcome>Welcome to the </PrePanelNameWelcome>
+          <PostPanelNameWelcome>. Thank you for your participation.&lt;br&gt;&lt;br&gt;Please select from the following options:</PostPanelNameWelcome>
+          <InvalidPasswordFormatMessage>Please enter an alpha-numeric password between 6 and 12 characters including at least one number.</InvalidPasswordFormatMessage>
+          <CommunityTermsAndInstructions />
+          <CommunityUsernameLabel />
+          <CommunityUsernameSubmitButtonLabel />
+          <Notifications>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Admin" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Author" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Observer" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+          </Notifications>
+          <DecimalDelimiterOverride />
+        </Context>
+        <Context Culture="en-CA" Environment="QuickPreview18" IsHidden="true">
+          <PrivacyPolicyLink />
+          <Name>ForSkinningProject</Name>
+          <ShortTimeFormat>h:mm tt</ShortTimeFormat>
+          <ShortDateFormat>MMM-d-yyyy</ShortDateFormat>
+          <LongDateFormat>dddd, MMMM d, yyyy</LongDateFormat>
+          <PanelistPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[a-zA-Z]).{6,12}$</PanelistPasswordRegex>
+          <PanelPlusUserPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[A-Z])(?=[^ ]*[a-z]).{6,12}$</PanelPlusUserPasswordRegex>
+          <ReturnEmailAddress>vcadmin@visioncritical.com</ReturnEmailAddress>
+          <ReturnEmailPassword>Password1</ReturnEmailPassword>
+          <TechSupportEmail>vcadmin@visioncritical.com</TechSupportEmail>
+          <TechSupportPhone>604-111-1111</TechSupportPhone>
+          <ReturnEmailName>ForSkinningProject</ReturnEmailName>
+          <TechSupportStudyLink>http://www.google.com/survey</TechSupportStudyLink>
+          <MediaServer>/MediaServer</MediaServer>
+          <AdminBaseUrl>http://ForSkinningProject.bostaff.test.com/Admin/</AdminBaseUrl>
+          <AdminSkinPath>s97104/</AdminSkinPath>
+          <AdminJavascriptPath>js96601/</AdminJavascriptPath>
+          <PortalBaseUrl>http://u5d5.bostaff.test.com/</PortalBaseUrl>
+          <PortalJavascriptPath>js96174/</PortalJavascriptPath>
+          <PortalFlashPath>f63180/</PortalFlashPath>
+          <OpenPortalLiveBaseUrl>http://u5d5.bostaff.test.com/Portal/</OpenPortalLiveBaseUrl>
+          <OpenPortalSkinFolder />
+          <OpenPortalTestBaseUrl>http://u5d5.bostaff.test.com/PortalStaging/</OpenPortalTestBaseUrl>
+          <PortalSkinPath>skin/ForSkinningProject</PortalSkinPath>
+          <TranslationBaseUrl>http://ForSkinningProject.bostaff.test.com/Translation/</TranslationBaseUrl>
+          <TranslationSkinPath>skin/</TranslationSkinPath>
+          <ReportingBaseUrl>http://ForSkinningProject.bostaff.test.com/Reporting/</ReportingBaseUrl>
+          <ShelfsetBuilderBaseUrl>http://ForSkinningProject.bostaff.test.com/ShelfsetBuilder/</ShelfsetBuilderBaseUrl>
+          <StudyPointsDescription>points</StudyPointsDescription>
+          <PointsFormatString>0</PointsFormatString>
+          <PointTransactionHistoryMonthsPerPage>3</PointTransactionHistoryMonthsPerPage>
+          <UnsubscribedSuccessfullyMessage>Thank you, your email address has been removed from the panel.</UnsubscribedSuccessfullyMessage>
+          <ForgotPassword>Forgot Password?</ForgotPassword>
+          <NowAPanelist>Congratulations, you are now a panelist.</NowAPanelist>
+          <PanelistPortalLogin>Login to the Panelist Portal.</PanelistPortalLogin>
+          <UnsubscribeMessage>To unsubscribe click here</UnsubscribeMessage>
+          <ConfirmUnsubscribe>Please click the button below to confirm that you want to unsubscribe the following email address:</ConfirmUnsubscribe>
+          <PrePanelNameWelcome>Welcome to the </PrePanelNameWelcome>
+          <PostPanelNameWelcome>. Thank you for your participation.&lt;br&gt;&lt;br&gt;Please select from the following options:</PostPanelNameWelcome>
+          <InvalidPasswordFormatMessage>Please enter an alpha-numeric password between 6 and 12 characters including at least one number.</InvalidPasswordFormatMessage>
+          <CommunityTermsAndInstructions />
+          <CommunityUsernameLabel />
+          <CommunityUsernameSubmitButtonLabel />
+          <Notifications>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Admin" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Author" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Observer" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+          </Notifications>
+          <DecimalDelimiterOverride />
+        </Context>
+        <Context Culture="en-CA" Environment="QuickPreview19" IsHidden="true">
+          <PrivacyPolicyLink />
+          <Name>ForSkinningProject</Name>
+          <ShortTimeFormat>h:mm tt</ShortTimeFormat>
+          <ShortDateFormat>MMM-d-yyyy</ShortDateFormat>
+          <LongDateFormat>dddd, MMMM d, yyyy</LongDateFormat>
+          <PanelistPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[a-zA-Z]).{6,12}$</PanelistPasswordRegex>
+          <PanelPlusUserPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[A-Z])(?=[^ ]*[a-z]).{6,12}$</PanelPlusUserPasswordRegex>
+          <ReturnEmailAddress>vcadmin@visioncritical.com</ReturnEmailAddress>
+          <ReturnEmailPassword>Password1</ReturnEmailPassword>
+          <TechSupportEmail>vcadmin@visioncritical.com</TechSupportEmail>
+          <TechSupportPhone>604-111-1111</TechSupportPhone>
+          <ReturnEmailName>ForSkinningProject</ReturnEmailName>
+          <TechSupportStudyLink>http://www.google.com/survey</TechSupportStudyLink>
+          <MediaServer>/MediaServer</MediaServer>
+          <AdminBaseUrl>http://ForSkinningProject.bostaff.test.com/Admin/</AdminBaseUrl>
+          <AdminSkinPath>s97104/</AdminSkinPath>
+          <AdminJavascriptPath>js96601/</AdminJavascriptPath>
+          <PortalBaseUrl>http://3fyz.bostaff.test.com/</PortalBaseUrl>
+          <PortalJavascriptPath>js96174/</PortalJavascriptPath>
+          <PortalFlashPath>f63180/</PortalFlashPath>
+          <OpenPortalLiveBaseUrl>http://3fyz.bostaff.test.com/Portal/</OpenPortalLiveBaseUrl>
+          <OpenPortalSkinFolder />
+          <OpenPortalTestBaseUrl>http://3fyz.bostaff.test.com/PortalStaging/</OpenPortalTestBaseUrl>
+          <PortalSkinPath>skin/ForSkinningProject</PortalSkinPath>
+          <TranslationBaseUrl>http://ForSkinningProject.bostaff.test.com/Translation/</TranslationBaseUrl>
+          <TranslationSkinPath>skin/</TranslationSkinPath>
+          <ReportingBaseUrl>http://ForSkinningProject.bostaff.test.com/Reporting/</ReportingBaseUrl>
+          <ShelfsetBuilderBaseUrl>http://ForSkinningProject.bostaff.test.com/ShelfsetBuilder/</ShelfsetBuilderBaseUrl>
+          <StudyPointsDescription>points</StudyPointsDescription>
+          <PointsFormatString>0</PointsFormatString>
+          <PointTransactionHistoryMonthsPerPage>3</PointTransactionHistoryMonthsPerPage>
+          <UnsubscribedSuccessfullyMessage>Thank you, your email address has been removed from the panel.</UnsubscribedSuccessfullyMessage>
+          <ForgotPassword>Forgot Password?</ForgotPassword>
+          <NowAPanelist>Congratulations, you are now a panelist.</NowAPanelist>
+          <PanelistPortalLogin>Login to the Panelist Portal.</PanelistPortalLogin>
+          <UnsubscribeMessage>To unsubscribe click here</UnsubscribeMessage>
+          <ConfirmUnsubscribe>Please click the button below to confirm that you want to unsubscribe the following email address:</ConfirmUnsubscribe>
+          <PrePanelNameWelcome>Welcome to the </PrePanelNameWelcome>
+          <PostPanelNameWelcome>. Thank you for your participation.&lt;br&gt;&lt;br&gt;Please select from the following options:</PostPanelNameWelcome>
+          <InvalidPasswordFormatMessage>Please enter an alpha-numeric password between 6 and 12 characters including at least one number.</InvalidPasswordFormatMessage>
+          <CommunityTermsAndInstructions />
+          <CommunityUsernameLabel />
+          <CommunityUsernameSubmitButtonLabel />
+          <Notifications>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Admin" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Author" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Observer" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+          </Notifications>
+          <DecimalDelimiterOverride />
+        </Context>
+        <Context Culture="en-CA" Environment="QuickPreview20" IsHidden="true">
+          <PrivacyPolicyLink />
+          <Name>ForSkinningProject</Name>
+          <ShortTimeFormat>h:mm tt</ShortTimeFormat>
+          <ShortDateFormat>MMM-d-yyyy</ShortDateFormat>
+          <LongDateFormat>dddd, MMMM d, yyyy</LongDateFormat>
+          <PanelistPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[a-zA-Z]).{6,12}$</PanelistPasswordRegex>
+          <PanelPlusUserPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[A-Z])(?=[^ ]*[a-z]).{6,12}$</PanelPlusUserPasswordRegex>
+          <ReturnEmailAddress>vcadmin@visioncritical.com</ReturnEmailAddress>
+          <ReturnEmailPassword>Password1</ReturnEmailPassword>
+          <TechSupportEmail>vcadmin@visioncritical.com</TechSupportEmail>
+          <TechSupportPhone>604-111-1111</TechSupportPhone>
+          <ReturnEmailName>ForSkinningProject</ReturnEmailName>
+          <TechSupportStudyLink>http://www.google.com/survey</TechSupportStudyLink>
+          <MediaServer>/MediaServer</MediaServer>
+          <AdminBaseUrl>http://ForSkinningProject.bostaff.test.com/Admin/</AdminBaseUrl>
+          <AdminSkinPath>s97104/</AdminSkinPath>
+          <AdminJavascriptPath>js96601/</AdminJavascriptPath>
+          <PortalBaseUrl>http://e7fz.bostaff.test.com/</PortalBaseUrl>
+          <PortalJavascriptPath>js96174/</PortalJavascriptPath>
+          <PortalFlashPath>f63180/</PortalFlashPath>
+          <OpenPortalLiveBaseUrl>http://e7fz.bostaff.test.com/Portal/</OpenPortalLiveBaseUrl>
+          <OpenPortalSkinFolder />
+          <OpenPortalTestBaseUrl>http://e7fz.bostaff.test.com/PortalStaging/</OpenPortalTestBaseUrl>
+          <PortalSkinPath>skin/ForSkinningProject</PortalSkinPath>
+          <TranslationBaseUrl>http://ForSkinningProject.bostaff.test.com/Translation/</TranslationBaseUrl>
+          <TranslationSkinPath>skin/</TranslationSkinPath>
+          <ReportingBaseUrl>http://ForSkinningProject.bostaff.test.com/Reporting/</ReportingBaseUrl>
+          <ShelfsetBuilderBaseUrl>http://ForSkinningProject.bostaff.test.com/ShelfsetBuilder/</ShelfsetBuilderBaseUrl>
+          <StudyPointsDescription>points</StudyPointsDescription>
+          <PointsFormatString>0</PointsFormatString>
+          <PointTransactionHistoryMonthsPerPage>3</PointTransactionHistoryMonthsPerPage>
+          <UnsubscribedSuccessfullyMessage>Thank you, your email address has been removed from the panel.</UnsubscribedSuccessfullyMessage>
+          <ForgotPassword>Forgot Password?</ForgotPassword>
+          <NowAPanelist>Congratulations, you are now a panelist.</NowAPanelist>
+          <PanelistPortalLogin>Login to the Panelist Portal.</PanelistPortalLogin>
+          <UnsubscribeMessage>To unsubscribe click here</UnsubscribeMessage>
+          <ConfirmUnsubscribe>Please click the button below to confirm that you want to unsubscribe the following email address:</ConfirmUnsubscribe>
+          <PrePanelNameWelcome>Welcome to the </PrePanelNameWelcome>
+          <PostPanelNameWelcome>. Thank you for your participation.&lt;br&gt;&lt;br&gt;Please select from the following options:</PostPanelNameWelcome>
+          <InvalidPasswordFormatMessage>Please enter an alpha-numeric password between 6 and 12 characters including at least one number.</InvalidPasswordFormatMessage>
+          <CommunityTermsAndInstructions />
+          <CommunityUsernameLabel />
+          <CommunityUsernameSubmitButtonLabel />
+          <Notifications>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Admin" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Author" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Observer" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+          </Notifications>
+          <DecimalDelimiterOverride />
+        </Context>
+        <Context Culture="en-CA" Environment="QuickPreview20" IsHidden="true">
+          <PrivacyPolicyLink />
+          <Name>ForSkinningProject</Name>
+          <ShortTimeFormat>h:mm tt</ShortTimeFormat>
+          <ShortDateFormat>MMM-d-yyyy</ShortDateFormat>
+          <LongDateFormat>dddd, MMMM d, yyyy</LongDateFormat>
+          <PanelistPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[a-zA-Z]).{6,12}$</PanelistPasswordRegex>
+          <PanelPlusUserPasswordRegex>^(?=[^ ]*\d)(?=[^ ]*[A-Z])(?=[^ ]*[a-z]).{6,12}$</PanelPlusUserPasswordRegex>
+          <ReturnEmailAddress>vcadmin@visioncritical.com</ReturnEmailAddress>
+          <ReturnEmailPassword>Password1</ReturnEmailPassword>
+          <TechSupportEmail>vcadmin@visioncritical.com</TechSupportEmail>
+          <TechSupportPhone>604-111-1111</TechSupportPhone>
+          <ReturnEmailName>ForSkinningProject</ReturnEmailName>
+          <TechSupportStudyLink>http://www.google.com/survey</TechSupportStudyLink>
+          <MediaServer>/MediaServer</MediaServer>
+          <AdminBaseUrl>http://ForSkinningProject.bostaff.test.com/Admin/</AdminBaseUrl>
+          <AdminSkinPath>s97104/</AdminSkinPath>
+          <AdminJavascriptPath>js96601/</AdminJavascriptPath>
+          <PortalBaseUrl>http://ForSkinningProject.bostaff.test.com/</PortalBaseUrl>
+          <PortalJavascriptPath>js96174/</PortalJavascriptPath>
+          <PortalFlashPath>f63180/</PortalFlashPath>
+          <OpenPortalLiveBaseUrl>http://ForSkinningProject.bostaff.test.com/Portal/</OpenPortalLiveBaseUrl>
+          <OpenPortalSkinFolder>DONOTUSe</OpenPortalSkinFolder>
+          <OpenPortalTestBaseUrl>http://ForSkinningProject.bostaff.test.com/PortalStaging/</OpenPortalTestBaseUrl>
+          <PortalSkinPath>skin/ForSkinningProject</PortalSkinPath>
+          <TranslationBaseUrl>http://ForSkinningProject.bostaff.test.com/Translation/</TranslationBaseUrl>
+          <TranslationSkinPath>skin/</TranslationSkinPath>
+          <ReportingBaseUrl>http://ForSkinningProject.bostaff.test.com/Reporting/</ReportingBaseUrl>
+          <ShelfsetBuilderBaseUrl>http://ForSkinningProject.bostaff.test.com/ShelfsetBuilder/</ShelfsetBuilderBaseUrl>
+          <StudyPointsDescription>points</StudyPointsDescription>
+          <PointsFormatString>0</PointsFormatString>
+          <PointTransactionHistoryMonthsPerPage>3</PointTransactionHistoryMonthsPerPage>
+          <UnsubscribedSuccessfullyMessage>Thank you, your email address has been removed from the panel.</UnsubscribedSuccessfullyMessage>
+          <ForgotPassword>Forgot Password?</ForgotPassword>
+          <NowAPanelist>Congratulations, you are now a panelist.</NowAPanelist>
+          <PanelistPortalLogin>Login to the Panelist Portal.</PanelistPortalLogin>
+          <UnsubscribeMessage>To unsubscribe click here</UnsubscribeMessage>
+          <ConfirmUnsubscribe>Please click the button below to confirm that you want to unsubscribe the following email address:</ConfirmUnsubscribe>
+          <PrePanelNameWelcome>Welcome to the </PrePanelNameWelcome>
+          <PostPanelNameWelcome>. Thank you for your participation.&lt;br&gt;&lt;br&gt;Please select from the following options:</PostPanelNameWelcome>
+          <InvalidPasswordFormatMessage>Please enter an alpha-numeric password between 6 and 12 characters including at least one number.</InvalidPasswordFormatMessage>
+          <CommunityTermsAndInstructions />
+          <CommunityUsernameLabel />
+          <CommunityUsernameSubmitButtonLabel />
+          <Notifications>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Admin" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Author" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+            <Notification NotificationId="0F47F324-DA49-4FF1-B473-1B13C664366B" UserRole="Observer" Datetime="2008-11-24 11:00">
+              <Message>&lt;strong&gt;Sparq Updates&lt;/strong&gt; • Sparq Mobile Surveys now available. &lt;a target="_blank" href="http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/Source/Studies/Authoring/Question%20Types/mobile_questiontypes.htm"&gt;Click here for details.&lt;/a&gt;</Message>
+              <Tooltip>For more information, please click the above link.</Tooltip>
+            </Notification>
+          </Notifications>
+          <DecimalDelimiterOverride />
+        </Context>
+      </Contexts>
+      <GeneralSettings>
+        <PreloadObjectGraph>
+          <StudyPreview>false</StudyPreview>
+          <DeleteWorkflowStep>true</DeleteWorkflowStep>
+          <GridRebuild>true</GridRebuild>
+          <GridEditorLoad>true</GridEditorLoad>
+        </PreloadObjectGraph>
+        <Languages>
+          <Language Name="English (US)" Enabled="true" Culture="en-CA" Index="1" IsMultiByte="false" CommunityCulture="en-US" />
+        </Languages>
+        <DefaultPanelLanguage>en-CA</DefaultPanelLanguage>
+        <DefaultAdminLanguage>en-CA</DefaultAdminLanguage>
+        <RadSpellCheckLanguages>en-CA,en-GB,English,fr-CA,French,es-ES,Spanish,es-EU,de-DE,German,pt-BR,Portuguese,it-IT,Italian,nl-NL,Dutch,pl-PL,Polish,cs-CZ,Czech,ru-RU,Russian,sv-SE,Swedish,da-DK,Danish,sk-SK,Slovak,nb-NO,Norwegian</RadSpellCheckLanguages>
+        <RadSpellEditDistanceProviderCompatibleCultures>cs-CZ,pl-PL,ru-RU,sk-SK,nb-NO</RadSpellEditDistanceProviderCompatibleCultures>
+        <PointsRedemptionComments>
+          <PointsRedemptionComment Description="Missing Name" Comment="We need to refuse your request because you forgot your name. " Culture="en-CA" />
+          <PointsRedemptionComment Description="Inconsistent Data" Comment="There are inconsistencies in the data you have provided... please call... " Culture="en-CA" />
+          <PointsRedemptionComment Description="Missing Name" Comment="Dobbiamo respingere la richiesta, perchè hai dimenticato di scrivere il tuo nome. " Culture="it-IT" />
+          <PointsRedemptionComment Description="Inconsistent Data" Comment="I dati che hai fornito non sono coerenti...per favore telefona... " Culture="it-IT" />
+          <PointsRedemptionComment Description="Missing Name" Comment="Wij moeten uw verzoek weigeren omdat u uw naam niet hebt opgegeven. " Culture="nl-NL" />
+          <PointsRedemptionComment Description="Inconsistent Data" Comment="Er zijn inconsistenties in de door u ingevoerde gegevens... Bel... " Culture="nl-NL" />
+          <PointsRedemptionComment Description="Missing Name" Comment="We need to refuse your request because you forgot your name. " Culture="ru-RU" />
+          <PointsRedemptionComment Description="Inconsistent Data" Comment="There are inconsistencies in the data you have provided... please call... " Culture="ru-RU" />
+          <PointsRedemptionComment Description="Missing Name" Comment="???,???????,?????????????" Culture="zh-HK" />
+          <PointsRedemptionComment Description="Inconsistent Data" Comment="???????????... ???..." Culture="zh-HK" />
+          <PointsRedemptionComment Description="Missing Name" Comment="We need to refuse your request because you forgot your name. " Culture="en-GB" />
+          <PointsRedemptionComment Description="Inconsistent Data" Comment="There are inconsistencies in the data you have provided... please call... " Culture="en-GB" />
+          <PointsRedemptionComment Description="Missing Name" Comment="Tenemos que rechazar su solicitud porque ha olvidado su nombre." Culture="es-EU" />
+          <PointsRedemptionComment Description="Inconsistent Data" Comment="Hay inconsistencias en los datos que nos ha proporcionado... Llame a... " Culture="es-EU" />
+          <PointsRedemptionComment Description="Missing Name" Comment="?????????????????????????????????????????????????????? " Culture="th-TH" />
+          <PointsRedemptionComment Description="Inconsistent Data" Comment="??????????????????????????????????????????... ????????????????… " Culture="th-TH" />
+          <PointsRedemptionComment Description="Missing Name" Comment="Kita harus menolak permintaan Anda karena Anda lupa nama Anda." Culture="id-ID" />
+          <PointsRedemptionComment Description="Inconsistent Data" Comment="Ada ketidak konsistenan dalam data yang Anda berikan ... hubungi ..." Culture="id-ID" />
+          <PointsRedemptionComment Description="Missing Name" Comment="Namn som saknas" Culture="sv-SE" />
+          <PointsRedemptionComment Description="Inconsistent Data" Comment="Inkonsekventa data" Culture="sv-SE" />
+          <PointsRedemptionComment Description="Missing Name" Comment="?? ???µa ?e?pe?" Culture="el-GR" />
+          <PointsRedemptionComment Description="Inconsistent Data" Comment="?s??ep? ded?µ??a" Culture="el-GR" />
+          <PointsRedemptionComment Description="Missing Name" Comment="Navn mangler" Culture="da-DK" />
+          <PointsRedemptionComment Description="Inconsistent Data" Comment="Usammenhængende data" Culture="da-DK" />
+          <PointsRedemptionComment Description="Missing Name" Comment="Isim Eksik" Culture="tr-TR" />
+          <PointsRedemptionComment Description="Inconsistent Data" Comment="Çeliskili Veri" Culture="tr-TR" />
+          <PointsRedemptionComment Description="Missing Name" Comment="Chýba meno" Culture="sk-SK" />
+          <PointsRedemptionComment Description="Inconsistent Data" Comment="Nekonzistetné dáta" Culture="sk-SK" />
+          <PointsRedemptionComment Description="Missing Name" Comment="Navn mangler" Culture="nb-NO" />
+          <PointsRedemptionComment Description="Inconsistent Data" Comment="Ufullstendige data" Culture="nb-NO" />
+          <PointsRedemptionComment Description="Missing Name" Comment="????????? ???" Culture="hi-IN" />
+          <PointsRedemptionComment Description="Inconsistent Data" Comment="?????? ????" Culture="hi-IN" />
+        </PointsRedemptionComments>
+        <CommunityConfigurations />
+        <StudiesExcludedFromStudyReport>
+          <StudyExcludedFromStudyReport Id="1" />
+          <StudyExcludedFromStudyReport Id="3" />
+          <StudyExcludedFromStudyReport Id="4" />
+          <StudyExcludedFromStudyReport Id="5" />
+          <StudyExcludedFromStudyReport Id="7" />
+        </StudiesExcludedFromStudyReport>
+        <HostConfigurations>
+          <HostConfiguration HostName="ForSkinningProject.bostaff.test.com">
+            <Environment>DEFAULT</Environment>
+            <Culture>en-CA</Culture>
+          </HostConfiguration>
+          <HostConfiguration HostName="nugm.bostaff.test.com">
+            <Environment>QuickPreview1</Environment>
+            <Culture>en-CA</Culture>
+          </HostConfiguration>
+          <HostConfiguration HostName="ublz.bostaff.test.com">
+            <Environment>QuickPreview2</Environment>
+            <Culture>en-CA</Culture>
+          </HostConfiguration>
+          <HostConfiguration HostName="a1r8.bostaff.test.com">
+            <Environment>QuickPreview3</Environment>
+            <Culture>en-CA</Culture>
+          </HostConfiguration>
+          <HostConfiguration HostName="p6lj.bostaff.test.com">
+            <Environment>QuickPreview4</Environment>
+            <Culture>en-CA</Culture>
+          </HostConfiguration>
+          <HostConfiguration HostName="yttm.bostaff.test.com">
+            <Environment>QuickPreview5</Environment>
+            <Culture>en-CA</Culture>
+          </HostConfiguration>
+          <HostConfiguration HostName="s1f3.bostaff.test.com">
+            <Environment>QuickPreview6</Environment>
+            <Culture>en-CA</Culture>
+          </HostConfiguration>
+          <HostConfiguration HostName="ahog.bostaff.test.com">
+            <Environment>QuickPreview7</Environment>
+            <Culture>en-CA</Culture>
+          </HostConfiguration>
+          <HostConfiguration HostName="zte8.bostaff.test.com">
+            <Environment>QuickPreview8</Environment>
+            <Culture>en-CA</Culture>
+          </HostConfiguration>
+          <HostConfiguration HostName="o5be.bostaff.test.com">
+            <Environment>QuickPreview9</Environment>
+            <Culture>en-CA</Culture>
+          </HostConfiguration>
+          <HostConfiguration HostName="ddob.bostaff.test.com">
+            <Environment>QuickPreview10</Environment>
+            <Culture>en-CA</Culture>
+          </HostConfiguration>
+          <HostConfiguration HostName="6uy4.bostaff.test.com">
+            <Environment>QuickPreview11</Environment>
+            <Culture>en-CA</Culture>
+          </HostConfiguration>
+          <HostConfiguration HostName="ivfq.bostaff.test.com">
+            <Environment>QuickPreview12</Environment>
+            <Culture>en-CA</Culture>
+          </HostConfiguration>
+          <HostConfiguration HostName="w5rh.bostaff.test.com">
+            <Environment>QuickPreview13</Environment>
+            <Culture>en-CA</Culture>
+          </HostConfiguration>
+          <HostConfiguration HostName="iqum.bostaff.test.com">
+            <Environment>QuickPreview14</Environment>
+            <Culture>en-CA</Culture>
+          </HostConfiguration>
+          <HostConfiguration HostName="cvw4.bostaff.test.com">
+            <Environment>QuickPreview15</Environment>
+            <Culture>en-CA</Culture>
+          </HostConfiguration>
+          <HostConfiguration HostName="qhjg.bostaff.test.com">
+            <Environment>QuickPreview16</Environment>
+            <Culture>en-CA</Culture>
+          </HostConfiguration>
+          <HostConfiguration HostName="m89y.bostaff.test.co">
+            <Environment>QuickPreview17</Environment>
+            <Culture>en-CA</Culture>
+          </HostConfiguration>
+          <HostConfiguration HostName="u5d5.bostaff.test.com">
+            <Environment>QuickPreview18</Environment>
+            <Culture>en-CA</Culture>
+          </HostConfiguration>
+          <HostConfiguration HostName="3fyz.bostaff.test.com">
+            <Environment>QuickPreview19</Environment>
+            <Culture>en-CA</Culture>
+          </HostConfiguration>
+          <HostConfiguration HostName="e7fz.bostaff.test.com">
+            <Environment>QuickPreview20</Environment>
+            <Culture>en-CA</Culture>
+          </HostConfiguration>
+        </HostConfigurations>
+        <ResponseLinkMappings />
+        <MailServer>starla</MailServer>
+        <MailPickupDirectory>\\starla\pickup</MailPickupDirectory>
+        <EmailBatchSize>1000000</EmailBatchSize>
+        <PanelistPasswordResetEmailId>1</PanelistPasswordResetEmailId>
+        <GlobalErrorsEmailAddress>vcadmin@visioncritical.com</GlobalErrorsEmailAddress>
+        <SendNotifications>true</SendNotifications>
+        <Announcement />
+        <DefaultAdminEnvironment>DEFAULT</DefaultAdminEnvironment>
+        <DefaultPortalEnvironment>DEFAULT</DefaultPortalEnvironment>
+        <DefaultTranslationEnvironment>DEFAULT</DefaultTranslationEnvironment>
+        <ConfirmPanelistWithSecureId>false</ConfirmPanelistWithSecureId>
+        <UseSslForFlashGatewayRequests>false</UseSslForFlashGatewayRequests>
+        <ShowRedirectToForumOption>false</ShowRedirectToForumOption>
+        <LicenseExpiryDate>2030-01-11T00:00:00</LicenseExpiryDate>
+        <LaunchDate>2006-09-01T00:00:00</LaunchDate>
+        <MigrationDate>2006-09-01T00:00:00</MigrationDate>
+        <RequireAdminAuthentication>true</RequireAdminAuthentication>
+        <ServerSideViewState>true</ServerSideViewState>
+        <ProgressBarPathAlgorithm>ShortestPath</ProgressBarPathAlgorithm>
+        <CompressJavascript>true</CompressJavascript>
+        <IncludeClientSharedEditor>true</IncludeClientSharedEditor>
+        <ShowSampleRequestForm>false</ShowSampleRequestForm>
+        <SampleRequestDestinationEmail>sample.request@visioncritical.com</SampleRequestDestinationEmail>
+        <ExportPrivateInformation>true</ExportPrivateInformation>
+        <PanelistManagementVisible>false</PanelistManagementVisible>
+        <QuestionTextToolsList>More Tools...,Pipes,Undo,Bold,Italic,Underline,LinkManager,ImageManager,FlashManager,MediaManager,DocumentManager,InsertSymbol</QuestionTextToolsList>
+        <InstructionTextToolsList>More Tools...,Pipes,Undo,Bold,Italic,Underline,LinkManager,ImageManager,FlashManager,MediaManager,DocumentManager,InsertSymbol</InstructionTextToolsList>
+        <BatchAnswerTextToolsList>InsertSnippet</BatchAnswerTextToolsList>
+        <SingleAnswerTextToolsList>Pipes,Undo,Bold,Italic,Underline,ImageManager</SingleAnswerTextToolsList>
+        <QuestionPickerNodePageSize>500</QuestionPickerNodePageSize>
+        <QuestionDefaults>
+          <QuestionDefaults QuestionSubType="SingleChoiceQuestion">
+            <Required>true</Required>
+            <InstructionText Culture="en-CA">Please select one response only.</InstructionText>
+            <Width />
+            <Height />
+          </QuestionDefaults>
+          <QuestionDefaults QuestionSubType="MultiChoiceQuestion">
+            <Required>true</Required>
+            <InstructionText Culture="en-CA">Please select all that apply.</InstructionText>
+            <Width />
+            <Height />
+          </QuestionDefaults>
+          <QuestionDefaults QuestionSubType="OpenEndQuestion">
+            <Required>true</Required>
+            <InstructionText Culture="en-CA">Please be as specific as possible.</InstructionText>
+            <InstructionText Culture="ko-KR">??? ????? ?????.</InstructionText>
+            <Width>45</Width>
+            <Height>1</Height>
+          </QuestionDefaults>
+          <QuestionDefaults QuestionSubType="NumericQuestion">
+            <Required>true</Required>
+            <InstructionText Culture="en-CA">Please enter numeric response only.</InstructionText>
+            <InstructionText Culture="ko-KR">?? ??? ??????.</InstructionText>
+            <Width>45</Width>
+            <Height>1</Height>
+          </QuestionDefaults>
+          <QuestionDefaults QuestionSubType="DateQuestion">
+            <Required>true</Required>
+            <InstructionText Culture="en-CA">Please choose a date.</InstructionText>
+            <Width />
+            <Height />
+          </QuestionDefaults>
+          <QuestionDefaults QuestionSubType="SingleChoiceGrid">
+            <Required>true</Required>
+            <InstructionText Culture="en-CA">Please select one response for each item.</InstructionText>
+            <Width />
+            <Height />
+          </QuestionDefaults>
+          <QuestionDefaults QuestionSubType="MultiChoiceGrid">
+            <Required>true</Required>
+            <InstructionText Culture="en-CA">Please select all that apply.</InstructionText>
+            <Width />
+            <Height />
+          </QuestionDefaults>
+          <QuestionDefaults QuestionSubType="AllocationGrid">
+            <Required>true</Required>
+            <InstructionText Culture="en-CA">Please make sure your total adds up to 100%.</InstructionText>
+            <Width />
+            <Height />
+          </QuestionDefaults>
+          <QuestionDefaults QuestionSubType="RankOrderGrid">
+            <Required>true</Required>
+            <InstructionText Culture="en-CA">Please select a rank for each statement. Select each rank only once.</InstructionText>
+            <Width />
+            <Height />
+          </QuestionDefaults>
+          <QuestionDefaults QuestionSubType="ImageQuestion">
+            <Required>true</Required>
+            <InstructionText Culture="en-CA">Please upload an image using the controls below.</InstructionText>
+            <Width />
+            <Height />
+          </QuestionDefaults>
+        </QuestionDefaults>
+        <PanelSettingsBackupFolder>PanelSettingsBackups</PanelSettingsBackupFolder>
+        <FusionIntegrationEnabled>false</FusionIntegrationEnabled>
+        <CompiledStudiesFolder>D:\Customer\Clients\Panel_ForSkinningProject\CompiledStudies</CompiledStudiesFolder>
+        <DebugCompile>false</DebugCompile>
+        <KeepTempCompilationFiles>false</KeepTempCompilationFiles>
+        <ResponseAssemblyKeysFile>D:\Customer\Clients\Panel_ForSkinningProject\vcKey.snk</ResponseAssemblyKeysFile>
+        <SampleFileFolder>D:\Customer\Clients\Panel_ForSkinningProject\SampleFiles</SampleFileFolder>
+        <DatabaseServerSampleFileFolder>D:\Customer\SampleFiles\LOCALUSER\visc-datalink</DatabaseServerSampleFileFolder>
+        <DataTransferFilesFolder>D:\Customer\Clients\Panel_ForSkinningProject\DataTransferFiles</DataTransferFilesFolder>
+        <ReportFilesFolder>D:\Customer\Clients\Panel_ForSkinningProject\ReportFiles</ReportFilesFolder>
+        <TaskManagerCustomNowDateEnabled>false</TaskManagerCustomNowDateEnabled>
+        <TaskManagerCustomNowDate>2007-07-05T13:08:32</TaskManagerCustomNowDate>
+        <InterruptRunningTasksOnTaskManagerStartUp>true</InterruptRunningTasksOnTaskManagerStartUp>
+        <EnableTaskManagerOnStartUp>true</EnableTaskManagerOnStartUp>
+        <TaskManagerPollingIntervalMilliseconds>60000</TaskManagerPollingIntervalMilliseconds>
+        <SendInvitationBatchIntervalMinutes>60</SendInvitationBatchIntervalMinutes>
+        <BounceProcessBatchIntervalMinutes>720</BounceProcessBatchIntervalMinutes>
+        <BounceProcessMaxEmailToEvaluate>200</BounceProcessMaxEmailToEvaluate>
+        <SendPendingMessageProcessBatchIntervalMinutes>60</SendPendingMessageProcessBatchIntervalMinutes>
+        <MaximumAtrCount>1000</MaximumAtrCount>
+        <StudyMessagingIntervalInSeconds>3600</StudyMessagingIntervalInSeconds>
+        <UseSupportRequestPage>true</UseSupportRequestPage>
+        <TopicsFile>D:\Customer\Clients\Panel_ForSkinningProject\skins\Default\Portal\xml\SupportTopics.xml</TopicsFile>
+        <UserManualUrl />
+        <ReportingManualUrl>http://help.visioncriticalpanels.com/dynamicreporting/</ReportingManualUrl>
+        <IssuesUrl>http://help.visioncriticalpanels.com/Issues/</IssuesUrl>
+        <LiveHelpUrl>https://support.visioncritical.com/ics/support/security.asp?deptID=5389</LiveHelpUrl>
+        <Forums>false</Forums>
+        <CommunityAnalysisPageSize>40</CommunityAnalysisPageSize>
+        <CSUserNameMinimumLength>3</CSUserNameMinimumLength>
+        <CSUserNameMaximumLength>50</CSUserNameMaximumLength>
+        <CSUserNameRegex>^[a-zA-Z0-9_\- @\.]+$</CSUserNameRegex>
+        <CommunityControlPanelAccess>AllAdmins</CommunityControlPanelAccess>
+        <DiscussionAnalysisBookmarkAllWarningLimit>500</DiscussionAnalysisBookmarkAllWarningLimit>
+        <QuestionPickerQuickSelectQuestionGroupId>8</QuestionPickerQuickSelectQuestionGroupId>
+        <ProfilingStudyId>2</ProfilingStudyId>
+        <ProfilingQuestionGroupId>2</ProfilingQuestionGroupId>
+        <PanelDemographicQuestionGroupId>6</PanelDemographicQuestionGroupId>
+        <PointsApprovalFormQuestionGroupId>7</PointsApprovalFormQuestionGroupId>
+        <ParticipationStudyId>1</ParticipationStudyId>
+        <CommunicationStudyId>3</CommunicationStudyId>
+        <QuickPollsStudyId>4</QuickPollsStudyId>
+        <WeightSetStudyId>5</WeightSetStudyId>
+        <PointsRedemptionStudyId>7</PointsRedemptionStudyId>
+        <PointsRedemptionLinkId>3</PointsRedemptionLinkId>
+        <ShelfsetPanelPlusGroupId>1</ShelfsetPanelPlusGroupId>
+        <SampleTemplateId>1</SampleTemplateId>
+        <InvitationTemplateId>2</InvitationTemplateId>
+        <Reminder1TemplateId>3</Reminder1TemplateId>
+        <Reminder2TemplateId>4</Reminder2TemplateId>
+        <Reminder3TemplateId>5</Reminder3TemplateId>
+        <SendInvitationEmailTemplateId>6</SendInvitationEmailTemplateId>
+        <SendReminder1EmailTemplateId>7</SendReminder1EmailTemplateId>
+        <SendReminder2EmailTemplateId>8</SendReminder2EmailTemplateId>
+        <SendReminder3EmailTemplateId>9</SendReminder3EmailTemplateId>
+        <ConditionalTemplateId>10</ConditionalTemplateId>
+        <ReportTemplateId>11</ReportTemplateId>
+        <ExportTemplateId>12</ExportTemplateId>
+        <Ink>true</Ink>
+        <Video>true</Video>
+        <LocalAttachment>true</LocalAttachment>
+        <RemoteAttachment>true</RemoteAttachment>
+        <CreatePoll>false</CreatePoll>
+        <ConversionServiceCultureName>en-US</ConversionServiceCultureName>
+        <ConversionServiceQueuePath>FormatName:DIRECT=OS:Starla\Private$\ConversionQueue</ConversionServiceQueuePath>
+        <MaxSlides>1000</MaxSlides>
+        <MaxReportOutputTaskPendingSeconds>600</MaxReportOutputTaskPendingSeconds>
+        <MaxReportOutputTaskRunningSeconds>720</MaxReportOutputTaskRunningSeconds>
+        <ReportExcelStyleSettingsPath>D:\Customer\Clients\Panel_ForSkinningProject\ReportExcelStyleSettings.config</ReportExcelStyleSettingsPath>
+        <EnablePasswordChangePolicy>false</EnablePasswordChangePolicy>
+        <EnablePasswordAudit>false</EnablePasswordAudit>
+        <EnableLoginFailureLockOut>false</EnableLoginFailureLockOut>
+        <EnableLockPasswordChange>false</EnableLockPasswordChange>
+        <EnableScriptTimer>false</EnableScriptTimer>
+        <DecryptUrlDataFeatureEnabled>false</DecryptUrlDataFeatureEnabled>
+        <ReportBuilderFeatureState>Enabled</ReportBuilderFeatureState>
+        <SparqTwoReportingFeatureState>Hidden</SparqTwoReportingFeatureState>
+        <StudyPointsFeatureState>Hidden</StudyPointsFeatureState>
+        <PointsRedemptionFeatureState>Hidden</PointsRedemptionFeatureState>
+        <ImageQuestionFeatureState>Hidden</ImageQuestionFeatureState>
+        <RestrictExternalSamplesToRole>PanelAdministrator</RestrictExternalSamplesToRole>
+        <ShelfSetBuilderFeatureState>Disabled</ShelfSetBuilderFeatureState>
+        <OpenPortalFeatureState>Enabled</OpenPortalFeatureState>
+        <StaticContentManagerFeatureState>Enabled</StaticContentManagerFeatureState>
+        <SimpleWeightCategoriesFeatureState>Hidden</SimpleWeightCategoriesFeatureState>
+        <BrowserDetectionFeatureState>Enabled</BrowserDetectionFeatureState>
+        <SystemHealthDashboardFeatureState>Hidden</SystemHealthDashboardFeatureState>
+        <SampleRequestButtonFeatureState>Hidden</SampleRequestButtonFeatureState>
+        <IncentivesFeatureState>Disabled</IncentivesFeatureState>
+        <MobileFeatureState>Enabled</MobileFeatureState>
+        <QuestionExtensionSettings>
+          <QuestionExtension Name="Clickmap" Visible="false" />
+          <QuestionExtension Name="Highlighter" Visible="false" />
+          <QuestionExtension Name="TrueCopy" Visible="false" />
+          <QuestionExtension Name="LineSort" Visible="true" />
+          <QuestionExtension Name="SingleMagneticBoard" Visible="true" />
+          <QuestionExtension Name="MultiMagneticBoard" Visible="true" />
+          <QuestionExtension Name="RankOrderSort" Visible="true" />
+          <QuestionExtension Name="AllocationSlider" Visible="true" />
+          <QuestionExtension Name="SingleChoiceButtons" Visible="true" />
+          <QuestionExtension Name="MultiChoiceButtons" Visible="true" />
+          <QuestionExtension Name="SingleCorkBoard" Visible="true" />
+          <QuestionExtension Name="MultiCorkBoard" Visible="true" />
+          <QuestionExtension Name="ChoiceSlider" Visible="true" />
+          <QuestionExtension Name="LoreQuestion" Visible="false" />
+          <QuestionExtension Name="MapButtons" Visible="true" />
+          <QuestionExtension Name="VideoInstruction" Visible="false" />
+          <QuestionExtension Name="NumericSlider" Visible="true" />
+          <QuestionExtension Name="MediaPlayer" Visible="false" />
+        </QuestionExtensionSettings>
+        <DeleteLiveQuestionEnabled>true</DeleteLiveQuestionEnabled>
+        <ReportTemplatesFolder>D:\Customer\Cores\4.5.32.98293\ReportTemplates</ReportTemplatesFolder>
+        <ImageExportCleanupIntervalSeconds>3600</ImageExportCleanupIntervalSeconds>
+        <MaxImageExportFileAgeSeconds>1800</MaxImageExportFileAgeSeconds>
+        <ShelfsetDesignerSessionKeepAlivePingSeconds>600</ShelfsetDesignerSessionKeepAlivePingSeconds>
+        <NeoSwiffSccExePath>D:\Program Files\NeoSwiff\scc.exe</NeoSwiffSccExePath>
+        <NeoSwiffImageSize>100,100</NeoSwiffImageSize>
+        <NeoSwiffImageQuality>20</NeoSwiffImageQuality>
+        <SccTimeoutSeconds>120</SccTimeoutSeconds>
+        <RequireShelfsetBuilderAuthentication>true</RequireShelfsetBuilderAuthentication>
+        <DeploymentToEmail>fusion@visioncritical.com</DeploymentToEmail>
+        <DeploymentFromEmail>shelfsetbuilder@visioncritical.com</DeploymentFromEmail>
+        <DeploymentEmailBodyEncodingName>utf-8</DeploymentEmailBodyEncodingName>
+        <IsDeploymentEmailBodyHtml>true</IsDeploymentEmailBodyHtml>
+        <DeploymentEmailSubject>Shelfset Project Deployment: {0}</DeploymentEmailSubject>
+        <DeploymentEmailBody>Hi,&lt;br/&gt;&lt;br/&gt;Please find the attached {0} shelfset project POGS and PDL export files.  To access the image for this project, please click on the link below:&lt;br/&gt;{1}&lt;br/&gt;&lt;br/&gt;Shelfset Builder </DeploymentEmailBody>
+        <PlanogramExportsCleanupIntervalSeconds>3600</PlanogramExportsCleanupIntervalSeconds>
+        <MaxPlanogramExportFileAgeSeconds>1800</MaxPlanogramExportFileAgeSeconds>
+        <ProductImageExportsCleanupIntervalSeconds>3600</ProductImageExportsCleanupIntervalSeconds>
+        <MaxProductImageExportFileAgeSeconds>1800</MaxProductImageExportFileAgeSeconds>
+        <ProductImageExportFileLengthBytes>52428800</ProductImageExportFileLengthBytes>
+        <QuickPollSettings>
+          <ShowOnLoginPage>true</ShowOnLoginPage>
+          <ShowOnHomePage>true</ShowOnHomePage>
+        </QuickPollSettings>
+        <NewsLettersSettings>
+          <ShowOnLoginPage>true</ShowOnLoginPage>
+          <ShowOnHomePage>true</ShowOnHomePage>
+        </NewsLettersSettings>
+        <StudyLinksSettings>
+          <ShowOnLoginPage>true</ShowOnLoginPage>
+          <ShowOnHomePage>true</ShowOnHomePage>
+        </StudyLinksSettings>
+        <RequireReportBuilderAuthentication>true</RequireReportBuilderAuthentication>
+        <MaxRowCellCount>200</MaxRowCellCount>
+        <MaxColumnCellCount>100</MaxColumnCellCount>
+        <MaxCellCount>10000</MaxCellCount>
+        <MaxNestedLevelCount>4</MaxNestedLevelCount>
+        <MaxDynamicAnswerCount>100</MaxDynamicAnswerCount>
+        <WeightVariableDecimalPlace>3</WeightVariableDecimalPlace>
+        <WeightSetTolerance>0.00001</WeightSetTolerance>
+        <WeightSetIterationLimit>50</WeightSetIterationLimit>
+        <MaximumWeightSetIteration>100</MaximumWeightSetIteration>
+        <MaximumWeightValue>99999</MaximumWeightValue>
+        <MinimumWeightValue>0.00001</MinimumWeightValue>
+        <WeightSetTraceState>Disabled</WeightSetTraceState>
+        <WeightSetReportRanges>
+          <WeightSetReportRange Name="% of sample with weight between 0.5 and 2:" Start="0.5" End="2" />
+          <WeightSetReportRange Name="% of sample with weight between 0.2 and 5:" Start="0.2" End="5" />
+          <WeightSetReportRange Name="% of sample with weight between 0.1 and 10:" Start="0.1" End="10" />
+        </WeightSetReportRanges>
+        <PendingMessagesFolder>D:\Customer\Clients\Panel_ForSkinningProject\PendingMessages</PendingMessagesFolder>
+        <IncentiveUIConfigurationFile>D:\Customer\Clients\Panel_ForSkinningProject\IncentiveUI.config</IncentiveUIConfigurationFile>
+        <UseGenericIncentiveUI>true</UseGenericIncentiveUI>
+        <ScriptsFolder>D:\Customer\Cores\4.5.32.98293\Scripts</ScriptsFolder>
+        <ExtensionFolder>D:\Customer\Clients\Panel_ForSkinningProject\Extensions</ExtensionFolder>
+        <SupportedFileTypes>.html|Web File,.htm|Web File,.css|Web File,.js|Web File,.xsl|Web File,.xslt|Web File,.bmp|Image File,.gif|Image File,.ico|Image File,.jpg|Image File,.jpeg|Image File,.png|Image File,.xbm|Image File,.xpm|Image File,.ief|Image File,.fif|Image File,.ras|Image File,.pict|Image File,.xwd|Image File,.rgb|Image File,.swf|Flash File,.flv|Flash File,.zip|Zip File,.asx|Media File,.mov|Media File,.avi|Media File,.mpeg|Media File,.mpg|Media File,.mp3|Media File,.wav|Media File,.aiff|Media File,.ra|Media File,.ram|Media File,.wma|Media File,.wmf|Media File,.wmv|Media File,.dcr|Media File,.doc|Document File,.rtf|Document File,.txt|Document File,.pdf|Document File,.xml|Document File,.htm|Document File,.html|Document File,.xsl|Document File,.xslt|Document File</SupportedFileTypes>
+        <MaxSingleUploadSizeKb>5120</MaxSingleUploadSizeKb>
+        <MaxTotalUploadSizeKb>10240</MaxTotalUploadSizeKb>
+        <ImageQuestionMaxWidthPixels>800</ImageQuestionMaxWidthPixels>
+        <ImageQuestionMaxHeightPixels>600</ImageQuestionMaxHeightPixels>
+        <ImageQuestionThumbnailWidth>50</ImageQuestionThumbnailWidth>
+        <ImageQuestionThumbnailHeight>50</ImageQuestionThumbnailHeight>
+        <ImageQuestionAllowedFileTypes>jpg,gif,png,tiff,jpeg,bmp</ImageQuestionAllowedFileTypes>
+        <ImageQuestionMaxSizeKb>500</ImageQuestionMaxSizeKb>
+        <SslManagerFeatureState>Hidden</SslManagerFeatureState>
+        <BrandingManagerFeatureState>Hidden</BrandingManagerFeatureState>
+        <CertificateRequestsCleanupIntervalSeconds>3600</CertificateRequestsCleanupIntervalSeconds>
+        <MaxCertificateRequestFileAgeSeconds>1800</MaxCertificateRequestFileAgeSeconds>
+        <MinimumPointsForRedemption>50</MinimumPointsForRedemption>
+        <PointRedemptionStudyXmlFile>D:\Customer\Cores\4.5.32.98293\StudyXmls\PointRedemptionStudy.xml</PointRedemptionStudyXmlFile>
+        <VCTemplateStudyXmlFile>D:\Customer\Cores\4.5.32.98293\StudyXmls\VCTemplateStudy.xml</VCTemplateStudyXmlFile>
+        <MaxStudyAnswerCount>20000</MaxStudyAnswerCount>
+        <MaxQuestionAnswerCount>1000</MaxQuestionAnswerCount>
+        <MaxGridQuestionCount>991</MaxGridQuestionCount>
+        <MaxPageItemCount>500</MaxPageItemCount>
+        <MaxLoopSize>5000</MaxLoopSize>
+        <MaxExpressionCount>200</MaxExpressionCount>
+        <PXmlTimeout>300000</PXmlTimeout>
+        <Spss14ExportMaxVerbatimFieldSize>2500</Spss14ExportMaxVerbatimFieldSize>
+        <PasswordChangeExpireIntervalInDays>30</PasswordChangeExpireIntervalInDays>
+        <PasswordChangeReminderIntervalInDays>10</PasswordChangeReminderIntervalInDays>
+        <MaximumPasswordAudit>6</MaximumPasswordAudit>
+        <MaximumConsecutiveLoginFailure>6</MaximumConsecutiveLoginFailure>
+        <MaximumPasswordAgeInHours>48</MaximumPasswordAgeInHours>
+        <ReminderCheckIntervalHours>24</ReminderCheckIntervalHours>
+        <PanelTimeZone>(GMT-08:00) Pacific Time (US &amp; Canada),Pacific Standard Time</PanelTimeZone>
+        <ServerTimeZone>(GMT-08:00) Pacific Time (US &amp; Canada),Pacific Standard Time</ServerTimeZone>
+        <ParatureSettings>
+          <SessionEmail>systemuser@visioncritical.com</SessionEmail>
+          <SessionId>b8300a6cddfeab0cfb6b56bd5187c862</SessionId>
+          <CSlaName>VC Employee - Client Support</CSlaName>
+          <AmName>VC-ARS_Employees</AmName>
+        </ParatureSettings>
+        <ImportParticipationQuestions>
+          <ImportParticipationQuestion QuestionName="PanelistIdQuestion" />
+          <ImportParticipationQuestion QuestionName="PanelistEmail" />
+          <ImportParticipationQuestion QuestionName="PanelistAlternateId" />
+        </ImportParticipationQuestions>
+        <SecuredParticipationQuestions>
+          <SecuredParticipationQuestion QuestionName="PanelistPassword" />
+        </SecuredParticipationQuestions>
+        <NumericMaximumDecimalPlace>4</NumericMaximumDecimalPlace>
+        <ReportingServices ReportFolder="/4.5.32.98293" WebServer="Starla" />
+        <IncludePanelistsInAdHocReport>false</IncludePanelistsInAdHocReport>
+        <SparqTwoReportingBaseUrl>http://tenant1.lkg.deploy1test.local/admin/Reporting.aspx</SparqTwoReportingBaseUrl>
+        <SparqTwoReportingServiceUrl>http://latest-services-reporting.lkg.deploy1test.local/DataImportService.svc</SparqTwoReportingServiceUrl>
+        <EnableSparqTwoReportingAvailabilityDetection>false</EnableSparqTwoReportingAvailabilityDetection>
+        <PanelPlusPlatformServicesBaseUrl>http://ForSkinningProject.bostaff.test.com/PlatformServices/v1.0/</PanelPlusPlatformServicesBaseUrl>
+        <CapscanSettings>
+          <AllowLookup>false</AllowLookup>
+          <ClientId />
+          <AccessCode />
+          <Url>http://www.capscanondemand.com/capscanondemand/capscanondemand.asmx</Url>
+        </CapscanSettings>
+        <StaticContentFilePath>D:\Customer\Clients\Panel_ForSkinningProject\Portal\Test\Configuration\StaticContentBlocks.xml</StaticContentFilePath>
+        <OpenPortalLivePhysicalPath>D:\Customer\Clients\Panel_ForSkinningProject\Portal\Live</OpenPortalLivePhysicalPath>
+        <OpenPortalTestPhysicalPath>D:\Customer\Clients\Panel_ForSkinningProject\Portal\Test</OpenPortalTestPhysicalPath>
+        <OpenPortalApplicationBackupsPath>D:\Customer\Clients\Panel_ForSkinningProject\Portal\Backups</OpenPortalApplicationBackupsPath>
+        <OpenPortalMaximumBackupFiles>5</OpenPortalMaximumBackupFiles>
+        <OpenPortalCacheExpirationPeriod>30</OpenPortalCacheExpirationPeriod>
+        <SqlCommandTimeouts SynchronizePanelistData="10000" CompileDatabase="600" Default="30" PanelFilterGetPanelists="900" BounceProcess="600" ExportExecution="300" UnreserveSample="180" CommunityAnalysis="240" DefaultLongTimeout="300" />
+        <OnlineHelpUrl>http://webhelp.visioncriticalpanels.com/Default.htm#StartTopic=Content/</OnlineHelpUrl>
+        <SampleRequestUrl />
+        <BieksaMigrationDate />
+        <IntialAnswerListSize>32</IntialAnswerListSize>
+        <AnswerSetsPath>/ToolBars/AnswerSets.xml</AnswerSetsPath>
+        <StartHourForAppPoolRecycling>3</StartHourForAppPoolRecycling>
+        <EndHourForAppPoolRecycling>6</EndHourForAppPoolRecycling>
+        <ATRStepDelay>500</ATRStepDelay>
+        <EnableBrowserCachingCheck>false</EnableBrowserCachingCheck>
+        <IncentiveServiceUrl>http://sl.com/v1/</IncentiveServiceUrl>
+        <IncentiveUIUrl>http://sl.com/</IncentiveUIUrl>
+        <EnableSeedEmail>true</EnableSeedEmail>
+        <SeedEmailAddressList>testsend@visioncriticalpanels.com</SeedEmailAddressList>
+        <VideoTypes>*.flv,*.avi,*.mov,*.wmv,*.mpg,*.mpeg,*.mp4,*.mpeg4,*.m4v,*.mp3,*.mp2,*.aac,*.ac3,*.m4a,*.wma</VideoTypes>
+      </GeneralSettings>
+      <Services>
+        <Timeout>30</Timeout>
+        <Sparq2ReportingTimeout>1</Sparq2ReportingTimeout>
+        <AdminServiceEnabled>true</AdminServiceEnabled>
+        <AuthenticationServiceEnabled>true</AuthenticationServiceEnabled>
+        <CommunityServiceEnabled>false</CommunityServiceEnabled>
+        <MaximumItemCount>100</MaximumItemCount>
+        <DefaultThrottlingDelay>0</DefaultThrottlingDelay>
+        <ThrottlingDelays />
+      </Services>
+    </PanelSettings>
+  </xmlSerializerSection>
+</PanelSettings>

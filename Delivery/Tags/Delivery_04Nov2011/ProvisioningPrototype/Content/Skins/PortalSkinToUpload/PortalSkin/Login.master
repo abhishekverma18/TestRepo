@@ -1,0 +1,124 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" MasterPageFile="Main.Master" %>
+<%@ Import Namespace="VisionCritical.PanelPlus.OpenPortal.Controls" %>
+<%@ Import Namespace="VisionCritical.PanelPlus.OpenPortal.Controls.Controls" %>
+<%@ Import Namespace="VisionCritical.PanelPlus.OpenPortal.Controls.DataTypes" %>
+
+<%@ Register 
+    Assembly="VisionCritical.PanelPlus.OpenPortal.Controls" 
+    Namespace="VisionCritical.PanelPlus.OpenPortal.Controls.Controls"
+    TagPrefix="OpenPortalControls" %>
+<%@ Register TagPrefix="scb" TagName="getscb" Src="~/_controls/scb.ascx" %>
+
+	<asp:content id="ServerScripts" contentplaceholderid="ServerScripts" runat="server">
+		<script language="C#" runat="server">
+			public string getLocalEmail() {
+                string emailLabel = ((IOpenPortalHost)this.Page).LocalizedResourceOverridesManager.GetLocalizedStringOverride("LoginControl_EmailAddressLabel_Text");
+				if(String.IsNullOrEmpty(emailLabel)){emailLabel = "Email Address";}
+                return emailLabel;
+            }
+            public string getLocalPassword()
+            {
+                string passwordLabel = ((IOpenPortalHost)this.Page).LocalizedResourceOverridesManager.GetLocalizedStringOverride("LoginControl_PasswordLabel_Text");
+                if(String.IsNullOrEmpty(passwordLabel)){passwordLabel = "Password";}
+				return passwordLabel;
+            }
+			protected override void OnInit(EventArgs e)
+			{
+				this.LC.AuthenticationSucceeded +=new EventHandler(LC_Authentication_Succeeded);
+				base.OnInit(e);
+			}
+			protected void LC_Authentication_Succeeded(object o, EventArgs e)
+		  {
+                string returnUrl = Request.QueryString["ReturnUrl"] != null ? Request.QueryString["ReturnUrl"] : "";
+
+                if (returnUrl != "" && returnUrl.IndexOf("http") < 0)
+                {
+                    this.Response.Redirect(HttpUtility.UrlDecode(returnUrl));
+                }
+                else
+                {
+                    this.Response.Redirect(((IOpenPortalHost)this.Page).SkinBaseUrl + "/members/default.aspx");
+                }
+		  }
+		</script>
+
+		<!-- Content Place Holder //-->
+		<asp:ContentPlaceHolder id="ServerScriptsLogin" runat="server" />
+	</asp:content>
+
+   <asp:content id="head" contentplaceholderid="head" runat="server">
+   
+	</asp:content>
+	<asp:content id="css" contentplaceholderid="css" runat="server">
+	 <link rel="stylesheet" type="text/css" href="<%=((IOpenPortalHost)this.Page).SkinBaseUrl%>/_css/login.css" media="All" />
+		<asp:ContentPlaceHolder id="cssLogin" runat="server" />
+	 </asp:content>
+
+
+	
+
+	<asp:content id="Column1" contentplaceholderid="Column1" runat="server">
+	    <div id="login-image">
+		    <scb:getscb ID="Getscb2" getThisID="login-image" runat="server" operation="getStaticContent"></scb:getscb>
+		</div>
+	</asp:content>
+
+	<asp:content id="Column2" contentplaceholderid="Column2" runat="server">
+		<!-- Content Place Holder //-->
+		<asp:ContentPlaceHolder id="Column2Login" runat="server" />
+	</asp:content>
+
+	<asp:content id="Column3" contentplaceholderid="Column3" runat="server">
+	    <!-- PANEL 7 -->
+		<div class="widgets" id="wid-login">
+						<!-- Login -->   
+						<OpenPortalControls:LoginControl1_1  
+						ID="LC" 
+						IncludeDefaultStyle="false" 
+						runat="server" />
+						<div class="clear"></div>
+		</div>
+		
+		<!-- END PANEL 7 -->
+	    <input type="text" id="password-placeholder" style="display: none" value="<%=getLocalPassword()%>"/>
+<input type="text" id="email-placeholder" style="display: none" value="<%=getLocalEmail()%>"/>
+<script type="text/javascript">
+		$(document).ready(function(){
+		var originalEvalue = $("input.email-field").attr("value");
+		var Pplaceholder = $("#password-placeholder");
+		var Eplaceholder = $("#email-placeholder");
+		var originalP = $("input.password-field");
+		var originalE = $("input.email-field");
+		if(originalEvalue.length > 0)
+		{
+			if(location.href.toLowerCase().indexOf("portalstaging") != -1 && originalEvalue=="panelist@domain.com") {
+				$(Eplaceholder).attr("value", "test");
+				$("input.email-field").attr("value", "test");
+			}
+			else
+			{
+				$(Eplaceholder).attr("value", originalEvalue);
+			}
+			
+			$(Eplaceholder).css("color", "#000");
+		}
+		$(Pplaceholder).insertBefore($(originalP));
+		$(Eplaceholder).insertBefore($(originalE));
+		$(originalP).hide();
+		$(originalE).hide();
+		$(Pplaceholder).show();
+		$(Eplaceholder).show();
+		$(Eplaceholder).focus(function(){
+			$(this).hide();
+			$(originalE).show();
+			$(originalE).focus();
+		});
+		$(Pplaceholder).focus(function(){
+			$(this).hide();
+			$(originalP).show();
+			$(originalP).focus();
+		});
+		$(".email-field, .password-field").focusout(revertBack);
+		});
+		</script>
+	</asp:content>

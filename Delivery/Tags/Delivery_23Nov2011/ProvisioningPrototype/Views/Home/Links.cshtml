@@ -1,0 +1,30 @@
+﻿@model ProvisioningPrototype.Models.TestLinkModel
+
+@{
+    ViewBag.Title = "Links";
+}
+
+<link href="@Url.Content("~/StyleSheets/Main.css")" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../../Scripts/jscolor/jscolor.js"></script>
+
+<div id="LinksWrapper">
+<div id="ColorSelectionWrapper">
+    <h2>Links: </h2>
+    <div class="ColorSelection">
+        <table class="ColorTable"> 
+            <tr>
+                <td>Portal Link: </td>
+                <td><a href="@Model.PortalLink" target="_blank">@Model.PortalLink</a></td>                                
+            </tr>
+            <tr>
+                <td>Test Survey Link: </td>
+                <td><a href="@Model.SurveyLink" target="_blank">@Model.SurveyLink</a></td>                              
+            </tr>
+            <tr>
+            <td>Skin Package Link:</td>
+            <td><a href="@Model.SkinPackageLink" target="_blank">@Model.SkinPackageLink</a></td>
+            </tr>                              
+        </table>
+    </div>
+</div>
+</div>

@@ -1,0 +1,118 @@
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both;
+    font-size: 1px; 
+    visibility: hidden;
+	}
+* html .clearfix {height: 1%;}/*IE Hack */
+
+
+#lg{
+	width: 310px;
+}
+
+#lgInst{
+	font: 10px arial, sans-serif;
+	font-weight: bold;
+	margin-bottom: 8px;
+	}
+
+#lgTechAssistText{
+	font: 10px arial, sans-serif;
+	font-weight: bold;
+	margin-bottom: 8px;
+	}
+
+#lgTechAssistEmail{
+	font: 10px arial, sans-serif;
+	margin-bottom: 8px;
+	}
+
+#lgEml{
+	padding-bottom: 8px;
+	disply:block;
+	}
+
+#lgPwd{
+	padding-bottom: 8px;
+	disply:block;
+	}
+
+#lgEml span{
+	width: 87px;
+	float:left;
+	text-align: right;
+	font: 10px arial, sans-serif;
+	padding-top:4px;
+	
+	}
+
+#lgPwd span{
+	width: 87px;
+	float:left;
+	text-align: right;
+	font: 10px arial, sans-serif;
+	padding-top:4px;
+	}
+
+#lgEml input{
+	display: block;
+	width: 200px;
+	float:right;
+	border: 1px solid #555;
+	}
+* html #lgEml input {width: 200px;}/*IE Hack */
+
+#lgPwd input{
+	display: block;
+	width: 200px;
+	float:right;
+	border: 1px solid #555;
+	}
+* html #lgPwd input {width: 200px;}/*IE Hack */
+
+#lgRem{
+	margin-left:90px;
+	margin-bottom: 8px;
+	display:block;
+	}
+
+#lgRem input{
+	padding:0;
+	margin:0;
+	}
+	
+#btns{
+	margin-left:90px;
+	padding-bottom: 8px;
+	}	
+
+#lgFp{
+	float:left;
+	font: 10px arial,sans-serif;
+	}
+	
+#lgSi{
+	float:right;
+	font: 10px arial,sans-serif;
+	}
+	
+#err{
+	margin-top: 16px;
+}
+	
+#qp{
+	height: 150px;
+	border: 1px solid #000;
+	width: 200px;
+	float: left;
+	}
+	
+#st{
+	height: 150px;
+	border: 1px solid #000;
+	width: 200px;
+	float: left;
+	}

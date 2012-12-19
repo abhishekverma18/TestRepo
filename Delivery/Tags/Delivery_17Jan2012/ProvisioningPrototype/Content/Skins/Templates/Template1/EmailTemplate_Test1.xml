@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"?>
+<EmailTemplate>
+	<EmailTemplateName>%%EmailTemplateName%%</EmailTemplateName>
+	<EmailFormat>%%EmailFormat%%</EmailFormat>
+	<EmailSubject>%%EmailSubject%%</EmailSubject>
+	<EmailLanguage>%%EmailLanguage%%</EmailLanguage>
+	<EmailPlainText>%%EmailPlainText%%</EmailPlainText>
+	<EmailRichText>%%EmailRichText%%</EmailRichText>
+</EmailTemplate>

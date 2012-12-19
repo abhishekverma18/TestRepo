@@ -1,0 +1,115 @@
+
+/* left side */
+
+.MagGrid_images_9x170 .RadDockableObjectFixed, 
+.MagGrid_images_9x170 .RadDockableObjectDisabled
+{
+ border:0px;
+ margin:0px; 
+}
+
+.MagGrid_images_9x170 .RadDockableObjectTitleBarRight
+{
+padding:0px;
+}
+
+.MagGrid_images_9x170 .RadDockableObjectTitleBarLeft
+{
+padding:0px;
+}
+
+.MagGrid_images_9x170 .RadDockingZone
+{
+border:0px;
+padding:0px;
+}
+
+.MagGrid_images_9x170 .RadDockableObjectTitleBar
+{
+border:0px;
+background-color: #eee;
+filter:alpha(opacity=70);
+moz-opacity:0.7;
+opacity:0.7;
+border:0px;
+background-color:#D7D7D5;
+padding:0px !important;
+margin-bottom:5px;
+margin-left:5px;
+
+}
+
+.MagGrid_images_9x170 .RadDockableObjectTitle
+{
+width:60px;
+padding:0px !important;
+border:0px;
+margin:0px;
+text-align:center;
+color:black;
+font-weight:bold;
+font-size:10px;
+font-family: verdana, arial, sans-serif;
+text-align:center;
+white-space:normal;
+display:block;
+}
+
+.MagGrid_images_9x170 .MagneticGrid_Dockables
+{
+width:140px;
+float:left;
+margin:0px;
+margin-top:7px;
+padding:0px;
+border:0px;
+clear:both;
+height:400px;
+}
+
+/* right side */
+
+.MagGrid_images_9x170 .MagneticGrid_Zones
+{
+width:530px;
+float: right;
+background:transparent;
+padding:2px;
+margin:0px 0px 4px 2px;
+
+}
+
+.MagGrid_images_9x170 .MagneticGrid_Zone1, 
+.MagGrid_images_9x170 .MagneticGrid_Zone2, 
+.MagGrid_images_9x170 .MagneticGrid_Zone3, 
+.MagGrid_images_9x170 .MagneticGrid_Zone4, 
+.MagGrid_images_9x170 .MagneticGrid_Zone5, 
+.MagGrid_images_9x170 .MagneticGrid_Zone6, 
+.MagGrid_images_9x170 .MagneticGrid_Zone0,
+.MagGrid_images_9x170 .MagneticGrid_Zone7,
+.MagGrid_images_9x170 .MagneticGrid_Zone8
+{
+width:170px;
+height:170px;
+float:left;
+background:#ccc;
+background-repeat:no-repeat;
+background-position:center;
+overflow: auto;
+margin:2px;
+white-space:normal;
+display:block;
+scrollbar-face-color: #eee;
+scrollbar-track-color: #cdc;
+scrollbar-highlight-color: #ddd;
+scrollbar-3dlight-color: #F7F7E4;
+scrollbar-shadow-color: #C3C3B7;
+scrollbar-darkshadow-color: #D1D1BE;
+scrollbar-arrow-color: #545441;
+}
+
+.MagGrid_images_9x170 .RadDockableObjectVerticalGrip
+{
+	width: auto ;
+	background-color: #fff;	
+}

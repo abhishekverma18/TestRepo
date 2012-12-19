@@ -1,0 +1,510 @@
+#bgHeader {
+  text-indent: -5000px;
+  display: block;
+  margin: 0 0 5px 0;
+}
+#column-left {
+  float: left;
+  width: 250px;
+  height: auto;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: none;
+  font-size: inherit;
+  background-color: #FFFFFF;
+  min-height: 300px;
+  *height: auto !important;
+  *height: 300px;
+}
+#column-main {
+  float: left;
+  width: 580px;
+  height: auto;
+  margin: 0px 0px 0px 0px;
+  padding: 35px;
+  display: block;
+  font-size: inherit;
+  background-color: #FFFFFF;
+  min-height: 300px;
+  *height: auto !important;
+  *height: 300px;
+  border-right: 1px solid #b9b9b9;
+}
+#column-main .widgets {
+  margin-bottom: 35px;
+}
+#column-main .widgets#wid-member-welcome h1 {
+  font-size: 12px;
+  font-weight: bold;
+}
+#column-right {
+  float: left;
+  width: 259px;
+  height: auto;
+  margin: 0px 0px 0px 0px;
+  padding: 35px;
+  display: block;
+  font-size: inherit;
+  background-color: #FFFFFF;
+  min-height: 300px;
+  *height: auto !important;
+  *height: 300px;
+}
+#column-right .widgets {
+  margin-bottom: 15px;
+}
+#column-right .widgets h1 {
+  margin-bottom: 15px;
+}
+#userdetail {
+  height: 25px;
+  
+}
+
+#userdetail ul li {
+  float: right;
+  font-size: 11px;
+  margin: 7px 0px;
+  padding: 0 10px;
+  border-right: 1px solid #000000;
+  line-height: 13px;
+  height: 13px;
+}
+#userdetail ul li a {
+  color: #000000;
+  height: 13px;
+  line-height: 13px;
+  text-decoration: none;
+}
+#userdetail ul li a:hover {
+  text-decoration: underline;
+}
+#userdetail ul li#userdetail-logout {
+  border: 0px;
+}
+#header {
+  position: relative;
+  height: 225px;
+  background-position: 0 30px;
+  border-bottom: 1px solid #b9b9b9;
+}
+#header #logo, #header #logo a {
+  height: 170px;
+}
+#nav-container {
+  position: absolute;
+  bottom: 0px;
+  height: 30px;
+  background: transparent none no-repeat 0 0;
+  width: 980px;
+  background-color: #FFFFFF;
+}
+#nav-container ul li {
+  float: left;
+  padding: 0 10px;
+  margin: 8.5px 0;
+  border-right: 1px solid #000000;
+}
+#nav-container ul li#nav-discussions {
+  border: 0;
+}
+#nav-container ul li a {
+  padding: 0 15px;
+  line-height: 13px;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+#nav-container ul li a:hover {
+  text-decoration: underline;
+}
+#nav-container ul li a.active {
+  font-weight: bold;
+}
+#wid-studies-list {
+  margin: 0 0 15px 0;
+}
+#wid-studies-list #studies-list h1 {
+  display: none;
+}
+#wid-studies-list #studies-list .list-item {
+  padding: 5px 0 5px 0;
+  border-bottom: 1px solid #c8c8c8;
+}
+#wid-studies-list #studies-list .list-item .item-close-date {
+  float: left;
+  width: 75%;
+  color: #333333;
+  font-size: 10px;
+}
+#wid-studies-list #studies-list .list-item .item-status {
+  float: right;
+  text-align: right;
+  width: 25%;
+  color: #333333;
+  font-size: 10px;
+}
+#wid-studies-list #studies-list .list-item .item-header {
+  clear: both;
+  width: 100%;
+  margin: 0 0 2px 0;
+  font-weight: bold;
+  color: #000000;
+}
+#wid-studies-list #studies-list .list-item .item-header a {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+#wid-studies-list #studies-list .list-item .item-header a:hover {
+  text-decoration: underline;
+}
+#wid-studies-list #studies-list a {
+  text-decoration: none;
+}
+#wid-studies-list #studies-list a:hover {
+  text-decoration: underline;
+}
+#wid-studies-list #studies-list .btn-all {
+  display: block;
+  margin: 10px 0 0 0;
+}
+#wid-studies-list #studies-list .btn-all a {
+  color: #000000;
+  text-decoration: underline;
+}
+#wid-studies-list #studies-list .btn-all a:hover {
+  text-decoration: none;
+}
+#wid-studies-full #studies-list h1 {
+  display: none;
+}
+#wid-studies-full #studies-list ul {
+  width: 100%;
+  padding: 10px 0;
+  clear: both;
+}
+#wid-studies-full #studies-list ul li {
+  float: left;
+  color: #333333;
+}
+#wid-studies-full #studies-list ul li.btn-list-all, #wid-studies-full #studies-list ul li.btn-list-all-active, #wid-studies-full #studies-list ul li.btn-list-all-complete {
+  float: left;
+  padding: 0 10px 0 0;
+}
+#wid-studies-full #studies-list ul li a {
+  color: #333333;
+  text-decoration: none;
+  font-weight: bold;
+}
+#wid-studies-full #studies-list ul li a:hover {
+  text-decoration: underline;
+}
+#wid-studies-full #studies-list table {
+  width: 100%;
+}
+#wid-studies-full #studies-list table td, #wid-studies-full #studies-list table th {
+  border-bottom: 1px solid #c8c8c8;
+  padding: 4px 0;
+}
+#wid-studies-full #studies-list table td.link, #wid-studies-full #studies-list table th.link {
+  font-weight: bold;
+}
+#wid-studies-full #studies-list table td.link,
+#wid-studies-full #studies-list table th.link,
+#wid-studies-full #studies-list table td.close-date,
+#wid-studies-full #studies-list table th.close-date,
+#wid-studies-full #studies-list table td.status,
+#wid-studies-full #studies-list table th.status {
+  color: #000000;
+}
+#wid-studies-full #studies-list table td.link a,
+#wid-studies-full #studies-list table th.link a,
+#wid-studies-full #studies-list table td.close-date a,
+#wid-studies-full #studies-list table th.close-date a,
+#wid-studies-full #studies-list table td.status a,
+#wid-studies-full #studies-list table th.status a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+#wid-studies-full #studies-list table td.link a:hover,
+#wid-studies-full #studies-list table th.link a:hover,
+#wid-studies-full #studies-list table td.close-date a:hover,
+#wid-studies-full #studies-list table th.close-date a:hover,
+#wid-studies-full #studies-list table td.status a:hover,
+#wid-studies-full #studies-list table th.status a:hover {
+  text-decoration: underline;
+}
+#wid-studies-full #studies-list table td.open-date,
+#wid-studies-full #studies-list table th.open-date,
+#wid-studies-full #studies-list table td.close-date,
+#wid-studies-full #studies-list table th.close-date {
+  color: #333333;
+}
+#wid-studies-full #studies-list table td.status, #wid-studies-full #studies-list table th.status {
+  color: #333333;
+  text-align: right;
+}
+#wid-studies-full #studies-list div.pagination span {
+  color: #333333;
+}
+#wid-studies-full #studies-list div.pagination span a {
+  color: #000000;
+}
+#wid-forum-list {
+  margin: 0px 0 0 0;
+}
+#wid-forum-list h2, #wid-forum-list p {
+  display: none;
+}
+#wid-forum-list #forum-list ul {
+  margin: 0;
+  width: 100%;
+}
+#wid-forum-list #forum-list ul li {
+  padding: 5px 0 5px 0;
+  border-bottom: 1px solid #c8c8c8;
+}
+#wid-forum-list #forum-list ul li a {
+  float: left;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+#wid-forum-list #forum-list ul li a:hover {
+  text-decoration: underline;
+}
+#wid-forum-list #forum-list ul li span.open-date, #wid-forum-list #forum-list ul li span.close-date {
+  float: right;
+  color: #333333;
+  font-size: 10px;
+}
+#wid-forum-list #forum-list ul li span.icn-new {
+  color: #1e4a49;
+}
+#wid-forum-list #forum-list ul li span.icn-hot {
+  color: #ec1313;
+}
+#wid-forum-list #forum-list ul li span.icn-new, #wid-forum-list #forum-list ul li span.icn-hot {
+  float: left;
+  margin-left: 5px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+#wid-forum-list #forum-list ul li span.status {
+  float: right;
+  padding: 0 20px;
+  font-size: 10px;
+}
+#wid-forum-list .btn-all {
+  display: block;
+  margin: 10px 0 0 0;
+}
+#wid-forum-list .btn-all a {
+  color: #000000;
+  text-decoration: underline;
+}
+#wid-forum-list .btn-all a:hover {
+  text-decoration: none;
+}
+#wid-forum-full {
+  margin: 0px 0 0 0;
+}
+#wid-forum-full h2, #wid-forum-full p {
+  display: none;
+}
+#wid-forum-full #forum-list table {
+  width: 100%;
+}
+#wid-forum-full #forum-list table td, #wid-forum-full #forum-list table th {
+  padding: 4px 0;
+  border-bottom: 1px solid #c8c8c8;
+}
+#wid-forum-full #forum-list table td a, #wid-forum-full #forum-list table th a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+#wid-forum-full #forum-list table td a:hover, #wid-forum-full #forum-list table th a:hover {
+  text-decoration: underline;
+}
+#wid-forum-full #forum-list table td.link, #wid-forum-full #forum-list table th.link {
+  color: #000000;
+  font-weight: bold;
+}
+#wid-forum-full #forum-list table td.link a, #wid-forum-full #forum-list table th.link a {
+  color: #000000;
+  font-weight: bold;
+}
+#wid-forum-full #forum-list table td.close-date,
+#wid-forum-full #forum-list table th.close-date,
+#wid-forum-full #forum-list table td.open-date,
+#wid-forum-full #forum-list table th.open-date {
+  color: #333333;
+}
+#wid-forum-full #forum-list table td.status, #wid-forum-full #forum-list table th.status {
+  color: #333333;
+  text-align: right;
+}
+#wid-forum-full #forum-list div.pagination span {
+  color: #333333;
+}
+#wid-forum-full #forum-list div.pagination span a {
+  color: #000000;
+}
+
+#wid-newsletter-list {
+/*%%NewsletterListVisibility*/
+}
+
+#wid-newsletter-list ul li a {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+#wid-newsletter-list ul li a:hover {
+  text-decoration: underline;
+}
+#wid-newsletter-list ul li.view-all {
+  margin-top: 15px;
+}
+#wid-quick-poll {
+  padding-top: 0px !important;
+  /*%%QuickPollVisibility*/
+}
+#wid-quick-poll td {
+  padding: 5px 0;
+}
+#wid-quick-poll td td input[type="radio"] {
+  margin: 0 5px 0 0;
+  float: left;
+}
+#wid-quick-poll .btn-submit {
+  float: right;
+  display: block;
+  width: 83px;
+  height: 23px;
+}
+#wid-quick-poll .btn-submit a {
+  text-indent: -5000px;
+  display: block;
+  width: 83px;
+  height: 23px;
+  background: url("../_img/buttons/btn-submit-qp.jpg") no-repeat 0 0;
+}
+#wid-quick-poll .btn-submit a:hover {
+  background-position: 0 -23px;
+}
+#wid-quick-poll .btn-submit a.disabled, #wid-quick-poll .btn-submit a.disabled:hover {
+  background-position: 0 -46px;
+}
+#wid-quick-poll .question {
+  margin: 0 0 5px 0;
+}
+#wid-quick-poll .quick-poll-answer {
+  margin: 3px 0;
+}
+#wid-quick-poll .quick-poll-result {
+  height: 15px;
+  border: 1px solid #ffffff;
+}
+#wid-quick-poll .quick-poll-result div {
+  background-color: #666666;
+  height: 100%;
+}
+.pagination {
+  float: right;
+  margin: 5px 0;
+  clear: both;
+}
+.pagination span {
+  padding: 0 0 0 10px;
+}
+/**********************
+MEMBER: profile
+************************/
+#wid-profile h2 {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 10px 0 5px 0;
+}
+#wid-profile .msg {
+  padding: 5px 0 3px 0;
+  border-bottom: 1px solid #ddd;
+  clear: both;
+}
+#wid-profile .form-input {
+  clear: both;
+  height: 30px;
+}
+#wid-profile .form-input span {
+  display: block;
+  height: 30px;
+  float: left;
+}
+#wid-profile .form-input span.input-text {
+  width: 200px;
+}
+#wid-profile .form-input span.input-general {
+  width: 200px;
+}
+#wid-profile .form-input input {
+  float: left;
+  width: 150px;
+  height: 22px;
+  margin: 4px 0 0 0;
+  padding: 0;
+}
+#wid-profile .form-input .input-general {
+  float: left;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+}
+#wid-profile .form-input label {
+  float: left;
+  width: 170px;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  text-align: right;
+  margin-right: 5px;
+}
+#wid-profile .btn-submit {
+  float: right;
+  display: block;
+  width: 83px;
+  height: 23px;
+  float: none;
+  padding: 10px 0 0 200px;
+}
+#wid-profile .btn-submit a {
+  text-indent: -5000px;
+  display: block;
+  width: 83px;
+  height: 23px;
+  background: url("../_img/buttons/btn-submit-qp.jpg") no-repeat 0 0;
+}
+#wid-profile .btn-submit a:hover {
+  background-position: 0 -23px;
+}
+#wid-profile .btn-submit a.disabled, #wid-profile .btn-submit a.disabled:hover {
+  background-position: 0 -46px;
+}
+#wid-profile .btn-unsubscribe {
+  display: block;
+  width: 106px;
+  height: 22px;
+  padding: 10px 0 0 0;
+}
+#wid-profile .btn-unsubscribe a {
+  display: block;
+  width: 106px;
+  height: 22px;
+  text-indent: -5000px;
+  background: url("../_img/buttons/btn-unsubscribe.jpg") no-repeat 0 0;
+}
+#wid-profile .btn-unsubscribe a:hover {
+  background-position: 0 -22px;
+}

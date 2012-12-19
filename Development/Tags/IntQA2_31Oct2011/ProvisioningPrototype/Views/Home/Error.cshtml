@@ -1,0 +1,15 @@
+﻿@model ProvisioningPrototype.Models.ErrorModel
+           
+
+@{
+    ViewBag.Title = "Error";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="@Url.Content("~/StyleSheets/Error.css")" rel="stylesheet" type="text/css" />
+
+<h2 id="ErrorHeader">An Error has Occurred...</h2>
+
+<div id="ErrorWrapper">
+    <b style="font-size: 20px; display: block; ">Description: </b><div style="Padding: 10px;">@Model.Exception.Message</div><br />
+    <b style="font-size: 20px; display: block;">Stack Trace: </b><div style="Padding: 10px;">@Model.Exception.StackTrace</div>
+</div>
